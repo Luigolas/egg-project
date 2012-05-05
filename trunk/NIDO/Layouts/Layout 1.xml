@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2layout>
+    <name>Layout 1</name>
+    <event-sheet>Event sheet 1</event-sheet>
+    <size>
+        <width>1280</width>
+        <height>1024</height>
+    </size>
+    <margins>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
+    </margins>
+    <unbounded-scrolling>0</unbounded-scrolling>
+    <layers>
+        <layer name="Layer 1">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <instances>
+                <instance type="Sprite">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>325</x>
+                        <y>241</y>
+                        <z>0</z>
+                        <width>650</width>
+                        <height>484</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Pulse cualquier tecla para comenzar</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Cooper Black,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <hotspot>Center</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <world>
+                        <x>322</x>
+                        <y>447</y>
+                        <z>0</z>
+                        <width>570</width>
+                        <height>58</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
+        <layer name="Layer 0">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <instances>
+                <instance type="Sprite4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>351</x>
+                        <y>339</y>
+                        <z>0</z>
+                        <width>194</width>
+                        <height>136</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500784934</hotspotX>
+                        <hotspotY>0.501094103</hotspotY>
+                        <angle>-3.134974241</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <world>
+                        <x>312</x>
+                        <y>323</y>
+                        <z>0</z>
+                        <width>49.244998932</width>
+                        <height>65.258964539</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.188217834</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <world>
+                        <x>352</x>
+                        <y>323</y>
+                        <z>0</z>
+                        <width>49.244998932</width>
+                        <height>65.258964539</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.090663388</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <world>
+                        <x>395</x>
+                        <y>324</y>
+                        <z>0</z>
+                        <width>49.244998932</width>
+                        <height>65.258964539</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.444439739</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>75</x>
+                        <y>72</y>
+                        <z>0</z>
+                        <width>177</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>-5</x>
+                        <y>121</y>
+                        <z>0</z>
+                        <width>177</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>474</x>
+                        <y>219</y>
+                        <z>0</z>
+                        <width>177</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>820</x>
+                        <y>116</y>
+                        <z>0</z>
+                        <width>177</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>767</x>
+                        <y>89</y>
+                        <z>0</z>
+                        <width>177</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1151</x>
+                        <y>206</y>
+                        <z>0</z>
+                        <width>177</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite5">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>331</x>
+                        <y>321</y>
+                        <z>0</z>
+                        <width>50.647239685</width>
+                        <height>63.498031616</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <world>
+                        <x>374</x>
+                        <y>327</y>
+                        <z>0</z>
+                        <width>49.244998932</width>
+                        <height>65.258964539</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.278320968</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>352</x>
+                        <y>369</y>
+                        <z>0</z>
+                        <width>194</width>
+                        <height>136</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500784934</hotspotX>
+                        <hotspotY>0.501094103</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="GIF">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-100</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>584</x>
+                        <y>272</y>
+                        <z>0</z>
+                        <width>111</width>
+                        <height>93</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502824843</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.000001174</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
+    </layers>
+    <nonworld-instances />
+</c2layout>
