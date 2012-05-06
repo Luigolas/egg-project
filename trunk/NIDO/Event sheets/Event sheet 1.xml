@@ -10,7 +10,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Flash" id="0" name="Flash" type="Text">
+                <action behavior="Flash" id="0" name="Flash" type="PulsaTecla">
                     <param id="0" name="&apos;On&apos; time">1</param>
                     <param id="1" name="&apos;Off&apos; time">0.5</param>
                     <param id="2" name="Duration">5</param>
@@ -25,14 +25,14 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="-1" name="Compare X" type="GIF">
+                <condition id="-1" name="Compare X" type="PajaroGif1">
                     <param id="0" name="Comparison">5</param>
-                    <param id="1" name="X co-ordinate">Sprite5.X</param>
+                    <param id="1" name="X co-ordinate">Huevo.X</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Pin" id="0" name="Pin to object" type="Sprite5">
-                    <param id="0" name="Pin to">GIF</param>
+                <action behavior="Pin" id="0" name="Pin to object" type="Huevo">
+                    <param id="0" name="Pin to">PajaroGif1</param>
                 </action>
             </actions>
         </event-block>
