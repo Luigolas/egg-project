@@ -7,10 +7,10 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>8700</saved-with-version>
     <used-plugins>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="Text" version="1">Text</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>

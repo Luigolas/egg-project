@@ -162,7 +162,7 @@
             </conditions>
             <actions>
                 <action id="-16" name="Set opacity" type="Titulo">
-                    <param id="0" name="Opacity">sin(time)*1000</param>
+                    <param id="0" name="Opacity">time*25</param>
                 </action>
             </actions>
         </event-block>
