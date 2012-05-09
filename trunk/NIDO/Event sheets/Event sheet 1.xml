@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable name="Pulsado" type="number">0</variable>
+        <variable name="ZOOM" type="number">1</variable>
+        <event-block>
+            <conditions>
+                <condition id="1" name="On any key pressed" type="Keyboard" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">Pulsado</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" type="Pulse" />
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="Compare Y" type="Pajaro">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">280</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">Pulsado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" type="System">
+                    <param id="0" name="Interval (seconds)">0.05</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">ZOOM</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-17" name="Set scale" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Scale">ZOOM</param>
+                </action>
+                <action id="-17" name="Set scale" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Scale">ZOOM</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">ZOOM</param>
+                    <param id="1" name="Value">ZOOM + 0.01</param>
+                </action>
+                <action id="-15" name="Set visible" type="Titulo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Every tick" type="System" />
+                <condition id="-2" name="Compare Y" type="Pajaro">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">280</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">Pulsado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Scroll to object" type="System">
+                    <param id="0" name="Object">Pajaro</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Compare X" type="NubeRosaIntro">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">2000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" type="NubeRosaIntro">
+                    <param id="0" name="X">-100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Compare X" type="Pajaro">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-1000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" type="Pajaro">
+                    <param id="0" name="X">750</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Compare X" type="Pajaro">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">-100</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">Pulsado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" type="Pajaro">
+                    <param id="0" name="Y">280</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">Pulsado</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="Compare Y" type="Pajaro">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">280</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" type="Pajaro">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action id="4" name="Set animation" type="Pajaro">
+                    <param id="0" name="Animation">&quot;cogehuevo&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="Compare Y" type="Pajaro">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">280</param>
+                </condition>
+                <condition id="-1" name="Compare X" type="Pajaro">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">HuevoIntro2.X</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" type="HuevoIntro2">
+                    <param id="0" name="Pin to">Pajaro</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Every tick" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" type="Titulo">
+                    <param id="0" name="Opacity">sin(time)*1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Compare X" type="HuevoIntro2">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">625</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="1" name="Unpin" type="HuevoIntro2" />
+                <action behavior="Physics" id="21" name="Set immovable" type="HuevoIntro2">
+                    <param id="0" name="Setting">0</param>
+                </action>
+                <action id="-2" name="Set Y" type="Pajaro">
+                    <param id="0" name="Y">Pajaro.Y-0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition behavior="Pin" id="0" name="Is pinned" type="HuevoIntro2" />
+                <condition id="-1" name="Compare X" type="Pajaro">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">500</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" type="Pajaro">
+                    <param id="0" name="Y">Pajaro.Y+0.5</param>
+                </action>
+                <action id="-15" name="Set visible" type="Gota">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
+                    <param id="0" name="Speed">50</param>
+                </action>
+                <action disabled="1" id="-8" name="Scroll to object" type="System">
+                    <param id="0" name="Object">HuevoIntro2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" type="Gota">
+                    <param id="0" name="Pin to">Pajaro</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="Compare Y" type="Pajaro">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">280</param>
+                </condition>
+                <condition id="-1" name="Compare X" type="Pajaro">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">600</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-6" name="Every X seconds" type="System">
+                    <param id="0" name="Interval (seconds)">5</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">Pulsado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" type="Pulse">
+                    <param id="0" name="&apos;On&apos; time">1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.5</param>
+                    <param id="2" name="Duration">5</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
