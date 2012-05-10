@@ -152,6 +152,36 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
+                                <speed>45</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>-5</x>
+                        <y>121</y>
+                        <z>0</z>
+                        <width>177</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosaIntro">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
                                 <speed>50</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
@@ -376,66 +406,6 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>75</x>
-                        <y>72</y>
-                        <z>0</z>
-                        <width>177</width>
-                        <height>113</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501792133</hotspotX>
-                        <hotspotY>0.502793312</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="NubeRosaIntro">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>50</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>-5</x>
-                        <y>121</y>
-                        <z>0</z>
-                        <width>177</width>
-                        <height>113</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501792133</hotspotX>
-                        <hotspotY>0.502793312</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="NubeRosaIntro">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>50</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
                         <x>480</x>
                         <y>218</y>
                         <z>0</z>
@@ -601,6 +571,36 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosaIntro">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>75</x>
+                        <y>72</y>
+                        <z>0</z>
+                        <width>177</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
