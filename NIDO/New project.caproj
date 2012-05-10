@@ -7,10 +7,11 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>8700</saved-with-version>
     <used-plugins>
+        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="Text" version="1">Text</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -36,7 +37,7 @@
         <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
@@ -526,6 +527,9 @@
         </object-type>
         <object-type name="huevo">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Vel" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Physics">
                     <behavior id="Physics" />
@@ -786,6 +790,137 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="MainMusic">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="TrozoPlanta1">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.504762">
+                        <image-point name="PlantaBaja" x="0.521739" y="0.942857" />
+                        <image-point name="PlantaAlta" x="0.521739" y="0" />
+                        <collision-poly>
+                            <point x="0.263158" y="0.0769231" />
+                            <point x="0.473684" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.789474" y="0.492308" />
+                            <point x="0.736842" y="0.923077" />
+                            <point x="0.473684" y="0.938462" />
+                            <point x="0.263158" y="0.923077" />
+                            <point x="0.210526" y="0.492308" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TrozoPlanta2">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Angu" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.507692">
+                        <image-point name="PlantaBaja" x="0.173913" y="1.01538" />
+                        <image-point name="PlantaAlta" x="0.608696" y="0" />
+                        <collision-poly>
+                            <point x="0.391304" y="0.138462" />
+                            <point x="0.478261" y="0" />
+                            <point x="0.956522" y="0.0153846" />
+                            <point x="0.73913" y="0.492308" />
+                            <point x="0.608696" y="0.861538" />
+                            <point x="0.478261" y="1" />
+                            <point x="0.0434783" y="0.984615" />
+                            <point x="0.217391" y="0.492308" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TrozoPlanta3">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.5">
+                        <image-point name="PlantaAlta" x="0.777778" y="0" />
+                        <image-point name="PlantaBaja" x="0.111111" y="0.979167" />
+                        <collision-poly>
+                            <point x="0.407407" y="0.229167" />
+                            <point x="0.481481" y="0.0625" />
+                            <point x="0.962963" y="0.0208333" />
+                            <point x="0.666667" y="0.5" />
+                            <point x="0.555556" y="0.75" />
+                            <point x="0.481481" y="0.875" />
+                            <point x="0.037037" y="0.979167" />
+                            <point x="0.259259" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TrozoPlanta4">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="DragDrop">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.504762">
+                        <image-point name="PlantaBaja" x="0.173913" y="0.971429" />
+                        <image-point name="PlantaAlta" x="0.869565" y="0.047619" />
+                        <collision-poly>
+                            <point x="0.514286" y="0.28125" />
+                            <point x="0.485714" y="0.328125" />
+                            <point x="0.914286" y="0.046875" />
+                            <point x="0.657143" y="0.5" />
+                            <point x="0.485714" y="0.71875" />
+                            <point x="0.485714" y="0.71875" />
+                            <point x="0.0571429" y="0.96875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bambufondo">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0888889" y="0.0296296" />
+                            <point x="0.5" y="0.0740741" />
+                            <point x="0.511111" y="0.162963" />
+                            <point x="0.611111" y="0.5" />
+                            <point x="0.466667" y="0.822222" />
+                            <point x="0.5" y="0.714815" />
+                            <point x="0.0555556" y="0.981481" />
+                            <point x="0.0444444" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -800,7 +935,40 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" />
+        <global-instance type="MainMusic">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder expanded="1" />
-    <music-folder expanded="1" />
+    <sounds-folder expanded="1">
+        <file name="MattOglseby - 1.m4a" />
+        <file name="MattOglseby - 1.ogg" />
+        <file name="MattOglseby - 2.m4a" />
+        <file name="MattOglseby - 2.ogg" />
+        <file name="MattOglseby - 3.m4a" />
+        <file name="MattOglseby - 3.ogg" />
+        <file name="OooScary1.m4a" />
+        <file name="OooScary1.ogg" />
+        <file name="OooScary1.wav" />
+        <file name="Lazer Fire 1.m4a" />
+        <file name="Lazer Fire 1.ogg" />
+        <file name="Lazer Fire 1.wav" />
+        <file name="Lazer Ricochet.m4a" />
+        <file name="Lazer Ricochet.ogg" />
+        <file name="Lazer Ricochet.wav" />
+        <file name="Upgrade1.m4a" />
+        <file name="Upgrade1.ogg" />
+        <file name="Upgrade1.wav" />
+        <file name="bush_rus-kayden_r-8973(1).m4a" />
+        <file name="bush_rus-kayden_r-8973(1).ogg" />
+        <file name="bush_rus-kayden_r-8973(1).wav" />
+    </sounds-folder>
+    <music-folder expanded="1">
+        <file name="1. Nascence2.m4a" />
+        <file name="1. Nascence2.ogg" />
+        <file name="Deep_How-oMeZzZ-2067.m4a" />
+        <file name="Deep_How-oMeZzZ-2067.ogg" />
+        <file name="Deep_How-oMeZzZ-2067.wav" />
+    </music-folder>
 </c2project>

@@ -4,7 +4,31 @@
     <name>Event sheet 1</name>
     <events>
         <variable name="Pulsado" type="number">0</variable>
+        <variable name="Sonido" type="number">0</variable>
         <variable name="ZOOM" type="number">1</variable>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" type="MainMusic">
+                    <param id="0" name="Audio file">1. Nascence2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="1" name="Tag (optional)">&quot;main&quot;</param>
+                </action>
+                <action id="4" name="Preload" type="MainMusic">
+                    <param id="0" name="Audio file">OooScary1</param>
+                </action>
+                <action id="4" name="Preload" type="MainMusic">
+                    <param id="0" name="Audio file">Upgrade1</param>
+                </action>
+                <action id="0" name="Play" type="MainMusic">
+                    <param id="0" name="Audio file">Deep_How-oMeZzZ-2067</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="1" name="Tag (optional)">&quot;wind&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block>
             <conditions>
                 <condition id="1" name="On any key pressed" type="Keyboard" />
@@ -15,6 +39,14 @@
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="-9" name="Destroy" type="Pulse" />
+                <action id="0" name="Play" type="MainMusic">
+                    <param id="0" name="Audio file">Upgrade1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" type="MainMusic">
+                    <param id="0" name="Tag">&quot;main&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block>
@@ -180,6 +212,31 @@
                 </action>
                 <action id="-2" name="Set Y" type="Pajaro">
                     <param id="0" name="Y">Pajaro.Y-0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">Sonido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition behavior="Pin" id="0" name="Is pinned" type="HuevoIntro2" />
+                <condition id="-1" name="Compare X" type="Pajaro">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">500</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" type="MainMusic">
+                    <param id="0" name="Audio file">OooScary1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;grito&quot;</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">Sonido</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
