@@ -5,6 +5,8 @@
     <events>
         <variable name="Pulsado" type="number">0</variable>
         <variable name="Sonido" type="number">0</variable>
+        <variable name="MainMusicVol" type="number">0</variable>
+        <variable name="MainMusicOut" type="number">0</variable>
         <variable name="ZOOM" type="number">1</variable>
         <event-block>
             <conditions>
@@ -20,7 +22,7 @@
                     <param id="0" name="Audio file">OooScary1</param>
                 </action>
                 <action id="4" name="Preload" type="MainMusic">
-                    <param id="0" name="Audio file">Upgrade1</param>
+                    <param id="0" name="Audio file">bambubreak1(1)</param>
                 </action>
                 <action id="0" name="Play" type="MainMusic">
                     <param id="0" name="Audio file">Deep_How-oMeZzZ-2067</param>
@@ -32,6 +34,11 @@
         <event-block>
             <conditions>
                 <condition id="1" name="On any key pressed" type="Keyboard" />
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">Pulsado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" type="System">
@@ -44,8 +51,9 @@
                     <param id="2" name="Loop">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="6" name="Stop" type="MainMusic">
-                    <param id="0" name="Tag">&quot;main&quot;</param>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">MainMusicOut</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -306,6 +314,47 @@
                     <param id="0" name="&apos;On&apos; time">1</param>
                     <param id="1" name="&apos;Off&apos; time">0.5</param>
                     <param id="2" name="Duration">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-6" name="Every X seconds" type="System">
+                    <param id="0" name="Interval (seconds)">0.5</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">MainMusicOut</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">MainMusicVol</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">-25</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">MainMusicVol</param>
+                    <param id="1" name="Value">MainMusicVol-1</param>
+                </action>
+                <action id="3" name="Set volume" type="MainMusic">
+                    <param id="0" name="Tag">&quot;main&quot;</param>
+                    <param id="1" name="dB">MainMusicVol</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">MainMusicVol</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">-25</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" type="MainMusic">
+                    <param id="0" name="Tag">&quot;main&quot;</param>
                 </action>
             </actions>
         </event-block>
