@@ -8,19 +8,11 @@
             <sub-events>
                 <event-block>
                     <conditions>
-                        <condition disabled="1" id="0" name="On collision with another object" type="huevo">
-                            <param id="0" name="Object">Camino1</param>
-                        </condition>
                         <condition id="2" name="Key is down" type="Keyboard">
                             <param id="0" name="Key">68 (D)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Physics" disabled="1" id="0" name="Apply force" type="huevo">
-                            <param id="0" name="Force X">8</param>
-                            <param id="1" name="Force Y">0</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
                         <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
                             <param id="0" name="Impulse X">0.09</param>
                             <param id="1" name="Implulse Y">0</param>
@@ -75,7 +67,60 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Bambu">
+        <event-group collapsed="1" description="" title="Hierva">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Every tick" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Sin" id="1" name="Set period" type="Hierva">
+                            <param id="0" name="Period">Hierva.v</param>
+                        </action>
+                        <action behavior="Sin2" id="1" name="Set period" type="Hierva">
+                            <param id="0" name="Period">Hierva.v</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" type="Hierva">
+                            <param id="0" name="Object">huevo</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" type="huevo">
+                            <param id="0" name="Instance variable">Vel</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">40</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" type="Hierva">
+                            <param id="0" name="Instance variable">v</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" type="System">
+                            <param id="0" name="Interval (seconds)">0.25</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" type="Hierva">
+                            <param id="0" name="Instance variable">v</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Add to" type="Hierva">
+                            <param id="0" name="Instance variable">v</param>
+                            <param id="1" name="Value">0.25</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" title="Bambu">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -128,7 +173,7 @@
                             <param id="1" name="Value">TrozoPlanta2.Angu+200</param>
                         </action>
                         <action id="0" name="Play" type="MainMusic">
-                            <param id="0" name="Audio file">Lazer Fire 1</param>
+                            <param id="0" name="Audio file">bambubreak1(1)</param>
                             <param id="2" name="Loop">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
@@ -155,14 +200,6 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="-6" name="Every X seconds" type="System">
-                    <param id="0" name="Interval (seconds)">0.5</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block>
-            <conditions>
                 <condition id="0" name="On collision with another object" type="huevo">
                     <param id="0" name="Object">Lucia</param>
                 </condition>
@@ -180,64 +217,13 @@
                     <param id="1" name="&apos;Off&apos; time">0.1</param>
                     <param id="2" name="Duration">1.0</param>
                 </action>
+                <action id="0" name="Play" type="MainMusic">
+                    <param id="0" name="Audio file">huevoroto(1)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
-        <event-group description="" title="Hierva">
-            <sub-events>
-                <event-block>
-                    <conditions>
-                        <condition disabled="1" id="-11" name="For Each" type="System">
-                            <param id="0" name="Object">Hierva</param>
-                        </condition>
-                        <condition id="-1" name="Every tick" type="System" />
-                    </conditions>
-                    <actions>
-                        <action behavior="Sin" id="1" name="Set period" type="Hierva">
-                            <param id="0" name="Period">Hierva.v</param>
-                        </action>
-                        <action behavior="Sin2" id="1" name="Set period" type="Hierva">
-                            <param id="0" name="Period">Hierva.v</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" type="Hierva">
-                            <param id="0" name="Object">huevo</param>
-                        </condition>
-                        <condition id="-7" name="Compare instance variable" type="huevo">
-                            <param id="0" name="Instance variable">Vel</param>
-                            <param id="1" name="Comparison">4</param>
-                            <param id="2" name="Value">40</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Set value" type="Hierva">
-                            <param id="0" name="Instance variable">v</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-6" name="Every X seconds" type="System">
-                            <param id="0" name="Interval (seconds)">0.25</param>
-                        </condition>
-                        <condition id="-7" name="Compare instance variable" type="Hierva">
-                            <param id="0" name="Instance variable">v</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">10</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-11" name="Add to" type="Hierva">
-                            <param id="0" name="Instance variable">v</param>
-                            <param id="1" name="Value">0.25</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-block>
             <conditions>
                 <condition id="0" name="On collision with another object" type="huevo">
