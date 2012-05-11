@@ -203,6 +203,11 @@
                 <condition id="0" name="On collision with another object" type="huevo">
                     <param id="0" name="Object">Lucia</param>
                 </condition>
+                <condition id="-7" name="Compare instance variable" type="Lucia">
+                    <param id="0" name="Instance variable">m</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="4" name="Set animation" type="huevo">
