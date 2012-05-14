@@ -3,8 +3,8 @@
     <name>Layout 3</name>
     <event-sheet>Event sheet 3</event-sheet>
     <size>
-        <width>10350</width>
-        <height>2000</height>
+        <width>11000</width>
+        <height>4000</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -53,8 +53,8 @@
                         <x>-3</x>
                         <y>-3</y>
                         <z>0</z>
-                        <width>3810</width>
-                        <height>1034</height>
+                        <width>6810</width>
+                        <height>2334</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -81,8 +81,8 @@
                         <behavior-instance type="Wrap" />
                     </behavior-instances>
                     <world>
-                        <x>214</x>
-                        <y>154</y>
+                        <x>610</x>
+                        <y>557</y>
                         <z>0</z>
                         <width>213.278945923</width>
                         <height>136.834884644</height>
@@ -112,8 +112,8 @@
                         <behavior-instance type="Wrap" />
                     </behavior-instances>
                     <world>
-                        <x>286</x>
-                        <y>176</y>
+                        <x>678</x>
+                        <y>519</y>
                         <z>0</z>
                         <width>165.843597412</width>
                         <height>106.401451111</height>
@@ -143,8 +143,8 @@
                         <behavior-instance type="Wrap" />
                     </behavior-instances>
                     <world>
-                        <x>1202</x>
-                        <y>194</y>
+                        <x>297</x>
+                        <y>449</y>
                         <z>0</z>
                         <width>169.891876221</width>
                         <height>108.998733521</height>
@@ -174,8 +174,8 @@
                         <behavior-instance type="Wrap" />
                     </behavior-instances>
                     <world>
-                        <x>1304</x>
-                        <y>253</y>
+                        <x>477</x>
+                        <y>324</y>
                         <z>0</z>
                         <width>172.581634521</width>
                         <height>110.72441864</height>
@@ -219,6 +219,471 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1477.839355469</x>
+                        <y>623.344909668</y>
+                        <z>0</z>
+                        <width>121.287368774</width>
+                        <height>77.815193176</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1258</x>
+                        <y>483</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>151</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>913</x>
+                        <y>445</y>
+                        <z>0</z>
+                        <width>169.891876221</width>
+                        <height>108.998733521</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>970</x>
+                        <y>567</y>
+                        <z>0</z>
+                        <width>172.581634521</width>
+                        <height>110.72441864</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1606.791259766</x>
+                        <y>630.841003418</y>
+                        <z>0</z>
+                        <width>85</width>
+                        <height>54</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1702</x>
+                        <y>633</y>
+                        <z>0</z>
+                        <width>54</width>
+                        <height>37</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1117</x>
+                        <y>803</y>
+                        <z>0</z>
+                        <width>213.278945923</width>
+                        <height>136.834884644</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>-208</x>
+                        <y>574</y>
+                        <z>0</z>
+                        <width>165.843597412</width>
+                        <height>106.401451111</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>-776</x>
+                        <y>128</y>
+                        <z>0</z>
+                        <width>169.891876221</width>
+                        <height>108.998733521</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>-674</x>
+                        <y>187</y>
+                        <z>0</z>
+                        <width>172.581634521</width>
+                        <height>110.72441864</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>811</x>
+                        <y>758</y>
+                        <z>0</z>
+                        <width>121.287368774</width>
+                        <height>77.815193176</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>250</x>
+                        <y>623</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>151</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>-94</x>
+                        <y>438</y>
+                        <z>0</z>
+                        <width>169.891876221</width>
+                        <height>108.998733521</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>-38</x>
+                        <y>707</y>
+                        <z>0</z>
+                        <width>172.581634521</width>
+                        <height>110.72441864</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>694</x>
+                        <y>773</y>
+                        <z>0</z>
+                        <width>54</width>
+                        <height>37</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
         </layer>
         <layer name="Layer 1">
@@ -249,6 +714,770 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0.000162811</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeBlanca">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>1</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>1755</x>
+                        <y>306</y>
+                        <z>0</z>
+                        <width>279</width>
+                        <height>179</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeBlanca">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>1</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>2163</x>
+                        <y>198</y>
+                        <z>0</z>
+                        <width>279</width>
+                        <height>179</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeBlanca">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>1</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>2560</x>
+                        <y>269</y>
+                        <z>0</z>
+                        <width>279</width>
+                        <height>179</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeBlanca">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>1</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>2893</x>
+                        <y>368</y>
+                        <z>0</z>
+                        <width>279</width>
+                        <height>179</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Lucia">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <m>0</m>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="DragDrop" />
+                    </behavior-instances>
+                    <world>
+                        <x>7287</x>
+                        <y>1428</y>
+                        <z>0</z>
+                        <width>172.499282837</width>
+                        <height>172.499282837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="spider">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>0</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>10</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3662</x>
+                        <y>482</y>
+                        <z>0</z>
+                        <width>111.895301819</width>
+                        <height>107.04649353</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.501742184</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>1598</x>
+                        <y>1125</y>
+                        <z>0</z>
+                        <width>501.176818848</width>
+                        <height>559.424987793</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50121063</hotspotX>
+                        <hotspotY>0.501084626</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>6369.540039063</x>
+                        <y>1630</y>
+                        <z>0</z>
+                        <width>348</width>
+                        <height>578</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501222491</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino7">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>6843</x>
+                        <y>1793</y>
+                        <z>0</z>
+                        <width>499</width>
+                        <height>800</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501002014</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="camino5b">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>7141</x>
+                        <y>1789</y>
+                        <z>0</z>
+                        <width>156</width>
+                        <height>790</height>
+                        <depth>0</depth>
+                        <hotspotX>0.506578922</hotspotX>
+                        <hotspotY>0.503797472</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino5a">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>5291.5</x>
+                        <y>1213</y>
+                        <z>0</z>
+                        <width>1254</width>
+                        <height>684</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.502923965</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino5c">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>6015.5</x>
+                        <y>1674</y>
+                        <z>0</z>
+                        <width>197</width>
+                        <height>936</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TrozoPlanta4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="DragDrop" />
+                    </behavior-instances>
+                    <world>
+                        <x>130.801300049</x>
+                        <y>421.669647217</y>
+                        <z>0</z>
+                        <width>30.207874298</width>
+                        <height>59.801620483</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514285743</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.212022185</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TrozoPlanta3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>103.572921753</x>
+                        <y>477.294616699</y>
+                        <z>0</z>
+                        <width>24.267301559</width>
+                        <height>67.790367126</height>
+                        <depth>0</depth>
+                        <hotspotX>0.518518507</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.193346977</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TrozoPlanta1">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>76.331680298</x>
+                        <y>601.437255859</y>
+                        <z>0</z>
+                        <width>21.341022491</width>
+                        <height>57.232540131</height>
+                        <depth>0</depth>
+                        <hotspotX>0.526315808</hotspotX>
+                        <hotspotY>0.507692337</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TrozoPlanta2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <Angu>20</Angu>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>84.829421997</x>
+                        <y>542.341186523</y>
+                        <z>0</z>
+                        <width>23.574331284</width>
+                        <height>66.483528137</height>
+                        <depth>0</depth>
+                        <hotspotX>0.521739125</hotspotX>
+                        <hotspotY>0.507692337</hotspotY>
+                        <angle>0.022345103</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>5841</x>
+                        <y>1502</y>
+                        <z>0</z>
+                        <width>176</width>
+                        <height>830</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50090909</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino1">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>721</x>
+                        <y>955</y>
+                        <z>0</z>
+                        <width>1445</width>
+                        <height>668</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500640213</hotspotX>
+                        <hotspotY>0.502183378</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>9833.475585938</x>
+                        <y>2058</y>
+                        <z>0</z>
+                        <width>2342</width>
+                        <height>512</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50090909</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="camino9">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>7686</x>
+                        <y>1835</y>
+                        <z>0</z>
+                        <width>948</width>
+                        <height>683</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500732064</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>8785</x>
+                        <y>1744</y>
+                        <z>0</z>
+                        <width>416.768463135</width>
+                        <height>312.466094971</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500352859</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino8">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>8611</x>
+                        <y>2110</y>
+                        <z>0</z>
+                        <width>1143</width>
+                        <height>720</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3366</x>
+                        <y>731</y>
+                        <z>0</z>
+                        <width>416.768463135</width>
+                        <height>312.466094971</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500352859</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -3694,235 +4923,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NubeBlanca">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>1</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>1755</x>
-                        <y>306</y>
-                        <z>0</z>
-                        <width>279</width>
-                        <height>179</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501792133</hotspotX>
-                        <hotspotY>0.502793312</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="NubeBlanca">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>1</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>2163</x>
-                        <y>198</y>
-                        <z>0</z>
-                        <width>279</width>
-                        <height>179</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501792133</hotspotX>
-                        <hotspotY>0.502793312</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="NubeBlanca">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>1</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>2560</x>
-                        <y>269</y>
-                        <z>0</z>
-                        <width>279</width>
-                        <height>179</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501792133</hotspotX>
-                        <hotspotY>0.502793312</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="NubeBlanca">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>1</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>2893</x>
-                        <y>368</y>
-                        <z>0</z>
-                        <width>279</width>
-                        <height>179</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501792133</hotspotX>
-                        <hotspotY>0.502793312</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Lucia">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="DragDrop" />
-                    </behavior-instances>
-                    <world>
-                        <x>-200</x>
-                        <y>215</y>
-                        <z>0</z>
-                        <width>380</width>
-                        <height>380</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="spider">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>0</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>10</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>-56</x>
-                        <y>698</y>
-                        <z>0</z>
-                        <width>111.895301819</width>
-                        <height>107.04649353</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501742184</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Camino2">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>1598</x>
-                        <y>1125</y>
-                        <z>0</z>
-                        <width>501.176818848</width>
-                        <height>559.424987793</height>
-                        <depth>0</depth>
-                        <hotspotX>0.50121063</hotspotX>
-                        <hotspotY>0.501084626</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Camino3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -3956,304 +4956,1853 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Camino6">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>5278</x>
-                        <y>544</y>
-                        <z>0</z>
-                        <width>540.400878906</width>
-                        <height>194.17364502</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500648499</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Camino7">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>5865</x>
-                        <y>269</y>
-                        <z>0</z>
-                        <width>771</width>
-                        <height>436</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500648499</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="camino5b">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>7516</x>
-                        <y>1562</y>
-                        <z>0</z>
-                        <width>1100</width>
-                        <height>979</height>
-                        <depth>0</depth>
-                        <hotspotX>0.50545454</hotspotX>
-                        <hotspotY>0.503575087</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Camino5a">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>5396</x>
-                        <y>1066</y>
-                        <z>0</z>
-                        <width>1466</width>
-                        <height>979</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.502553642</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Camino5c">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>4757</x>
-                        <y>691</y>
-                        <z>0</z>
-                        <width>193</width>
-                        <height>164</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502590656</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TrozoPlanta4">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="DragDrop" />
-                    </behavior-instances>
-                    <world>
-                        <x>130.801300049</x>
-                        <y>421.669647217</y>
-                        <z>0</z>
-                        <width>30.207874298</width>
-                        <height>59.801620483</height>
-                        <depth>0</depth>
-                        <hotspotX>0.514285743</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.212022185</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TrozoPlanta3">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>103.572921753</x>
-                        <y>477.294616699</y>
-                        <z>0</z>
-                        <width>24.267301559</width>
-                        <height>67.790367126</height>
-                        <depth>0</depth>
-                        <hotspotX>0.518518507</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.193346977</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TrozoPlanta1">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>76.331680298</x>
-                        <y>601.437255859</y>
-                        <z>0</z>
-                        <width>21.341022491</width>
-                        <height>57.232540131</height>
-                        <depth>0</depth>
-                        <hotspotX>0.526315808</hotspotX>
-                        <hotspotY>0.507692337</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TrozoPlanta2">
+                <instance type="Hierva">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
                     <instance-variables>
-                        <Angu>20</Angu>
+                        <v>8</v>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Physics">
+                        <behavior-instance type="Sin">
                             <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>84.829421997</x>
-                        <y>542.341186523</y>
+                        <x>3710</x>
+                        <y>876</y>
                         <z>0</z>
-                        <width>23.574331284</width>
-                        <height>66.483528137</height>
+                        <width>200</width>
+                        <height>165</height>
                         <depth>0</depth>
-                        <hotspotX>0.521739125</hotspotX>
-                        <hotspotY>0.507692337</hotspotY>
-                        <angle>0.022345103</angle>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3782</x>
+                        <y>861</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3837</x>
+                        <y>861</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3888</x>
+                        <y>862</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3937</x>
+                        <y>860</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3993</x>
+                        <y>860</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4046</x>
+                        <y>863</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4099</x>
+                        <y>863</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4162</x>
+                        <y>862</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4219</x>
+                        <y>863</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3739</x>
+                        <y>899</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3794</x>
+                        <y>899</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3845</x>
+                        <y>900</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3894</x>
+                        <y>898</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3950</x>
+                        <y>898</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4003</x>
+                        <y>901</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4056</x>
+                        <y>901</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4119</x>
+                        <y>900</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4176</x>
+                        <y>901</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3809</x>
+                        <y>927</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3864</x>
+                        <y>927</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3915</x>
+                        <y>928</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3964</x>
+                        <y>926</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4020</x>
+                        <y>926</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4073</x>
+                        <y>929</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4126</x>
+                        <y>929</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4189</x>
+                        <y>928</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4246</x>
+                        <y>929</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4260</x>
+                        <y>861</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4279</x>
+                        <y>915</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>4302</x>
+                        <y>881</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3667</x>
+                        <y>869</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3693</x>
+                        <y>916</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3759</x>
+                        <y>922</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3639</x>
+                        <y>916</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3662</x>
+                        <y>872</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hierva">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <v>8</v>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Sin">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Angle</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>3</magnitude>
+                                <magnitude-random>7</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sin2">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>8</period>
+                                <period-random>3</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>4</period-offset-random>
+                                <magnitude>2</magnitude>
+                                <magnitude-random>8</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3611</x>
+                        <y>898</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>165</height>
+                        <depth>0</depth>
+                        <hotspotX>0.584999979</hotspotX>
+                        <hotspotY>0.987987995</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -4290,7 +6839,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Camino1">
+                <instance type="Sprite5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
@@ -4304,22 +6853,22 @@
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
-                                <elasticity>0</elasticity>
+                                <elasticity>0.2</elasticity>
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>721</x>
-                        <y>955</y>
+                        <x>4737</x>
+                        <y>929</y>
                         <z>0</z>
-                        <width>1445</width>
-                        <height>668</height>
+                        <width>355.457763672</width>
+                        <height>406.529327393</height>
                         <depth>0</depth>
-                        <hotspotX>0.500640213</hotspotX>
-                        <hotspotY>0.502183378</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500837505</hotspotY>
+                        <angle>1.570663214</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
