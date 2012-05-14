@@ -133,6 +133,7 @@
                             <param id="2" name="Lower angle">-20</param>
                             <param id="3" name="Upper angle">20</param>
                         </action>
+                        <action id="-9" name="Destroy" type="Pajaro" />
                     </actions>
                 </event-block>
                 <event-block>
@@ -267,6 +268,21 @@
                     <param id="0" name="Instance variable">m</param>
                     <param id="1" name="Value">1</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On collision with another object" type="huevo">
+                    <param id="0" name="Object">Camino5a</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" type="Hierva" />
+                <action id="-9" name="Destroy" type="bambufondo" />
+                <action id="-9" name="Destroy" type="TrozoPlanta1" />
+                <action id="-9" name="Destroy" type="TrozoPlanta2" />
+                <action id="-9" name="Destroy" type="TrozoPlanta3" />
+                <action id="-9" name="Destroy" type="TrozoPlanta4" />
             </actions>
         </event-block>
     </events>
