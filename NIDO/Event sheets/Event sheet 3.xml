@@ -248,5 +248,26 @@
                 </action>
             </actions>
         </event-block>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On collision with another object" type="huevo">
+                    <param id="0" name="Object">camino9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="21" name="Set immovable" type="Lucia">
+                    <param id="0" name="Setting">0</param>
+                </action>
+                <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
+                    <param id="0" name="Impulse X">10</param>
+                    <param id="1" name="Implulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Set value" type="Lucia">
+                    <param id="0" name="Instance variable">m</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
