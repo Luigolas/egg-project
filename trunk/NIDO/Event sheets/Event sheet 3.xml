@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 3</name>
     <events>
+        <variable name="velpaso" type="number">5</variable>
         <variable name="lado" type="number">0</variable>
         <variable name="pasoang" type="number">0.1</variable>
         <variable name="SonidoGrass" type="number">0</variable>
@@ -299,7 +300,7 @@
                     <actions>
                         <action id="-10" name="Add to" type="System">
                             <param id="0" name="Variable">ticky</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">1*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
@@ -307,7 +308,7 @@
                     <conditions>
                         <condition id="-14" name="Compare variable" type="System">
                             <param id="0" name="Variable">ticky</param>
-                            <param id="1" name="Comparison">0</param>
+                            <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">150</param>
                         </condition>
                     </conditions>
@@ -340,17 +341,48 @@
                         <event-block>
                             <conditions>
                                 <condition id="-1" name="Compare X" type="leg">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">1324</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" type="System">
+                                    <param id="0" name="Variable">paso</param>
+                                    <param id="1" name="Value">-paso</param>
+                                </action>
+                                <action id="-9" name="Set value" type="System">
+                                    <param id="0" name="Variable">pasoang</param>
+                                    <param id="1" name="Value">-pasoang</param>
+                                </action>
+                                <action id="-9" name="Set value" type="System">
+                                    <param id="0" name="Variable">state</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                                <action id="4" name="Set animation" type="leg">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" type="leg2">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action behavior="Pin" id="1" name="Unpin" type="Suela2" />
+                                <action id="-1" name="Set X" type="Suela2">
+                                    <param id="0" name="X">leg2.ImagePointX(1)</param>
+                                </action>
+                                <action behavior="Pin" id="0" name="Pin to object" type="Suela2">
+                                    <param id="0" name="Pin to">leg2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="-1" name="Compare X" type="leg">
                                     <param id="0" name="Comparison">2</param>
                                     <param id="1" name="X co-ordinate">-100</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action disabled="1" id="7" name="Set mirrored" type="leg">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                                <action disabled="1" id="7" name="Set mirrored" type="leg2">
-                                    <param id="0" name="State">0</param>
-                                </action>
                                 <action id="-9" name="Set value" type="System">
                                     <param id="0" name="Variable">paso</param>
                                     <param id="1" name="Value">-paso</param>
@@ -392,13 +424,13 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Set Y" type="leg2">
-                            <param id="0" name="Y">leg2.Y-1</param>
+                            <param id="0" name="Y">leg2.Y-1*velpaso</param>
                         </action>
                         <action id="-18" name="Rotate clockwise" type="leg2">
-                            <param id="0" name="Degrees">pasoang</param>
+                            <param id="0" name="Degrees">pasoang*velpaso</param>
                         </action>
                         <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-paso</param>
+                            <param id="0" name="X">leg2.X-paso*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
@@ -412,10 +444,10 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-paso</param>
+                            <param id="0" name="X">leg2.X-paso*velpaso</param>
                         </action>
                         <action id="-2" name="Set Y" type="leg2">
-                            <param id="0" name="Y">leg2.Y+1</param>
+                            <param id="0" name="Y">leg2.Y+1*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
@@ -429,10 +461,10 @@
                     </conditions>
                     <actions>
                         <action id="-19" name="Rotate counter-clockwise" type="leg2">
-                            <param id="0" name="Degrees">pasoang</param>
+                            <param id="0" name="Degrees">pasoang*velpaso</param>
                         </action>
                         <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-paso</param>
+                            <param id="0" name="X">leg2.X-paso*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
@@ -446,13 +478,13 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Set Y" type="leg">
-                            <param id="0" name="Y">leg.Y-1</param>
+                            <param id="0" name="Y">leg.Y-1*velpaso</param>
                         </action>
                         <action id="-18" name="Rotate clockwise" type="leg">
-                            <param id="0" name="Degrees">pasoang</param>
+                            <param id="0" name="Degrees">pasoang*velpaso</param>
                         </action>
                         <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-paso</param>
+                            <param id="0" name="X">leg.X-paso*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
@@ -466,10 +498,10 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-paso</param>
+                            <param id="0" name="X">leg.X-paso*velpaso</param>
                         </action>
                         <action id="-2" name="Set Y" type="leg">
-                            <param id="0" name="Y">leg.Y+1</param>
+                            <param id="0" name="Y">leg.Y+1*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
@@ -483,10 +515,10 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-paso</param>
+                            <param id="0" name="X">leg.X-paso*velpaso</param>
                         </action>
                         <action id="-19" name="Rotate counter-clockwise" type="leg">
-                            <param id="0" name="Degrees">pasoang</param>
+                            <param id="0" name="Degrees">pasoang*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
@@ -541,5 +573,27 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Every tick" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" type="Tiempo">
+                    <param id="0" name="Text">180-Time</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-8" name="Compare two values" type="System">
+                    <param id="0" name="First value">180-Time</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" type="Tiempo" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
