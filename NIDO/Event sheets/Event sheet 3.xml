@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 3</name>
     <events>
+        <variable name="fase" type="number">3</variable>
         <variable name="velpaso" type="number">5</variable>
         <variable name="lado" type="number">0</variable>
         <variable name="pasoang" type="number">0.1</variable>
@@ -221,15 +222,15 @@
                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
-                <action id="-15" name="Set visible" type="EggOver">
+                <action disabled="1" id="-15" name="Set visible" type="EggOver">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action behavior="Flash" id="0" name="Flash" type="EggOver">
+                <action behavior="Flash" disabled="1" id="0" name="Flash" type="EggOver">
                     <param id="0" name="&apos;On&apos; time">0.1</param>
                     <param id="1" name="&apos;Off&apos; time">0.1</param>
                     <param id="2" name="Duration">1.0</param>
                 </action>
-                <action id="0" name="Play" type="MainMusic">
+                <action disabled="1" id="0" name="Play" type="MainMusic">
                     <param id="0" name="Audio file">huevoroto(1)</param>
                     <param id="2" name="Loop">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -296,6 +297,11 @@
                 <event-block>
                     <conditions>
                         <condition id="-1" name="Every tick" type="System" />
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" type="System">
@@ -310,6 +316,11 @@
                             <param id="0" name="Variable">ticky</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">150</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -330,6 +341,11 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">6</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" type="System">
@@ -343,6 +359,11 @@
                                 <condition id="-1" name="Compare X" type="leg">
                                     <param id="0" name="Comparison">4</param>
                                     <param id="1" name="X co-ordinate">1324</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" type="System">
+                                    <param id="0" name="Variable">fase</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -381,6 +402,11 @@
                                     <param id="0" name="Comparison">2</param>
                                     <param id="1" name="X co-ordinate">-100</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" type="System">
+                                    <param id="0" name="Variable">fase</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-9" name="Set value" type="System">
@@ -410,6 +436,13 @@
                                 <action behavior="Pin" id="0" name="Pin to object" type="Suela2">
                                     <param id="0" name="Pin to">leg2</param>
                                 </action>
+                                <action behavior="Pin" id="1" name="Unpin" type="Suela" />
+                                <action id="-1" name="Set X" type="Suela">
+                                    <param id="0" name="X">leg.ImagePointX(1)</param>
+                                </action>
+                                <action behavior="Pin" id="0" name="Pin to object" type="Suela">
+                                    <param id="0" name="Pin to">leg</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -420,6 +453,11 @@
                             <param id="0" name="Variable">state</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -441,6 +479,11 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg2">
@@ -458,6 +501,11 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-19" name="Rotate counter-clockwise" type="leg2">
@@ -474,6 +522,11 @@
                             <param id="0" name="Variable">state</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -495,6 +548,11 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg">
@@ -512,6 +570,11 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">5</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg">
@@ -525,6 +588,11 @@
                 <event-block>
                     <conditions>
                         <condition id="-2" name="On start of layout" type="System" />
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action behavior="Pin" id="0" name="Pin to object" type="Suela">
@@ -542,6 +610,11 @@
                         </condition>
                         <condition id="-14" name="Compare variable" type="System">
                             <param id="0" name="Variable">state</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
                         </condition>
@@ -563,6 +636,11 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" type="huevo">
@@ -576,6 +654,11 @@
         <event-block>
             <conditions>
                 <condition id="-1" name="Every tick" type="System" />
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">fase</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="0" name="Set text" type="Tiempo">
@@ -590,9 +673,58 @@
                     <param id="1" name="Comparison">2</param>
                     <param id="2" name="Second value">0</param>
                 </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">fase</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" type="Tiempo" />
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Compare X" type="huevo">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">10950</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">fase</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" type="System">
+                    <param id="0" name="Layout">Layout 4</param>
+                </action>
+                <action id="-10" name="Add to" type="System">
+                    <param id="0" name="Variable">fase</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="4" name="On finished" type="huevo">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="EggOver">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" type="EggOver">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="0" name="Play" type="MainMusic">
+                    <param id="0" name="Audio file">huevoroto(1)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
     </events>
