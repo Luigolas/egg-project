@@ -7,14 +7,11 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Text" version="1">Text</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -548,7 +545,6 @@
                             <point x="1" y="0.148438" />
                             <point x="1" y="0.322266" />
                             <point x="0" y="0.320313" />
-
                             <point x="0" y="0.150391" />
                         </collision-poly>
                     </frame>
@@ -1085,7 +1081,7 @@
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.525">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.534884">
                         <collision-poly>
                             <point x="0" y="0" />
                             <point x="1" y="0" />
@@ -1178,7 +1174,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500353">
                         <collision-poly>
                             <point x="0.202645" y="0.270289" />
                             <point x="0.5" y="0" />
@@ -1241,12 +1237,18 @@
         <file name="bambubreak1(1).m4a" />
         <file name="bambubreak1(1).ogg" />
         <file name="bambubreak1(1).wav" />
+        <file name="rain_loop.m4a" />
+        <file name="rain_loop.ogg" />
+        <file name="rain_loop.wav" />
     </sounds-folder>
-    <music-folder expanded="0">
+    <music-folder expanded="1">
         <file name="1. Nascence2.m4a" />
         <file name="1. Nascence2.ogg" />
         <file name="Deep_How-oMeZzZ-2067.m4a" />
         <file name="Deep_How-oMeZzZ-2067.ogg" />
         <file name="Deep_How-oMeZzZ-2067.wav" />
+        <file name="Game Of Thrones 8-Bit.m4a" />
+        <file name="Game Of Thrones 8-Bit.ogg" />
+        <file name="Game Of Thrones 8-Bit.wav" />
     </music-folder>
 </c2project>
