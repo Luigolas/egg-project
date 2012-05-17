@@ -87,8 +87,8 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>60</x>
-                        <y>192</y>
+                        <x>827</x>
+                        <y>247</y>
                         <z>0</z>
                         <width>47.175186157</width>
                         <height>59.204853058</height>
@@ -153,7 +153,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1469</x>
+                        <x>1489</x>
                         <y>-272</y>
                         <z>0</z>
                         <width>396.258880615</width>
@@ -175,7 +175,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Bounding box</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -187,14 +187,14 @@
                         <behavior-instance type="Pin" />
                     </behavior-instances>
                     <world>
-                        <x>1034</x>
-                        <y>280</y>
+                        <x>1037</x>
+                        <y>290</y>
                         <z>0</z>
                         <width>128</width>
                         <height>8</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.511627913</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -209,7 +209,7 @@
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
+                                <collision-mask>Bounding box</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
                                 <friction>0.5</friction>
@@ -221,8 +221,8 @@
                         <behavior-instance type="Pin" />
                     </behavior-instances>
                     <world>
-                        <x>1342</x>
-                        <y>282</y>
+                        <x>1362</x>
+                        <y>290</y>
                         <z>0</z>
                         <width>128</width>
                         <height>8</height>
