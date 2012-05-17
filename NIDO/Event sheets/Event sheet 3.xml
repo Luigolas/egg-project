@@ -734,5 +734,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On collision with another object" type="huevo">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" type="huevo">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

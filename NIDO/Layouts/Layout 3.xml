@@ -684,6 +684,39 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Camino3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>-1727.071533203</x>
+                        <y>1002.5</y>
+                        <z>0</z>
+                        <width>1719</width>
+                        <height>512</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50090909</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
         </layer>
         <layer name="Layer 1">
@@ -698,6 +731,157 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
+                <instance type="Sprite6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>1463</x>
+                        <y>1277</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>247</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503401339</hotspotX>
+                        <hotspotY>0.502024293</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3366</x>
+                        <y>731</y>
+                        <z>0</z>
+                        <width>416.768463135</width>
+                        <height>312.466094971</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500352859</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>6610</x>
+                        <y>1901</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>247</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503401339</hotspotX>
+                        <hotspotY>0.502024293</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>6129</x>
+                        <y>1871</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>247</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503401339</hotspotX>
+                        <hotspotY>0.502024293</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="bambufondo2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>6394</x>
+                        <y>1215</y>
+                        <z>0</z>
+                        <width>90</width>
+                        <height>270</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="bambufondo">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -904,8 +1088,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3662</x>
-                        <y>482</y>
+                        <x>3666</x>
+                        <y>544</y>
                         <z>0</z>
                         <width>111.895301819</width>
                         <height>107.04649353</height>
@@ -1415,72 +1599,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Camino8">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>8611</x>
-                        <y>2110</y>
-                        <z>0</z>
-                        <width>1143</width>
-                        <height>720</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite4">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>3366</x>
-                        <y>731</y>
-                        <z>0</z>
-                        <width>416.768463135</width>
-                        <height>312.466094971</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500352859</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="huevo">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1520,6 +1638,25 @@
                         <hotspotX>0.492500007</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>-0.009455283</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite7">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>3365</x>
+                        <y>728</y>
+                        <z>0</z>
+                        <width>410.798614502</width>
+                        <height>307.99029541</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -4923,39 +5060,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Camino3">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>2704.063232422</x>
-                        <y>1049</y>
-                        <z>0</z>
-                        <width>1719</width>
-                        <height>512</height>
-                        <depth>0</depth>
-                        <hotspotX>0.50090909</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Hierva">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -6827,6 +6931,39 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
+                        <x>2704.063232422</x>
+                        <y>1049</y>
+                        <z>0</z>
+                        <width>1719</width>
+                        <height>512</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50090909</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
                         <x>4118</x>
                         <y>1049</y>
                         <z>0</z>
@@ -6869,6 +7006,58 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.500837505</hotspotY>
                         <angle>1.570663214</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite7">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>8783</x>
+                        <y>1743</y>
+                        <z>0</z>
+                        <width>410.798614502</width>
+                        <height>307.99029541</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino8">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>8611</x>
+                        <y>2110</y>
+                        <z>0</z>
+                        <width>1143</width>
+                        <height>720</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
