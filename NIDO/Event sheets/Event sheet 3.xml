@@ -131,7 +131,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Bambu">
+        <event-group description="" title="Bambu">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -145,6 +145,11 @@
                             <param id="3" name="Upper angle">20</param>
                         </action>
                         <action id="-9" name="Destroy" type="Pajaro" />
+                        <action id="0" name="Play" type="MainMusic">
+                            <param id="0" name="Audio file">rain_loop</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="1" name="Tag (optional)">&quot;rain&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block>

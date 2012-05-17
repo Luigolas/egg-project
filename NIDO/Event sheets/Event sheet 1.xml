@@ -14,7 +14,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" type="MainMusic">
-                    <param id="0" name="Audio file">1. Nascence2</param>
+                    <param id="0" name="Audio file">Game Of Thrones 8-Bit</param>
                     <param id="2" name="Loop">1</param>
                     <param id="1" name="Tag (optional)">&quot;main&quot;</param>
                 </action>
