@@ -12,10 +12,43 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
+        <layer name="Background">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <instances>
+                <instance type="Fondo">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <effect>(none)</effect>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <world>
+                        <x>-4</x>
+                        <y>-3</y>
+                        <z>0</z>
+                        <width>7620</width>
+                        <height>3468</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
         <layer name="Layer 0">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
-            <transparent>0</transparent>
+            <transparent>1</transparent>
             <parallax>
                 <x>1</x>
                 <y>1</y>
@@ -88,7 +121,7 @@
                     </behavior-instances>
                     <world>
                         <x>827</x>
-                        <y>247</y>
+                        <y>248</y>
                         <z>0</z>
                         <width>47.175186157</width>
                         <height>59.204853058</height>
@@ -126,8 +159,8 @@
                         <width>396.259002686</width>
                         <height>652.176025391</height>
                         <depth>0</depth>
-                        <hotspotX>0.75</hotspotX>
-                        <hotspotY>0.139240503</hotspotY>
+                        <hotspotX>0.71875</hotspotX>
+                        <hotspotY>0.12658228</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -153,7 +186,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1489</x>
+                        <x>1539</x>
                         <y>-272</y>
                         <z>0</z>
                         <width>396.258880615</width>
@@ -187,14 +220,14 @@
                         <behavior-instance type="Pin" />
                     </behavior-instances>
                     <world>
-                        <x>1037</x>
+                        <x>1047</x>
                         <y>290</y>
                         <z>0</z>
                         <width>128</width>
-                        <height>8</height>
+                        <height>7.999999523</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.511627913</hotspotY>
+                        <hotspotY>0.534883738</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -221,14 +254,14 @@
                         <behavior-instance type="Pin" />
                     </behavior-instances>
                     <world>
-                        <x>1362</x>
+                        <x>1412</x>
                         <y>290</y>
                         <z>0</z>
-                        <width>128</width>
-                        <height>8</height>
+                        <width>128.888885498</width>
+                        <height>7.999999523</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.511627913</hotspotY>
+                        <hotspotY>0.524999976</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -302,8 +335,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>285</x>
-                        <y>137</y>
+                        <x>187</x>
+                        <y>127</y>
                         <z>0</z>
                         <width>322.200775146</width>
                         <height>48.330116272</height>
