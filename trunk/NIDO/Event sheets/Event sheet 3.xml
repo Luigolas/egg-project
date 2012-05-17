@@ -3,14 +3,16 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 3</name>
     <events>
+        <variable name="respawn" type="number">0</variable>
+        <variable name="timeleg" type="number">0</variable>
         <variable name="fase" type="number">4</variable>
         <variable name="velpaso" type="number">5</variable>
-        <variable name="lado" type="number">0</variable>
+        <variable name="ladopiernas" type="number">0</variable>
         <variable name="pasoang" type="number">0.1</variable>
         <variable name="SonidoGrass" type="number">0</variable>
-        <variable name="paso" type="number">1.4</variable>
+        <variable name="pasodist" type="number">1.4</variable>
         <variable name="ticky" type="number">0</variable>
-        <variable name="state" type="number">-1</variable>
+        <variable name="statepierna" type="number">-1</variable>
         <event-group collapsed="1" description="" title="Control">
             <sub-events>
                 <event-block>
@@ -315,7 +317,7 @@
                         <condition id="-14" name="Compare variable" type="System">
                             <param id="0" name="Variable">ticky</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">160</param>
+                            <param id="2" name="Value">170</param>
                         </condition>
                         <condition id="-14" name="Compare variable" type="System">
                             <param id="0" name="Variable">fase</param>
@@ -325,7 +327,7 @@
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-9" name="Set value" type="System">
@@ -337,7 +339,7 @@
                 <event-block>
                     <conditions>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">6</param>
                         </condition>
@@ -349,7 +351,7 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Value">0</param>
                         </action>
                     </actions>
@@ -368,35 +370,49 @@
                             </conditions>
                             <actions>
                                 <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">paso</param>
-                                    <param id="1" name="Value">-paso</param>
+                                    <param id="0" name="Variable">pasodist</param>
+                                    <param id="1" name="Value">-pasodist</param>
                                 </action>
                                 <action id="-9" name="Set value" type="System">
                                     <param id="0" name="Variable">pasoang</param>
                                     <param id="1" name="Value">-pasoang</param>
                                 </action>
                                 <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">state</param>
+                                    <param id="0" name="Variable">statepierna</param>
                                     <param id="1" name="Value">3</param>
                                 </action>
-                                <action id="4" name="Set animation" type="leg">
+                                <action disabled="1" id="4" name="Set animation" type="leg">
                                     <param id="0" name="Animation">&quot;Default&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="4" name="Set animation" type="leg2">
+                                <action disabled="1" id="4" name="Set animation" type="leg2">
                                     <param id="0" name="Animation">&quot;Default&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" type="leg">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" type="leg2">
+                                    <param id="0" name="State">1</param>
                                 </action>
                                 <action behavior="Pin" id="1" name="Unpin" type="Suela2" />
-                                <action id="-1" name="Set X" type="Suela2">
+                                <action disabled="1" id="-1" name="Set X" type="Suela2">
                                     <param id="0" name="X">leg2.ImagePointX(1)</param>
+                                </action>
+                                <action id="-3" name="Set position" type="Suela2">
+                                    <param id="0" name="X">leg2.ImagePointX(1)</param>
+                                    <param id="1" name="Y">leg2.ImagePointY(1)</param>
                                 </action>
                                 <action behavior="Pin" id="0" name="Pin to object" type="Suela2">
                                     <param id="0" name="Pin to">leg2</param>
                                 </action>
                                 <action behavior="Pin" id="1" name="Unpin" type="Suela" />
-                                <action id="-1" name="Set X" type="Suela">
+                                <action disabled="1" id="-1" name="Set X" type="Suela">
                                     <param id="0" name="X">leg.ImagePointX(1)</param>
+                                </action>
+                                <action id="-3" name="Set position" type="Suela">
+                                    <param id="0" name="X">leg.ImagePointX(1)</param>
+                                    <param id="1" name="Y">leg.ImagePointY(1)</param>
                                 </action>
                                 <action behavior="Pin" id="0" name="Pin to object" type="Suela">
                                     <param id="0" name="Pin to">leg</param>
@@ -407,7 +423,7 @@
                             <conditions>
                                 <condition id="-1" name="Compare X" type="leg">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">-100</param>
+                                    <param id="1" name="X co-ordinate">-300</param>
                                 </condition>
                                 <condition id="-14" name="Compare variable" type="System">
                                     <param id="0" name="Variable">fase</param>
@@ -417,35 +433,49 @@
                             </conditions>
                             <actions>
                                 <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">paso</param>
-                                    <param id="1" name="Value">-paso</param>
+                                    <param id="0" name="Variable">pasodist</param>
+                                    <param id="1" name="Value">-pasodist</param>
                                 </action>
                                 <action id="-9" name="Set value" type="System">
                                     <param id="0" name="Variable">pasoang</param>
                                     <param id="1" name="Value">-pasoang</param>
                                 </action>
                                 <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">state</param>
+                                    <param id="0" name="Variable">statepierna</param>
                                     <param id="1" name="Value">3</param>
                                 </action>
-                                <action id="4" name="Set animation" type="leg">
+                                <action disabled="1" id="4" name="Set animation" type="leg">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="4" name="Set animation" type="leg2">
+                                <action disabled="1" id="4" name="Set animation" type="leg2">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" type="leg">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" type="leg2">
+                                    <param id="0" name="State">0</param>
                                 </action>
                                 <action behavior="Pin" id="1" name="Unpin" type="Suela2" />
-                                <action id="-1" name="Set X" type="Suela2">
+                                <action disabled="1" id="-1" name="Set X" type="Suela2">
                                     <param id="0" name="X">leg2.ImagePointX(1)</param>
+                                </action>
+                                <action id="-3" name="Set position" type="Suela2">
+                                    <param id="0" name="X">leg2.ImagePointX(1)</param>
+                                    <param id="1" name="Y">leg2.ImagePointY(1)</param>
                                 </action>
                                 <action behavior="Pin" id="0" name="Pin to object" type="Suela2">
                                     <param id="0" name="Pin to">leg2</param>
                                 </action>
                                 <action behavior="Pin" id="1" name="Unpin" type="Suela" />
-                                <action id="-1" name="Set X" type="Suela">
+                                <action disabled="1" id="-1" name="Set X" type="Suela">
                                     <param id="0" name="X">leg.ImagePointX(1)</param>
+                                </action>
+                                <action id="-3" name="Set position" type="Suela">
+                                    <param id="0" name="X">leg.ImagePointX(1)</param>
+                                    <param id="1" name="Y">leg.ImagePointY(1)</param>
                                 </action>
                                 <action behavior="Pin" id="0" name="Pin to object" type="Suela">
                                     <param id="0" name="Pin to">leg</param>
@@ -457,7 +487,7 @@
                 <event-block>
                     <conditions>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
@@ -475,14 +505,14 @@
                             <param id="0" name="Degrees">pasoang*velpaso</param>
                         </action>
                         <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-paso*velpaso</param>
+                            <param id="0" name="X">leg2.X-pasodist*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block>
                     <conditions>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
@@ -494,7 +524,7 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-paso*velpaso</param>
+                            <param id="0" name="X">leg2.X-pasodist*velpaso</param>
                         </action>
                         <action id="-2" name="Set Y" type="leg2">
                             <param id="0" name="Y">leg2.Y+1*velpaso</param>
@@ -504,7 +534,7 @@
                 <event-block>
                     <conditions>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
@@ -519,14 +549,14 @@
                             <param id="0" name="Degrees">pasoang*velpaso</param>
                         </action>
                         <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-paso*velpaso</param>
+                            <param id="0" name="X">leg2.X-pasodist*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block>
                     <conditions>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
@@ -544,14 +574,14 @@
                             <param id="0" name="Degrees">pasoang*velpaso</param>
                         </action>
                         <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-paso*velpaso</param>
+                            <param id="0" name="X">leg.X-pasodist*velpaso</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block>
                     <conditions>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
                         </condition>
@@ -563,7 +593,7 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-paso*velpaso</param>
+                            <param id="0" name="X">leg.X-pasodist*velpaso</param>
                         </action>
                         <action id="-2" name="Set Y" type="leg">
                             <param id="0" name="Y">leg.Y+1*velpaso</param>
@@ -573,7 +603,7 @@
                 <event-block>
                     <conditions>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">5</param>
                         </condition>
@@ -585,7 +615,7 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-paso*velpaso</param>
+                            <param id="0" name="X">leg.X-pasodist*velpaso</param>
                         </action>
                         <action id="-19" name="Rotate counter-clockwise" type="leg">
                             <param id="0" name="Degrees">pasoang*velpaso</param>
@@ -616,7 +646,7 @@
                             <param id="0" name="Object">huevo</param>
                         </condition>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
                         </condition>
@@ -639,7 +669,7 @@
                             <param id="0" name="Object">huevo</param>
                         </condition>
                         <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">state</param>
+                            <param id="0" name="Variable">statepierna</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
@@ -669,14 +699,14 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" type="Tiempo">
-                    <param id="0" name="Text">180-Time</param>
+                    <param id="0" name="Text">180-Time+timeleg</param>
                 </action>
             </actions>
         </event-block>
         <event-block>
             <conditions>
                 <condition id="-8" name="Compare two values" type="System">
-                    <param id="0" name="First value">180-Time</param>
+                    <param id="0" name="First value">180-Time+timeleg</param>
                     <param id="1" name="Comparison">2</param>
                     <param id="2" name="Second value">0</param>
                 </condition>
@@ -709,6 +739,10 @@
                 <action id="-10" name="Add to" type="System">
                     <param id="0" name="Variable">fase</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">timeleg</param>
+                    <param id="1" name="Value">time</param>
                 </action>
             </actions>
         </event-block>
