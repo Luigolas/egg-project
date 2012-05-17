@@ -7,11 +7,11 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Text" version="1">Text</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Text" version="1">Text</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -1004,7 +1004,7 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.75" hotspotY="0.139241">
-                        <image-point name="Imagepoint 1" x="0.34375" y="0.981013" />
+                        <image-point name="Imagepoint 1" x="0.354167" y="1.00633" />
                         <collision-poly>
                             <point x="0.479167" y="0.291139" />
                             <point x="0.5" y="0.227848" />
@@ -1019,7 +1019,7 @@
                 </animation>
                 <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.25" hotspotY="0.139241">
-                        <image-point name="Imagepoint 1" x="0.65625" y="0.987342" />
+                        <image-point name="Imagepoint 1" x="0.677083" y="1" />
                         <collision-poly>
                             <point x="0.552083" y="0.5" />
                             <point x="0.916667" y="0.949367" />
@@ -1044,7 +1044,7 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.697917" hotspotY="0.132911">
-                        <image-point name="Imagepoint 1" x="0.375" y="0.981013" />
+                        <image-point name="Imagepoint 1" x="0.375" y="1.00633" />
                         <collision-poly>
                             <point x="0.479167" y="0.291139" />
                             <point x="0.5" y="0.227848" />
@@ -1059,7 +1059,7 @@
                 </animation>
                 <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.302083" hotspotY="0.132911">
-                        <image-point name="Imagepoint 1" x="0.645833" y="1" />
+                        <image-point name="Imagepoint 1" x="0.65625" y="1.00633" />
                         <collision-poly>
                             <point x="0.552083" y="0.5" />
                             <point x="0.916667" y="0.949367" />
@@ -1086,7 +1086,7 @@
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" />
                 </animation>
             </animation-folder>
         </object-type>
