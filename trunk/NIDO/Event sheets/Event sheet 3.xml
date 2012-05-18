@@ -5,14 +5,14 @@
     <events>
         <variable name="respawn" type="number">0</variable>
         <variable name="timeleg" type="number">0</variable>
-        <variable name="fase" type="number">4</variable>
+        <variable name="fase" type="number">3</variable>
         <variable name="velpaso" type="number">5</variable>
         <variable name="ladopiernas" type="number">0</variable>
         <variable name="pasoang" type="number">0.1</variable>
         <variable name="SonidoGrass" type="number">0</variable>
         <variable name="pasodist" type="number">1.4</variable>
         <variable name="ticky" type="number">0</variable>
-        <variable name="LluviaActiva" type="number">1</variable>
+        <variable name="LluviaActiva" type="number">0</variable>
         <variable name="state" type="number">-1</variable>
         <variable name="statepierna" type="number">-1</variable>
         <event-group collapsed="1" description="" title="Control">
@@ -145,11 +145,6 @@
                             <param id="3" name="Upper angle">20</param>
                         </action>
                         <action id="-9" name="Destroy" type="Pajaro" />
-                        <action id="0" name="Play" type="MainMusic">
-                            <param id="0" name="Audio file">rain_loop</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="1" name="Tag (optional)">&quot;rain&quot;</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block>
@@ -299,10 +294,6 @@
                 <action id="-9" name="Destroy" type="TrozoPlanta2" />
                 <action id="-9" name="Destroy" type="TrozoPlanta3" />
                 <action id="-9" name="Destroy" type="TrozoPlanta4" />
-                <action id="-9" name="Set value" type="System">
-                    <param id="0" name="Variable">LluviaActiva</param>
-                    <param id="1" name="Value">1</param>
-                </action>
             </actions>
         </event-block>
         <event-group collapsed="1" description="" title="Piernas">
@@ -755,6 +746,15 @@
                     <param id="0" name="Variable">timeleg</param>
                     <param id="1" name="Value">time</param>
                 </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">LluviaActiva</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" type="MainMusic">
+                    <param id="0" name="Audio file">rain_loop</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="1" name="Tag (optional)">&quot;rain&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block>
@@ -807,8 +807,8 @@
                             <param id="1" name="Angle">90</param>
                         </action>
                         <action id="-7" name="Set size" type="water">
-                            <param id="0" name="Width">random(2,4)</param>
-                            <param id="1" name="Height">random(5,8)</param>
+                            <param id="0" name="Width">random(3,5)</param>
+                            <param id="1" name="Height">random(3,5)</param>
                         </action>
                         <action id="-16" name="Set opacity" type="water">
                             <param id="0" name="Opacity">random(50,100)</param>
@@ -905,6 +905,7 @@
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
                         </condition>
+                        <condition id="-9" inverted="1" name="Is visible" type="water" />
                     </conditions>
                     <actions>
                         <action behavior="Bullet" id="4" name="Bounce off object" type="water">
