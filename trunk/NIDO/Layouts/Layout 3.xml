@@ -717,6 +717,55 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="leave">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <leaveslife>100</leaveslife>
+                        <leavesfade>false</leavesfade>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>0</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>1</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>10</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="DestroyOutsideLayout" />
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <world>
+                        <x>8654</x>
+                        <y>1413</y>
+                        <z>0</z>
+                        <width>64.596076965</width>
+                        <height>42.593219757</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501760542</hotspotX>
+                        <hotspotY>0.501392782</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
         </layer>
         <layer name="Layer 1">
@@ -1629,8 +1678,8 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>150</x>
-                        <y>-68</y>
+                        <x>7809</x>
+                        <y>1510</y>
                         <z>0</z>
                         <width>47.175186157</width>
                         <height>59.204853058</height>
