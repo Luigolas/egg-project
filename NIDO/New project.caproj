@@ -7,13 +7,13 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="Text" version="1">Text</plugin>
-        <plugin id="WebStorage" version="1">WebStorage</plugin>
-        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -1282,6 +1282,57 @@
                             <point x="0.499215" y="0.669584" />
                             <point x="0.252747" y="0.647702" />
                             <point x="0.0172684" y="0.498906" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="leave">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="leaveslife" type="number" />
+                <instance-variable name="leavesfade" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Sine">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Pin">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="leave" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.501761" hotspotY="0.501393">
+                        <collision-poly>
+                            <point x="0.235915" y="0.373259" />
+                            <point x="0.5" y="0.247911" />
+                            <point x="0.785211" y="0.339833" />
+                            <point x="0.669014" y="0.498607" />
+                            <point x="0.669014" y="0.476323" />
+                            <point x="0.5" y="0.618384" />
+                            <point x="0.18662" y="0.704735" />
+                            <point x="0.158451" y="0.498607" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="burningleave" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.501961" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.141176" y="0.305085" />
+                            <point x="0.498039" y="0.211864" />
+                            <point x="0.988235" y="0.0254237" />
+                            <point x="0.878431" y="0.5" />
+                            <point x="0.854902" y="0.686441" />
+                            <point x="0.498039" y="0.983051" />
+                            <point x="0.141176" y="0.694915" />
+                            <point x="0.054902" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
