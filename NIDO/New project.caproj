@@ -7,13 +7,13 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Text" version="1">Text</plugin>
-        <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -88,14 +88,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="FondoIntro">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Nido">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
@@ -114,14 +106,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Pulse">
-            <plugin id="Text" />
-            <behaviors>
-                <behavior-type name="Flash">
-                    <behavior id="Flash" />
-                </behavior-type>
-            </behaviors>
         </object-type>
         <object-type name="Pajaro">
             <plugin id="Sprite" />
@@ -253,30 +237,6 @@
                             <point x="0.5" y="0.998016" />
                             <point x="0.126866" y="0.89881" />
                             <point x="0.0273632" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Gota">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.358333" y="0.358333" />
-                            <point x="0.5" y="0.0604167" />
-                            <point x="0.641667" y="0.358333" />
-                            <point x="0.747917" y="0.5" />
-                            <point x="0.766667" y="0.766667" />
-                            <point x="0.5" y="0.939583" />
-                            <point x="0.233333" y="0.766667" />
-                            <point x="0.252083" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -685,30 +645,6 @@
                             <point x="0.882813" y="0.5" />
                             <point x="0.882813" y="0.983974" />
                             <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="NidoHUD">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Anchor">
-                    <behavior id="Anchor" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.173333" y="0.307087" />
-                            <point x="0.5" y="0.0905512" />
-                            <point x="0.837778" y="0.287402" />
-                            <point x="0.917778" y="0.5" />
-                            <point x="0.846667" y="0.728346" />
-                            <point x="0.5" y="0.897638" />
-                            <point x="0.175556" y="0.688976" />
-                            <point x="0.0955556" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1341,13 +1277,11 @@
     </object-folder>
     <families />
     <layout-folder expanded="1">
-        <layout>Layout 1.xml</layout>
         <layout>Layout 2.xml</layout>
         <layout>Layout 3.xml</layout>
         <layout>Layout 4.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
-        <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
@@ -1368,18 +1302,12 @@
         <file name="MattOglseby - 2.ogg" />
         <file name="MattOglseby - 3.m4a" />
         <file name="MattOglseby - 3.ogg" />
-        <file name="OooScary1.m4a" />
-        <file name="OooScary1.ogg" />
-        <file name="OooScary1.wav" />
         <file name="Lazer Fire 1.m4a" />
         <file name="Lazer Fire 1.ogg" />
         <file name="Lazer Fire 1.wav" />
         <file name="Lazer Ricochet.m4a" />
         <file name="Lazer Ricochet.ogg" />
         <file name="Lazer Ricochet.wav" />
-        <file name="Upgrade1.m4a" />
-        <file name="Upgrade1.ogg" />
-        <file name="Upgrade1.wav" />
         <file name="bush_rus-kayden_r-8973(1).m4a" />
         <file name="bush_rus-kayden_r-8973(1).ogg" />
         <file name="bush_rus-kayden_r-8973(1).wav" />
@@ -1399,8 +1327,5 @@
         <file name="Deep_How-oMeZzZ-2067.m4a" />
         <file name="Deep_How-oMeZzZ-2067.ogg" />
         <file name="Deep_How-oMeZzZ-2067.wav" />
-        <file name="Game Of Thrones 8-Bit.m4a" />
-        <file name="Game Of Thrones 8-Bit.ogg" />
-        <file name="Game Of Thrones 8-Bit.wav" />
     </music-folder>
 </c2project>
