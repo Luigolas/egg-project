@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 4</name>
-    <event-sheet>Event sheet 3</event-sheet>
+    <name>Layout 1</name>
+    <event-sheet>Event sheet 1</event-sheet>
     <size>
-        <width>1080</width>
+        <width>1280</width>
         <height>1024</height>
     </size>
     <margins>
@@ -31,11 +31,11 @@
                         <hotspot>Top-left</hotspot>
                     </properties>
                     <world>
-                        <x>-4</x>
-                        <y>-3</y>
+                        <x>0</x>
+                        <y>0</y>
                         <z>0</z>
-                        <width>7620</width>
-                        <height>3468</height>
+                        <width>6810</width>
+                        <height>2334</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -45,7 +45,7 @@
                 </instance>
             </instances>
         </layer>
-        <layer name="Layer 0">
+        <layer name="Layer">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -57,7 +57,7 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
-                <instance type="Camino3">
+                <instance type="Camino1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
@@ -78,11 +78,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>859</x>
-                        <y>458</y>
+                        <x>538</x>
+                        <y>440</y>
                         <z>0</z>
-                        <width>1719</width>
-                        <height>512</height>
+                        <width>1070</width>
+                        <height>218</height>
                         <depth>0</depth>
                         <hotspotX>0.50090909</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -120,24 +120,52 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>34</x>
-                        <y>247</y>
+                        <x>53</x>
+                        <y>-22</y>
                         <z>0</z>
                         <width>47.175186157</width>
                         <height>59.204853058</height>
                         <depth>0</depth>
                         <hotspotX>0.492500007</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-0.009455283</angle>
+                        <angle>0.346602738</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="leg">
+                <instance type="Scroller">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <Vel>0</Vel>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="ScrollTo" />
+                    </behavior-instances>
+                    <world>
+                        <x>-438.102539063</x>
+                        <y>862.5</y>
+                        <z>0</z>
+                        <width>1</width>
+                        <height>1</height>
+                        <depth>0</depth>
+                        <hotspotX>0.492500007</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Lucia">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
+                    <instance-variables>
+                        <m>0</m>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Physics">
                             <properties>
@@ -151,165 +179,53 @@
                                 <angular-damping>0.01</angular-damping>
                             </properties>
                         </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>1187</x>
-                        <y>-272</y>
-                        <z>0</z>
-                        <width>396.259002686</width>
-                        <height>652.176025391</height>
-                        <depth>0</depth>
-                        <hotspotX>0.71875</hotspotX>
-                        <hotspotY>0.12658228</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="leg2">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>1539</x>
-                        <y>-272</y>
-                        <z>0</z>
-                        <width>396.258880615</width>
-                        <height>652.176086426</height>
-                        <depth>0</depth>
-                        <hotspotX>0.697916687</hotspotX>
-                        <hotspotY>0.132911399</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Suela">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Bounding box</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
+                        <behavior-instance type="DragDrop" />
                         <behavior-instance type="Pin" />
                     </behavior-instances>
                     <world>
-                        <x>1047</x>
-                        <y>290</y>
+                        <x>766</x>
+                        <y>79</y>
                         <z>0</z>
-                        <width>128</width>
-                        <height>7.999999523</height>
+                        <width>29</width>
+                        <height>28</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.534883738</hotspotY>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Suela2">
+                <instance type="Pajaro">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
+                    <instance-variables>
+                        <sp>200</sp>
+                        <Xrelease>0</Xrelease>
+                    </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Physics">
+                        <behavior-instance type="Bullet">
                             <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Bounding box</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <world>
-                        <x>1412</x>
-                        <y>290</y>
-                        <z>0</z>
-                        <width>128.888885498</width>
-                        <height>7.999999523</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.534883738</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-        </layer>
-        <layer name="HUD">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>0</x>
-                <y>0</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <instances>
-                <instance type="Tiempo">
-                    <properties>
-                        <text>tiempo</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Small Fonts,-19,400,0</font>
-                        <color>255,128,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Anchor">
-                            <properties>
-                                <left-edge>Window left</left-edge>
-                                <top-edge>Window top</top-edge>
-                                <right-edge>None</right-edge>
-                                <bottom-edge>None</bottom-edge>
+                                <speed>-200</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>270</x>
-                        <y>35</y>
+                        <x>761</x>
+                        <y>53</y>
                         <z>0</z>
-                        <width>101</width>
-                        <height>30</height>
+                        <width>111</width>
+                        <height>93</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.502825022</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.000001174</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -335,8 +251,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>187</x>
-                        <y>127</y>
+                        <x>172</x>
+                        <y>165</y>
                         <z>0</z>
                         <width>322.200775146</width>
                         <height>48.330116272</height>

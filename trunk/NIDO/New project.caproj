@@ -8,10 +8,11 @@
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Text" version="1">Text</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="WebStorage" version="1">WebStorage</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="WebStorage" version="1">WebStorage</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
@@ -1189,6 +1190,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Browser">
+            <plugin id="Browser" />
+        </object-type>
         <object-type name="HuevoIntro3">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
@@ -1303,6 +1307,7 @@
                 <timescale-audio>Off</timescale-audio>
             </properties>
         </global-instance>
+        <global-instance type="Browser" />
         <global-instance type="WebStorage" />
     </global-instances>
     <sounds-folder expanded="1">

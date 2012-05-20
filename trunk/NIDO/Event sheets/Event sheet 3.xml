@@ -132,7 +132,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Bambu">
+        <event-group collapsed="1" description="" title="Bambu">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -272,7 +272,7 @@
                     <param id="0" name="Setting">0</param>
                 </action>
                 <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
-                    <param id="0" name="Impulse X">10</param>
+                    <param id="0" name="Impulse X">15</param>
                     <param id="1" name="Implulse Y">0</param>
                     <param id="2" name="Image point">0</param>
                 </action>
@@ -297,7 +297,7 @@
                 <action id="-9" name="Destroy" type="TrozoPlanta4" />
             </actions>
         </event-block>
-        <event-group collapsed="1" description="" title="Piernas">
+        <event-group description="" title="Piernas">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -706,21 +706,27 @@
                 </action>
             </actions>
         </event-block>
-        <event-block>
+        <event-block disabled="1">
             <conditions>
-                <condition id="-8" name="Compare two values" type="System">
-                    <param id="0" name="First value">180-Time+timeleg</param>
+                <condition disabled="1" id="-8" name="Compare two values" type="System">
+                    <param id="0" name="First value">10-Time+timeleg</param>
                     <param id="1" name="Comparison">2</param>
                     <param id="2" name="Second value">0</param>
                 </condition>
-                <condition id="-14" name="Compare variable" type="System">
+                <condition disabled="1" id="-14" name="Compare variable" type="System">
                     <param id="0" name="Variable">fase</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">4</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" type="Tiempo" />
+                <action disabled="1" id="-9" name="Destroy" type="Tiempo" />
+                <action disabled="1" id="7" name="Go to URL" type="Browser">
+                    <param id="0" name="URL">&quot;localhost:50001&quot;</param>
+                </action>
+                <action disabled="1" id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
             </actions>
         </event-block>
         <event-block>
@@ -757,6 +763,155 @@
                     <param id="1" name="Tag (optional)">&quot;rain&quot;</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-group collapsed="1" description="Controla el comportamiento de la lluvia" title="Lluvia">
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="-14" name="Compare variable" type="System">
+                                    <param id="0" name="Variable">LluviaActiva</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-6" name="Every X seconds" type="System">
+                                    <param id="0" name="Interval (seconds)">0.1</param>
+                                </condition>
+                                <condition id="-12" name="Repeat" type="System">
+                                    <param id="0" name="Count">20</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" type="System">
+                                    <param id="0" name="Object to create">water</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="X">random(huevo.X-640,huevo.X+640)</param>
+                                    <param id="3" name="Y">huevo.Y-250</param>
+                                </action>
+                                <action id="-20" name="Rotate toward angle" type="water">
+                                    <param id="0" name="Degrees">90</param>
+                                    <param id="1" name="Angle">90</param>
+                                </action>
+                                <action id="-7" name="Set size" type="water">
+                                    <param id="0" name="Width">random(3,5)</param>
+                                    <param id="1" name="Height">random(3,5)</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="water">
+                                    <param id="0" name="Opacity">random(50,100)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="0" name="On collision with another object" type="water">
+                                    <param id="0" name="Object">huevo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Bullet" id="4" name="Bounce off object" type="water">
+                                    <param id="0" name="Object">Camino1</param>
+                                </action>
+                                <action behavior="Bullet" id="0" name="Set speed" type="water">
+                                    <param id="0" name="Speed">random(100,0)</param>
+                                </action>
+                                <action id="-20" name="Rotate toward angle" type="water">
+                                    <param id="0" name="Degrees">50</param>
+                                    <param id="1" name="Angle">random(340,200)</param>
+                                </action>
+                                <action id="-16" name="Wait" type="System">
+                                    <param id="0" name="Seconds">0.5</param>
+                                </action>
+                                <action id="-9" name="Destroy" type="water" />
+                            </actions>
+                        </event-block>
+                        <event-block any="1">
+                            <conditions>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Camino1</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Camino2</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Camino3</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Camino4</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Camino5a</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">camino5b</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Camino6</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Camino7</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Camino8</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">camino9</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Hierva</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Lucia</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="water">
+                                    <param id="0" name="Object">Sprite5</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">1</param>
+                                </condition>
+                                <condition id="-9" inverted="1" name="Is visible" type="water" />
+                            </conditions>
+                            <actions>
+                                <action behavior="Bullet" id="4" name="Bounce off object" type="water">
+                                    <param id="0" name="Object">Camino1</param>
+                                </action>
+                                <action behavior="Bullet" id="0" name="Set speed" type="water">
+                                    <param id="0" name="Speed">random(100,0)</param>
+                                </action>
+                                <action id="-20" name="Rotate toward angle" type="water">
+                                    <param id="0" name="Degrees">50</param>
+                                    <param id="1" name="Angle">random(340,200)</param>
+                                </action>
+                                <action id="-16" name="Wait" type="System">
+                                    <param id="0" name="Seconds">0.5</param>
+                                </action>
+                                <action id="-9" name="Destroy" type="water" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
         </event-block>
         <event-block>
             <conditions>
@@ -795,7 +950,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-group collapsed="1" description="Controla el comportamiento de la lluvia" title="Lluvia">
+        <event-group description="Controla el comportamiento de la lluvia" title="Lluvia2">
             <sub-events>
                 <event-block>
                     <conditions>
