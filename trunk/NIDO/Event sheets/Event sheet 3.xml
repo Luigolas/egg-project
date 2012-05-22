@@ -79,7 +79,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Hierva">
+        <event-group description="" title="Hierva">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -297,7 +297,7 @@
                 <action id="-9" name="Destroy" type="TrozoPlanta4" />
             </actions>
         </event-block>
-        <event-group description="" title="Piernas">
+        <event-group collapsed="1" description="" title="Piernas">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -1097,10 +1097,13 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block>
+        <event-block any="1">
             <conditions>
                 <condition id="0" name="On collision with another object" type="huevo">
                     <param id="0" name="Object">Sprite6</param>
+                </condition>
+                <condition id="0" name="On collision with another object" type="huevo">
+                    <param id="0" name="Object">spider</param>
                 </condition>
             </conditions>
             <actions>
@@ -1255,20 +1258,25 @@
                 <condition id="0" name="On collision with another object" type="Lucia">
                     <param id="0" name="Object">Sprite4</param>
                 </condition>
+                <condition id="-8" name="Compare two values" type="System">
+                    <param id="0" name="First value">abs(Lucia.Physics.VelocityX)</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Second value">5</param>
+                </condition>
                 <condition id="-12" name="Repeat" type="System">
-                    <param id="0" name="Count">20</param>
+                    <param id="0" name="Count">25</param>
                 </condition>
             </conditions>
             <actions>
                 <action behavior="ScrollTo" id="0" name="Shake" type="huevo">
-                    <param id="0" name="Magnitude">20</param>
-                    <param id="1" name="Duration">1</param>
+                    <param id="0" name="Magnitude">1*abs(Lucia.Physics.VelocityX)</param>
+                    <param id="1" name="Duration">0.1*abs(Lucia.Physics.VelocityX)</param>
                     <param id="2" name="Mode">0</param>
                 </action>
                 <action id="-3" name="Create object" type="System">
                     <param id="0" name="Object to create">leave</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">random(8500, 9000)</param>
+                    <param id="2" name="X">random(8500, 9500)</param>
                     <param id="3" name="Y">1500</param>
                 </action>
                 <action disabled="1" id="5" name="Set frame" type="leave">
@@ -1287,6 +1295,12 @@
                 </action>
                 <action behavior="Sine" id="2" name="Set magnitude" type="leave">
                     <param id="0" name="Magnitude">random(15,50)</param>
+                </action>
+                <action disabled="1" id="0" name="Set text" type="EggOver">
+                    <param id="0" name="Text">Lucia.Physics.VelocityX</param>
+                </action>
+                <action disabled="1" id="-15" name="Set visible" type="EggOver">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
@@ -1325,7 +1339,7 @@
                     <param id="0" name="Speed">0</param>
                 </action>
                 <action id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">1.0</param>
+                    <param id="0" name="Seconds">10</param>
                 </action>
                 <action id="-9" name="Destroy" type="leave" />
             </actions>
@@ -1341,10 +1355,164 @@
                     <param id="0" name="Pin to">huevo</param>
                 </action>
                 <action id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">1.0</param>
+                    <param id="0" name="Seconds">2</param>
                 </action>
                 <action id="-9" name="Destroy" type="leave" />
             </actions>
+        </event-block>
+        <event-group collapsed="1" description="" title="Spider">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-2" name="Compare Y" type="spider">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Y co-ordinate">570</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" type="spider">
+                            <param id="0" name="Instance variable">Atacando</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" type="spider">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-8" name="Compare two values" type="System">
+                            <param id="0" name="First value">abs(spider.X-huevo.X)</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">150</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" type="spider">
+                            <param id="0" name="Instance variable">Atacando</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" type="spider">
+                            <param id="0" name="Speed">500</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" type="spider">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                        <action id="-10" name="Set value" type="spider">
+                            <param id="0" name="Instance variable">Atacando</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" type="spider">
+                            <param id="0" name="Object">Camino3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" type="spider">
+                            <param id="0" name="Speed">100</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" type="spider">
+                            <param id="0" name="Angle">-90</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block>
+            <conditions>
+                <condition id="-8" name="Compare two values" type="System">
+                    <param id="0" name="First value">abs(huevo.Physics.VelocityY)</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Second value">500</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino1</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino2</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino3</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino4</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino5a</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">camino5b</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino5c</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino6</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino7</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Camino8</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">camino9</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Lucia</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Sprite4</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" type="huevo">
+                            <param id="0" name="Object">Sprite5</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" type="huevo">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

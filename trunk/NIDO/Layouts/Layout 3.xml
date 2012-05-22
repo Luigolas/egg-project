@@ -757,11 +757,11 @@
                         <x>8654</x>
                         <y>1413</y>
                         <z>0</z>
-                        <width>64.596076965</width>
-                        <height>42.593219757</height>
+                        <width>29</width>
+                        <height>14</height>
                         <depth>0</depth>
-                        <hotspotX>0.501760542</hotspotX>
-                        <hotspotY>0.501392782</hotspotY>
+                        <hotspotX>0.501960814</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1125,26 +1125,29 @@
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
+                    <instance-variables>
+                        <Atacando>0</Atacando>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
                                 <speed>0</speed>
                                 <acceleration>0</acceleration>
-                                <gravity>10</gravity>
+                                <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3666</x>
-                        <y>544</y>
+                        <x>3762</x>
+                        <y>533</y>
                         <z>0</z>
                         <width>111.895301819</width>
-                        <height>107.04649353</height>
+                        <height>642.278930664</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501742184</hotspotY>
+                        <hotspotY>0.92334497</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1678,8 +1681,8 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>143</x>
-                        <y>149</y>
+                        <x>150</x>
+                        <y>-68</y>
                         <z>0</z>
                         <width>47.175186157</width>
                         <height>59.204853058</height>
