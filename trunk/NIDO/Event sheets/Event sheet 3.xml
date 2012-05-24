@@ -16,7 +16,7 @@
         <variable name="LluviaActiva" type="number">0</variable>
         <variable name="state" type="number">-1</variable>
         <variable name="statepierna" type="number">-1</variable>
-        <event-group collapsed="1" description="" title="Control">
+        <event-group description="" title="Control">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -37,19 +37,111 @@
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">87 (W)</param>
                         </condition>
-                        <condition id="9" name="Is overlapping at offset" type="huevo">
-                            <param id="0" name="Object">Camino1</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
                     </conditions>
-                    <actions>
-                        <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
-                            <param id="0" name="Impulse X">0</param>
-                            <param id="1" name="Implulse Y">-2</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1">
+                            <conditions>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino1</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino2</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino3</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino4</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino5a</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">camino5b</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino5c</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino6</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino7</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Camino8</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">camino9</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">leg</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">leg2</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Lucia</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Sprite5</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Sprite4</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">TrozoPlanta4</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">TrozoPlanta3</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                                    <param id="0" name="Impulse X">0</param>
+                                    <param id="1" name="Implulse Y">-2</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block>
                     <conditions>
