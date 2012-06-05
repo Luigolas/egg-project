@@ -89,7 +89,7 @@
                         <action behavior="Pin" id="0" name="Pin to object" type="Lucia">
                             <param id="0" name="Pin to">Pajaro</param>
                         </action>
-                        <action id="-10" name="Set value" type="Pajaro">
+                        <action disabled="1" id="-10" name="Set value" type="Pajaro">
                             <param id="0" name="Instance variable">Xrelease</param>
                             <param id="1" name="Value">random(huevo.X,600)</param>
                         </action>
@@ -98,7 +98,7 @@
                 <event-block>
                     <conditions>
                         <condition id="-8" name="Compare two values" type="System">
-                            <param id="0" name="First value">abs(Pajaro.X-Pajaro.Xrelease)</param>
+                            <param id="0" name="First value">abs(Pajaro.X-huevo.X)</param>
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Second value">10</param>
                         </condition>
@@ -107,6 +107,11 @@
                         <action behavior="Pin" id="1" name="Unpin" type="Lucia" />
                         <action behavior="Physics" id="21" name="Set immovable" type="Lucia">
                             <param id="0" name="Setting">0</param>
+                        </action>
+                        <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
+                            <param id="0" name="Impulse X">0</param>
+                            <param id="1" name="Implulse Y">0.2</param>
+                            <param id="2" name="Image point">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -131,6 +136,10 @@
                 <action id="4" name="Set animation" type="huevo">
                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Physics" id="23" name="Enable/disable collisions" type="Lucia">
+                    <param id="0" name="Object">Camino1</param>
+                    <param id="1" name="State">0</param>
                 </action>
             </actions>
         </event-block>
@@ -263,6 +272,19 @@
                 <action behavior="Physics" id="23" name="Enable/disable collisions" type="Lucia">
                     <param id="0" name="Object">Camino1</param>
                     <param id="1" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" type="Sprite3">
+                    <param id="0" name="Pin to">Sprite</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" type="Sprite4">
+                    <param id="0" name="Pin to">Sprite</param>
                 </action>
             </actions>
         </event-block>
