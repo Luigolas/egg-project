@@ -1618,14 +1618,14 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>3365</x>
-                        <y>728</y>
+                        <x>3369</x>
+                        <y>525</y>
                         <z>0</z>
-                        <width>410.798614502</width>
-                        <height>307.99029541</height>
+                        <width>404.060638428</width>
+                        <height>715.528625488</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500352859</hotspotY>
+                        <hotspotX>0.500268936</hotspotX>
+                        <hotspotY>0.500303745</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1668,14 +1668,14 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>8783</x>
-                        <y>1743</y>
+                        <x>8788</x>
+                        <y>1566</y>
                         <z>0</z>
-                        <width>410.798614502</width>
-                        <height>307.99029541</height>
+                        <width>418</width>
+                        <height>650</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500352859</hotspotY>
+                        <hotspotX>0.500268936</hotspotX>
+                        <hotspotY>0.500303745</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
