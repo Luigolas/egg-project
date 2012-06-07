@@ -5,7 +5,7 @@
     <events>
         <variable name="vidas" type="number">0</variable>
         <variable name="respawn" type="number">0</variable>
-        <event-group description="" title="Control">
+        <event-group collapsed="1" description="" title="Control">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -83,12 +83,25 @@
                     <param id="0" name="X">huevo.X</param>
                 </action>
                 <action id="-2" name="Set Y" type="Scroller">
-                    <param id="0" name="Y">huevo.Y-150</param>
+                    <param id="0" name="Y">huevo.Y-200</param>
                 </action>
             </actions>
         </event-block>
         <event-group description="" title="PajaroLoco">
             <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" type="Pajaro" />
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" type="Pajaro">
+                            <param id="0" name="Instance variable">hasStone</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
+                            <param id="0" name="Speed">200</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block>
                     <conditions>
                         <condition id="-2" name="On start of layout" type="System" />
@@ -97,10 +110,6 @@
                         <action behavior="Pin" id="0" name="Pin to object" type="Lucia">
                             <param id="0" name="Pin to">Pajaro</param>
                         </action>
-                        <action disabled="1" id="-10" name="Set value" type="Pajaro">
-                            <param id="0" name="Instance variable">Xrelease</param>
-                            <param id="1" name="Value">random(huevo.X,600)</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block>
@@ -108,7 +117,7 @@
                         <condition id="-8" name="Compare two values" type="System">
                             <param id="0" name="First value">abs(Pajaro.X-huevo.X)</param>
                             <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Second value">10</param>
+                            <param id="2" name="Second value">70</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -116,18 +125,139 @@
                         <action behavior="Physics" id="21" name="Set immovable" type="Lucia">
                             <param id="0" name="Setting">0</param>
                         </action>
-                        <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
-                            <param id="0" name="Impulse X">0</param>
-                            <param id="1" name="Implulse Y">0.2</param>
-                            <param id="2" name="Image point">0</param>
+                        <action id="-13" name="Set boolean" type="Pajaro">
+                            <param id="0" name="Instance variable">hasStone</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="-8" name="Compare two values" type="System">
+                                    <param id="0" name="First value">Pajaro.Bullet.AngleOfMotion</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
+                                    <param id="0" name="Impulse X">0.02</param>
+                                    <param id="1" name="Implulse Y">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="-22" name="Else" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
+                                    <param id="0" name="Impulse X">-0.02</param>
+                                    <param id="1" name="Implulse Y">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Compare X" type="Pajaro">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="X co-ordinate">-100</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" type="Pajaro">
+                            <param id="0" name="Instance variable">hasStone</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" type="Pajaro">
+                            <param id="0" name="Animation">&quot;cogehuevo&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" type="Pajaro">
+                            <param id="0" name="Angle">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
+                            <param id="0" name="Speed">100</param>
+                        </action>
+                        <action id="-3" name="Create object" type="System">
+                            <param id="0" name="Object to create">Lucia</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Pajaro.X</param>
+                            <param id="3" name="Y">Pajaro.Y+30</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" type="Lucia">
+                            <param id="0" name="Pin to">Pajaro</param>
+                        </action>
+                        <action id="-24" name="Move to top" type="Pajaro" />
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" type="Lucia">
+                            <param id="0" name="Object">Camino1</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" type="Sprite3">
+                            <param id="0" name="Instance variable">ToDelete</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" type="Sprite4">
+                            <param id="0" name="Instance variable">ToDelete</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" type="Pajaro">
+                            <param id="0" name="Instance variable">hasStone</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block>
                     <conditions>
-                        <condition id="-9" inverted="1" name="Is visible" type="Pajaro" />
+                        <condition id="-1" name="Compare X" type="Pajaro">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="X co-ordinate">1400</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" type="Pajaro">
+                            <param id="0" name="Instance variable">hasStone</param>
+                        </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="4" name="Set animation" type="Pajaro">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" type="Pajaro">
+                            <param id="0" name="Angle">180</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
+                            <param id="0" name="Speed">100</param>
+                        </action>
+                        <action id="-3" name="Create object" type="System">
+                            <param id="0" name="Object to create">Lucia</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Pajaro.X</param>
+                            <param id="3" name="Y">Pajaro.Y+30</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" type="Lucia">
+                            <param id="0" name="Pin to">Pajaro</param>
+                        </action>
+                        <action id="-24" name="Move to top" type="Pajaro" />
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" type="Lucia">
+                            <param id="0" name="Object">Camino1</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" type="Sprite4">
+                            <param id="0" name="Instance variable">ToDelete</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" type="Sprite3">
+                            <param id="0" name="Instance variable">ToDelete</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" type="Pajaro">
+                            <param id="0" name="Instance variable">hasStone</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
@@ -223,68 +353,6 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="-1" name="Compare X" type="Pajaro">
-                    <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-100</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" type="Pajaro">
-                    <param id="0" name="Animation">&quot;cogehuevo&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action behavior="Bullet" id="3" name="Set angle of motion" type="Pajaro">
-                    <param id="0" name="Angle">0</param>
-                </action>
-                <action id="-3" name="Create object" type="System">
-                    <param id="0" name="Object to create">Lucia</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">Pajaro.X</param>
-                    <param id="3" name="Y">Pajaro.Y+30</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" type="Lucia">
-                    <param id="0" name="Pin to">Pajaro</param>
-                </action>
-                <action id="-24" name="Move to top" type="Pajaro" />
-                <action behavior="Physics" id="23" name="Enable/disable collisions" type="Lucia">
-                    <param id="0" name="Object">Camino1</param>
-                    <param id="1" name="State">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="-1" name="Compare X" type="Pajaro">
-                    <param id="0" name="Comparison">4</param>
-                    <param id="1" name="X co-ordinate">1400</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" type="Pajaro">
-                    <param id="0" name="Animation">&quot;Default&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action behavior="Bullet" id="3" name="Set angle of motion" type="Pajaro">
-                    <param id="0" name="Angle">180</param>
-                </action>
-                <action id="-3" name="Create object" type="System">
-                    <param id="0" name="Object to create">Lucia</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">Pajaro.X</param>
-                    <param id="3" name="Y">Pajaro.Y+30</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" type="Lucia">
-                    <param id="0" name="Pin to">Pajaro</param>
-                </action>
-                <action id="-24" name="Move to top" type="Pajaro" />
-                <action behavior="Physics" id="23" name="Enable/disable collisions" type="Lucia">
-                    <param id="0" name="Object">Camino1</param>
-                    <param id="1" name="State">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
                 <condition id="-2" name="On start of layout" type="System" />
             </conditions>
             <actions>
@@ -301,11 +369,52 @@
                 <condition id="0" name="On collision with another object" type="Lucia">
                     <param id="0" name="Object">Sprite3</param>
                 </condition>
+                <condition id="-15" name="Pick nearest/furthest" type="Sprite3">
+                    <param id="0" name="Which">0</param>
+                    <param id="1" name="X">Lucia.X</param>
+                    <param id="2" name="Y">Lucia.Y</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-10" name="Set value" type="Lucia">
                     <param id="0" name="Instance variable">botahoja</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set boolean" type="Sprite3">
+                    <param id="0" name="Instance variable">ToDelete</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
+                    <param id="0" name="Impulse X">0</param>
+                    <param id="1" name="Implulse Y">-1.5</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On collision with another object" type="Lucia">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+                <condition id="-15" name="Pick nearest/furthest" type="Sprite4">
+                    <param id="0" name="Which">0</param>
+                    <param id="1" name="X">Lucia.X</param>
+                    <param id="2" name="Y">Lucia.Y</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" type="Lucia">
+                    <param id="0" name="Instance variable">botahoja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set boolean" type="Sprite4">
+                    <param id="0" name="Instance variable">ToDelete</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
+                    <param id="0" name="Impulse X">0</param>
+                    <param id="1" name="Implulse Y">-1.5</param>
+                    <param id="2" name="Image point">0</param>
                 </action>
             </actions>
         </event-block>
@@ -334,7 +443,45 @@
                     <param id="1" name="&apos;Off&apos; time">0.1</param>
                     <param id="2" name="Duration">1.0</param>
                 </action>
+                <action id="-9" name="Destroy" type="Lucia" />
             </actions>
+            <sub-events>
+                <event-block any="1">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" type="Sprite3">
+                            <param id="0" name="Instance variable">ToDelete</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" type="Sprite4">
+                            <param id="0" name="Instance variable">ToDelete</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="1" name="Unpin" type="Sprite3" />
+                        <action behavior="Pin" id="1" name="Unpin" type="Sprite4" />
+                        <action behavior="Flash" id="0" name="Flash" type="Sprite3">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">3.0</param>
+                        </action>
+                        <action behavior="Flash" id="0" name="Flash" type="Sprite4">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">3</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" type="Sprite3">
+                            <param id="0" name="Setting">0</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" type="Sprite4">
+                            <param id="0" name="Setting">0</param>
+                        </action>
+                        <action id="-16" name="Wait" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="-9" name="Destroy" type="Sprite3" />
+                        <action id="-9" name="Destroy" type="Sprite4" />
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block>
             <conditions>
