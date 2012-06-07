@@ -1630,37 +1630,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="water">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>400</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="DestroyOutsideLayout" />
-                    </behavior-instances>
-                    <world>
-                        <x>4940.5</x>
-                        <y>1648</y>
-                        <z>0</z>
-                        <width>85</width>
-                        <height>88</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -7404,8 +7373,8 @@
                         <width>251</width>
                         <height>247</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.503401339</hotspotX>
+                        <hotspotY>0.502024293</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -7423,8 +7392,8 @@
                         <width>251</width>
                         <height>247</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.503401339</hotspotX>
+                        <hotspotY>0.502024293</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

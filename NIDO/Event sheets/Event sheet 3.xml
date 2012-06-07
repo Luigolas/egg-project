@@ -5,18 +5,9 @@
     <events>
         <variable name="vidas" type="number">0</variable>
         <variable name="respawn" type="number">0</variable>
-        <variable name="timeleg" type="number">0</variable>
-        <variable name="fase" type="number">3</variable>
-        <variable name="velpaso" type="number">5</variable>
-        <variable name="ladopiernas" type="number">0</variable>
-        <variable name="pasoang" type="number">0.1</variable>
         <variable name="SonidoGrass" type="number">0</variable>
-        <variable name="pasodist" type="number">1.4</variable>
         <variable name="ticky" type="number">0</variable>
-        <variable name="LluviaActiva" type="number">0</variable>
-        <variable name="state" type="number">-1</variable>
-        <variable name="statepierna" type="number">-1</variable>
-        <event-group collapsed="1" description="" title="Control">
+        <event-group description="" title="Control">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -101,16 +92,6 @@
                                     <param id="2" name="Offset Y">2</param>
                                 </condition>
                                 <condition id="9" name="Is overlapping at offset" type="huevo">
-                                    <param id="0" name="Object">leg</param>
-                                    <param id="1" name="Offset X">0</param>
-                                    <param id="2" name="Offset Y">2</param>
-                                </condition>
-                                <condition id="9" name="Is overlapping at offset" type="huevo">
-                                    <param id="0" name="Object">leg2</param>
-                                    <param id="1" name="Offset X">0</param>
-                                    <param id="2" name="Offset Y">2</param>
-                                </condition>
-                                <condition id="9" name="Is overlapping at offset" type="huevo">
                                     <param id="0" name="Object">Lucia</param>
                                     <param id="1" name="Offset X">0</param>
                                     <param id="2" name="Offset Y">2</param>
@@ -177,7 +158,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Hierva">
+        <event-group description="" title="Hierva">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -243,7 +224,6 @@
                             <param id="2" name="Lower angle">-20</param>
                             <param id="3" name="Upper angle">20</param>
                         </action>
-                        <action id="-9" name="Destroy" type="Pajaro" />
                     </actions>
                 </event-block>
                 <event-block>
@@ -319,11 +299,6 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
-                <condition id="-8" name="Compare two values" type="System">
-                    <param id="0" name="First value">Lucia.Physics.VelocityX</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Second value">5</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="4" name="Set animation" type="huevo">
@@ -385,27 +360,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block collapsed="1" disabled="1">
-            <conditions>
-                <condition disabled="1" id="-10" name="For" type="System">
-                    <param id="0" name="Name">&quot;loop2&quot;</param>
-                    <param id="1" name="Start index">0</param>
-                    <param id="2" name="End index">20</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block disabled="1">
-                    <conditions>
-                        <condition disabled="1" id="-13" name="Pick nth instance" type="System">
-                            <param id="0" name="Object">Hierva</param>
-                            <param id="1" name="Instance">loopindex(&quot;loop2&quot;)</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block>
             <conditions>
                 <condition id="0" name="On collision with another object" type="huevo">
@@ -441,484 +395,16 @@
                 <action id="-9" name="Destroy" type="TrozoPlanta4" />
             </actions>
         </event-block>
-        <event-group description="" title="Piernas">
-            <sub-events>
-                <event-block>
-                    <conditions>
-                        <condition id="-1" name="Every tick" type="System" />
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" type="System">
-                            <param id="0" name="Variable">ticky</param>
-                            <param id="1" name="Value">1*velpaso</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">ticky</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">170</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-9" name="Set value" type="System">
-                            <param id="0" name="Variable">ticky</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">6</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                    <sub-events>
-                        <event-block>
-                            <conditions>
-                                <condition id="-1" name="Compare X" type="leg">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="X co-ordinate">1324</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" type="System">
-                                    <param id="0" name="Variable">fase</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">4</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">pasodist</param>
-                                    <param id="1" name="Value">-pasodist</param>
-                                </action>
-                                <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">pasoang</param>
-                                    <param id="1" name="Value">-pasoang</param>
-                                </action>
-                                <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">statepierna</param>
-                                    <param id="1" name="Value">3</param>
-                                </action>
-                                <action disabled="1" id="4" name="Set animation" type="leg">
-                                    <param id="0" name="Animation">&quot;Default&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action disabled="1" id="4" name="Set animation" type="leg2">
-                                    <param id="0" name="Animation">&quot;Default&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="7" name="Set mirrored" type="leg">
-                                    <param id="0" name="State">1</param>
-                                </action>
-                                <action id="7" name="Set mirrored" type="leg2">
-                                    <param id="0" name="State">1</param>
-                                </action>
-                                <action behavior="Pin" id="1" name="Unpin" type="Suela2" />
-                                <action disabled="1" id="-1" name="Set X" type="Suela2">
-                                    <param id="0" name="X">leg2.ImagePointX(1)</param>
-                                </action>
-                                <action id="-3" name="Set position" type="Suela2">
-                                    <param id="0" name="X">leg2.ImagePointX(1)</param>
-                                    <param id="1" name="Y">leg2.ImagePointY(1)</param>
-                                </action>
-                                <action behavior="Pin" id="0" name="Pin to object" type="Suela2">
-                                    <param id="0" name="Pin to">leg2</param>
-                                </action>
-                                <action behavior="Pin" id="1" name="Unpin" type="Suela" />
-                                <action disabled="1" id="-1" name="Set X" type="Suela">
-                                    <param id="0" name="X">leg.ImagePointX(1)</param>
-                                </action>
-                                <action id="-3" name="Set position" type="Suela">
-                                    <param id="0" name="X">leg.ImagePointX(1)</param>
-                                    <param id="1" name="Y">leg.ImagePointY(1)</param>
-                                </action>
-                                <action behavior="Pin" id="0" name="Pin to object" type="Suela">
-                                    <param id="0" name="Pin to">leg</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block>
-                            <conditions>
-                                <condition id="-1" name="Compare X" type="leg">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">-300</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" type="System">
-                                    <param id="0" name="Variable">fase</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">4</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">pasodist</param>
-                                    <param id="1" name="Value">-pasodist</param>
-                                </action>
-                                <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">pasoang</param>
-                                    <param id="1" name="Value">-pasoang</param>
-                                </action>
-                                <action id="-9" name="Set value" type="System">
-                                    <param id="0" name="Variable">statepierna</param>
-                                    <param id="1" name="Value">3</param>
-                                </action>
-                                <action disabled="1" id="4" name="Set animation" type="leg">
-                                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action disabled="1" id="4" name="Set animation" type="leg2">
-                                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="7" name="Set mirrored" type="leg">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                                <action id="7" name="Set mirrored" type="leg2">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                                <action behavior="Pin" id="1" name="Unpin" type="Suela2" />
-                                <action disabled="1" id="-1" name="Set X" type="Suela2">
-                                    <param id="0" name="X">leg2.ImagePointX(1)</param>
-                                </action>
-                                <action id="-3" name="Set position" type="Suela2">
-                                    <param id="0" name="X">leg2.ImagePointX(1)</param>
-                                    <param id="1" name="Y">leg2.ImagePointY(1)</param>
-                                </action>
-                                <action behavior="Pin" id="0" name="Pin to object" type="Suela2">
-                                    <param id="0" name="Pin to">leg2</param>
-                                </action>
-                                <action behavior="Pin" id="1" name="Unpin" type="Suela" />
-                                <action disabled="1" id="-1" name="Set X" type="Suela">
-                                    <param id="0" name="X">leg.ImagePointX(1)</param>
-                                </action>
-                                <action id="-3" name="Set position" type="Suela">
-                                    <param id="0" name="X">leg.ImagePointX(1)</param>
-                                    <param id="1" name="Y">leg.ImagePointY(1)</param>
-                                </action>
-                                <action behavior="Pin" id="0" name="Pin to object" type="Suela">
-                                    <param id="0" name="Pin to">leg</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Set Y" type="leg2">
-                            <param id="0" name="Y">leg2.Y-1*velpaso</param>
-                        </action>
-                        <action id="-18" name="Rotate clockwise" type="leg2">
-                            <param id="0" name="Degrees">pasoang*velpaso</param>
-                        </action>
-                        <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-pasodist*velpaso</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-pasodist*velpaso</param>
-                        </action>
-                        <action id="-2" name="Set Y" type="leg2">
-                            <param id="0" name="Y">leg2.Y+1*velpaso</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-19" name="Rotate counter-clockwise" type="leg2">
-                            <param id="0" name="Degrees">pasoang*velpaso</param>
-                        </action>
-                        <action id="-1" name="Set X" type="leg2">
-                            <param id="0" name="X">leg2.X-pasodist*velpaso</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Set Y" type="leg">
-                            <param id="0" name="Y">leg.Y-1*velpaso</param>
-                        </action>
-                        <action id="-18" name="Rotate clockwise" type="leg">
-                            <param id="0" name="Degrees">pasoang*velpaso</param>
-                        </action>
-                        <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-pasodist*velpaso</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-pasodist*velpaso</param>
-                        </action>
-                        <action id="-2" name="Set Y" type="leg">
-                            <param id="0" name="Y">leg.Y+1*velpaso</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">5</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-1" name="Set X" type="leg">
-                            <param id="0" name="X">leg.X-pasodist*velpaso</param>
-                        </action>
-                        <action id="-19" name="Rotate counter-clockwise" type="leg">
-                            <param id="0" name="Degrees">pasoang*velpaso</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-2" name="On start of layout" type="System" />
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Pin" id="0" name="Pin to object" type="Suela">
-                            <param id="0" name="Pin to">leg</param>
-                        </action>
-                        <action behavior="Pin" id="0" name="Pin to object" type="Suela2">
-                            <param id="0" name="Pin to">leg2</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="0" name="On collision with another object" type="Suela">
-                            <param id="0" name="Object">huevo</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" type="huevo">
-                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="0" name="On collision with another object" type="Suela2">
-                            <param id="0" name="Object">huevo</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">fase</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" type="huevo">
-                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="0" name="On collision with another object" type="Suela">
-                            <param id="0" name="Object">Camino3</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="ScrollTo" id="0" name="Shake" type="huevo">
-                            <param id="0" name="Magnitude">20</param>
-                            <param id="1" name="Duration">0.4</param>
-                            <param id="2" name="Mode">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-block>
-            <conditions>
-                <condition id="-1" name="Every tick" type="System" />
-                <condition id="-14" name="Compare variable" type="System">
-                    <param id="0" name="Variable">fase</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">4</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" type="Tiempo">
-                    <param id="0" name="Text">180-Time+timeleg</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block disabled="1">
-            <conditions>
-                <condition disabled="1" id="-8" name="Compare two values" type="System">
-                    <param id="0" name="First value">10-Time+timeleg</param>
-                    <param id="1" name="Comparison">2</param>
-                    <param id="2" name="Second value">0</param>
-                </condition>
-                <condition disabled="1" id="-14" name="Compare variable" type="System">
-                    <param id="0" name="Variable">fase</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">4</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action disabled="1" id="-9" name="Destroy" type="Tiempo" />
-                <action disabled="1" id="7" name="Go to URL" type="Browser">
-                    <param id="0" name="URL">&quot;localhost:50001&quot;</param>
-                </action>
-                <action disabled="1" id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">2.0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block>
             <conditions>
                 <condition id="-1" name="Compare X" type="huevo">
                     <param id="0" name="Comparison">4</param>
                     <param id="1" name="X co-ordinate">10950</param>
                 </condition>
-                <condition id="-14" name="Compare variable" type="System">
-                    <param id="0" name="Variable">fase</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">3</param>
-                </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" type="System">
-                    <param id="0" name="Layout">Layout 4</param>
-                </action>
-                <action id="-10" name="Add to" type="System">
-                    <param id="0" name="Variable">fase</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-9" name="Set value" type="System">
-                    <param id="0" name="Variable">timeleg</param>
-                    <param id="1" name="Value">time</param>
-                </action>
-                <action id="-9" name="Set value" type="System">
-                    <param id="0" name="Variable">LluviaActiva</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="0" name="Play" type="MainMusic">
-                    <param id="0" name="Audio file">rain_loop</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="1" name="Tag (optional)">&quot;rain&quot;</param>
+                <action id="7" name="Go to URL" type="Browser">
+                    <param id="0" name="URL">&quot;localhost:50002&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -956,153 +442,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-group collapsed="1" description="Controla el comportamiento de la lluvia" title="Lluvia2">
-            <sub-events>
-                <event-block>
-                    <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
-                            <param id="0" name="Variable">LluviaActiva</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                        <condition id="-6" name="Every X seconds" type="System">
-                            <param id="0" name="Interval (seconds)">0.1</param>
-                        </condition>
-                        <condition id="-12" name="Repeat" type="System">
-                            <param id="0" name="Count">20</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Create object" type="System">
-                            <param id="0" name="Object to create">water</param>
-                            <param id="1" name="Layer">1</param>
-                            <param id="2" name="X">random(huevo.X-640,huevo.X+640)</param>
-                            <param id="3" name="Y">10</param>
-                        </action>
-                        <action id="-20" name="Rotate toward angle" type="water">
-                            <param id="0" name="Degrees">90</param>
-                            <param id="1" name="Angle">90</param>
-                        </action>
-                        <action id="-7" name="Set size" type="water">
-                            <param id="0" name="Width">random(3,5)</param>
-                            <param id="1" name="Height">random(3,5)</param>
-                        </action>
-                        <action id="-16" name="Set opacity" type="water">
-                            <param id="0" name="Opacity">random(50,100)</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="0" name="On collision with another object" type="water">
-                            <param id="0" name="Object">huevo</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Bullet" id="4" name="Bounce off object" type="water">
-                            <param id="0" name="Object">Camino1</param>
-                        </action>
-                        <action behavior="Bullet" id="0" name="Set speed" type="water">
-                            <param id="0" name="Speed">random(100,0)</param>
-                        </action>
-                        <action id="-20" name="Rotate toward angle" type="water">
-                            <param id="0" name="Degrees">50</param>
-                            <param id="1" name="Angle">random(340,200)</param>
-                        </action>
-                        <action id="-16" name="Wait" type="System">
-                            <param id="0" name="Seconds">0.5</param>
-                        </action>
-                        <action id="-9" name="Destroy" type="water" />
-                    </actions>
-                </event-block>
-                <event-block any="1">
-                    <conditions>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Camino1</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Camino2</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Camino3</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Camino4</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Camino5a</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">camino5b</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Camino6</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Camino7</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Camino8</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">camino9</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Hierva</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Lucia</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">Sprite5</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">1</param>
-                        </condition>
-                        <condition id="-9" inverted="1" name="Is visible" type="water" />
-                    </conditions>
-                    <actions>
-                        <action behavior="Bullet" id="4" name="Bounce off object" type="water">
-                            <param id="0" name="Object">Camino1</param>
-                        </action>
-                        <action behavior="Bullet" id="0" name="Set speed" type="water">
-                            <param id="0" name="Speed">random(100,0)</param>
-                        </action>
-                        <action id="-20" name="Rotate toward angle" type="water">
-                            <param id="0" name="Degrees">50</param>
-                            <param id="1" name="Angle">random(340,200)</param>
-                        </action>
-                        <action id="-16" name="Wait" type="System">
-                            <param id="0" name="Seconds">0.5</param>
-                        </action>
-                        <action id="-9" name="Destroy" type="water" />
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-block any="1">
             <conditions>
                 <condition id="0" name="On collision with another object" type="huevo">
@@ -1162,7 +501,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block collapsed="1">
+        <event-block>
             <conditions>
                 <condition id="-2" name="On start of layout" type="System" />
                 <condition id="-10" name="For" type="System">
@@ -1193,11 +532,6 @@
                     <param id="1" name="Comparison">5</param>
                     <param id="2" name="Value">5</param>
                 </condition>
-                <condition id="-14" name="Compare variable" type="System">
-                    <param id="0" name="Variable">fase</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">3</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" type="System">
@@ -1217,36 +551,6 @@
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action disabled="1" id="-9" name="Destroy" type="HuevoIntro4" />
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="-14" name="Compare variable" type="System">
-                    <param id="0" name="Variable">respawn</param>
-                    <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">5</param>
-                </condition>
-                <condition id="-14" name="Compare variable" type="System">
-                    <param id="0" name="Variable">fase</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">4</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-21" name="Reset global variables" type="System" />
-                <action id="-9" name="Set value" type="System">
-                    <param id="0" name="Variable">timeleg</param>
-                    <param id="1" name="Value">time</param>
-                </action>
-                <action id="-9" name="Set value" type="System">
-                    <param id="0" name="Variable">fase</param>
-                    <param id="1" name="Value">4</param>
-                </action>
-                <action id="-9" name="Set value" type="System">
-                    <param id="0" name="Variable">LluviaActiva</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-26" name="Restart layout" type="System" />
             </actions>
         </event-block>
         <event-block>
@@ -1434,7 +738,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block collapsed="1">
+        <event-block>
             <conditions>
                 <condition id="-8" name="Compare two values" type="System">
                     <param id="0" name="First value">abs(huevo.Physics.VelocityY)</param>
