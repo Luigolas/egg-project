@@ -24,25 +24,6 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
-                <instance type="FondoIntro2">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>347.5</x>
-                        <y>244</y>
-                        <z>0</z>
-                        <width>694</width>
-                        <height>503</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500784934</hotspotX>
-                        <hotspotY>0.501094103</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="HuevoIntro2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
