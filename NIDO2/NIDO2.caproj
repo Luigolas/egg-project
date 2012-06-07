@@ -7,12 +7,13 @@
     <unique-id>2r0nu727kxcl6</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Text" version="1">Text</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Text" version="1">Text</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior id="scrollto" version="1">Scroll To</behavior>
         <behavior id="Anchor" version="1">Anchor</behavior>
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="DragnDrop" version="1">Drag &amp; Drop</behavior>
@@ -20,7 +21,6 @@
         <behavior id="Physics" version="1">Physics</behavior>
         <behavior id="Pin" version="1">Pin</behavior>
         <behavior id="bound" version="1">Bound to layout</behavior>
-        <behavior id="scrollto" version="1">Scroll To</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -122,6 +122,7 @@
                 <instance-variable name="sp" type="number" />
                 <instance-variable comment="Donde va a soltar la piedra" name="Xrelease" type="number" />
                 <instance-variable name="vvv" type="number" />
+                <instance-variable name="hasStone" type="boolean" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Bullet">
@@ -338,19 +339,19 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="0.0131579" y="0.118421" />
+                            <point x="0" y="0.0481481" />
+                            <point x="0.272727" y="0" />
+                            <point x="1" y="0.0222222" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0.894737" />
-                            <point x="0" y="1" />
+                            <point x="0" y="0.985185" />
+                            <point x="0.409091" y="0" />
+                            <point x="0.818182" y="0" />
+                            <point x="0.681818" y="0.944444" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -366,12 +367,18 @@
         </object-type>
         <object-type name="Sprite3">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ToDelete" type="boolean" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Physics">
                     <behavior id="Physics" />
                 </behavior-type>
                 <behavior-type name="Pin">
                     <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Flash">
+                    <behavior id="Flash" />
                 </behavior-type>
             </behaviors>
             <animation-folder expanded="1">
@@ -393,12 +400,18 @@
         </object-type>
         <object-type name="Sprite4">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ToDelete" type="boolean" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Physics">
                     <behavior id="Physics" />
                 </behavior-type>
                 <behavior-type name="Pin">
                     <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Flash">
+                    <behavior id="Flash" />
                 </behavior-type>
             </behaviors>
             <animation-folder expanded="1">
