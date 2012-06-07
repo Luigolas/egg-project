@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable name="rayos" type="number">0</variable>
+        <variable name="gravedad" type="number">0</variable>
+        <variable name="trueno" type="number">0</variable>
+        <variable name="LluviaActiva" type="number">0</variable>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                    <param id="0" name="Impulse X">5.5</param>
+                    <param id="1" name="Implulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Compare X" type="huevo">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">300</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">trueno</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">trueno</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="ScrollTo" id="0" name="Shake" type="Sprite">
+                    <param id="0" name="Magnitude">20</param>
+                    <param id="1" name="Duration">2</param>
+                    <param id="2" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">trueno</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" type="Sprite">
+                    <param id="0" name="Speed">60</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" type="Sprite">
+                    <param id="0" name="Angle">-90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="Compare Y" type="Sprite">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">10</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">rayos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" type="Sprite2">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">rayos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">rayos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" type="Sprite3">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">rayos</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition behavior="Flash" id="1" name="On flash ended" type="Sprite2" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="Sprite2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition behavior="Flash" id="1" name="On flash ended" type="Sprite3" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="Sprite3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">LluviaActiva</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="Compare Y" type="Sprite">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="0" name="Set speed" type="Sprite">
+                    <param id="0" name="Speed">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">LluviaActiva</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" type="System">
+                    <param id="0" name="Interval (seconds)">0.1</param>
+                </condition>
+                <condition id="-12" name="Repeat" type="System">
+                    <param id="0" name="Count">20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" type="System">
+                    <param id="0" name="Object to create">water</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">random(huevo.X-640,huevo.X+640)</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-20" name="Rotate toward angle" type="water">
+                    <param id="0" name="Degrees">90</param>
+                    <param id="1" name="Angle">90</param>
+                </action>
+                <action id="-7" name="Set size" type="water">
+                    <param id="0" name="Width">random(3,5)</param>
+                    <param id="1" name="Height">random(3,5)</param>
+                </action>
+                <action id="-16" name="Set opacity" type="water">
+                    <param id="0" name="Opacity">random(50,100)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On collision with another object" type="water">
+                    <param id="0" name="Object">huevo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="4" name="Bounce off object" type="water">
+                    <param id="0" name="Object">Camino3</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" type="water">
+                    <param id="0" name="Speed">random(100,0)</param>
+                </action>
+                <action id="-20" name="Rotate toward angle" type="water">
+                    <param id="0" name="Degrees">50</param>
+                    <param id="1" name="Angle">random(340,200)</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-9" name="Destroy" type="water" />
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="1" name="Is overlapping another object" type="water">
+                    <param id="0" name="Object">Camino3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="4" name="Bounce off object" type="water">
+                    <param id="0" name="Object">Camino3</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" type="water">
+                    <param id="0" name="Speed">random(100,0)</param>
+                </action>
+                <action id="-20" name="Rotate toward angle" type="water">
+                    <param id="0" name="Degrees">50</param>
+                    <param id="1" name="Angle">random(340,200)</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-9" name="Destroy" type="water" />
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">rayos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" type="Sprite">
+                    <param id="0" name="Speed">75</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" type="Sprite">
+                    <param id="0" name="Angle">90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="Compare Y" type="Sprite">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">678</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" type="Sprite" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
