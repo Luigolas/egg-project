@@ -167,7 +167,7 @@
             <actions>
                 <action id="-3" name="Create object" type="System">
                     <param id="0" name="Object to create">water</param>
-                    <param id="1" name="Layer">0</param>
+                    <param id="1" name="Layer">1</param>
                     <param id="2" name="X">random(huevo.X-640,huevo.X+640)</param>
                     <param id="3" name="Y">200</param>
                 </action>
@@ -247,6 +247,12 @@
                 </action>
                 <action behavior="Bullet" id="3" name="Set angle of motion" type="Sprite">
                     <param id="0" name="Angle">90</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">15</param>
+                </action>
+                <action id="7" name="Go to URL" type="Browser">
+                    <param id="0" name="URL">&quot;http://localhost:50000&quot;</param>
                 </action>
             </actions>
         </event-block>

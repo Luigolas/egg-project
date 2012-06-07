@@ -7,24 +7,24 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior id="destroy" version="1">Destroy outside layout</behavior>
-        <behavior id="scrollto" version="1">Scroll To</behavior>
-        <behavior id="wrap" version="1">Wrap</behavior>
         <behavior id="Anchor" version="1">Anchor</behavior>
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="Flash" version="1">Flash</behavior>
         <behavior id="Physics" version="1">Physics</behavior>
         <behavior id="Pin" version="1">Pin</behavior>
         <behavior id="bound" version="1">Bound to layout</behavior>
+        <behavior id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior id="scrollto" version="1">Scroll To</behavior>
+        <behavior id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -363,16 +363,17 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.697917" hotspotY="0.132911">
-                        <image-point name="Imagepoint 1" x="0.322917" y="1.00633" />
+                        <image-point name="Imagepoint 1" x="0.375" y="1" />
                         <collision-poly>
                             <point x="0.416667" y="0.392405" />
                             <point x="0.604167" y="0.132911" />
                             <point x="0.885417" y="0.139241" />
                             <point x="0.65625" y="0.468354" />
                             <point x="0.697917" y="0.588608" />
-                            <point x="0.5" y="1" />
-                            <point x="0.083333" y="0.949367" />
-                            <point x="0.385417" y="0.772152" />
+                            <point x="0.541667" y="0.968354" />
+                            <point x="0.208333" y="0.974684" />
+                            <point x="0.104167" y="0.924051" />
+                            <point x="0.416667" y="0.772152" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -577,6 +578,31 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.07" y="0.150391" />
+                            <point x="0.93" y="0.150391" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
