@@ -57,6 +57,28 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
+                <instance type="Blanco">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <world>
+                        <x>331</x>
+                        <y>555</y>
+                        <z>0</z>
+                        <width>732</width>
+                        <height>1213</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.800000012</opacity>
+                    </world>
+                </instance>
                 <instance type="water">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -99,7 +121,7 @@
                     </behavior-instances>
                     <world>
                         <x>484</x>
-                        <y>289</y>
+                        <y>281</y>
                         <z>0</z>
                         <width>142</width>
                         <height>298</height>
@@ -121,7 +143,7 @@
                     </behavior-instances>
                     <world>
                         <x>143</x>
-                        <y>260</y>
+                        <y>255</y>
                         <z>0</z>
                         <width>150</width>
                         <height>284</height>
@@ -253,11 +275,6 @@
                                 <angular-damping>0.01</angular-damping>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <world>
                         <x>27</x>
@@ -303,6 +320,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Sprite6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>363.040008545</x>
+                        <y>989</y>
+                        <z>0</z>
+                        <width>764</width>
+                        <height>604</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="NubeBlanca">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -327,37 +363,6 @@
                         <z>0</z>
                         <width>259.195892334</width>
                         <height>176.553726196</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501792133</hotspotX>
-                        <hotspotY>0.502793312</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="NubeBlanca">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>5</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap" />
-                    </behavior-instances>
-                    <world>
-                        <x>35</x>
-                        <y>107</y>
-                        <z>0</z>
-                        <width>298.575805664</width>
-                        <height>191.559387207</height>
                         <depth>0</depth>
                         <hotspotX>0.501792133</hotspotX>
                         <hotspotY>0.502793312</hotspotY>
@@ -582,21 +587,33 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6">
+                <instance type="NubeBlanca">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>5</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
                     <world>
-                        <x>363.040008545</x>
-                        <y>989</y>
+                        <x>35</x>
+                        <y>107</y>
                         <z>0</z>
-                        <width>764</width>
-                        <height>604</height>
+                        <width>298.575805664</width>
+                        <height>191.559387207</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

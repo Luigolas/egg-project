@@ -17,16 +17,39 @@
                     <param id="1" name="Implulse Y">0</param>
                     <param id="2" name="Image point">0</param>
                 </action>
-                <action id="0" name="Play" type="Audio">
-                    <param id="0" name="Audio file">03943_SFXtormenta_suave</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="1" name="Tag (optional)">&quot;initial&quot;</param>
-                </action>
                 <action disabled="1" id="3" name="Set volume" type="Audio">
                     <param id="0" name="Tag">&quot;initial&quot;</param>
                     <param id="1" name="dB">-10</param>
                 </action>
+                <action id="-24" name="Move to top" type="Blanco" />
+                <action id="4" name="Preload" type="Audio">
+                    <param id="0" name="Audio file">03979_SFXRayo</param>
+                </action>
+                <action id="4" name="Preload" type="Audio">
+                    <param id="0" name="Audio file">03956_SFXRayo</param>
+                </action>
+                <action id="4" name="Preload" type="Audio">
+                    <param id="0" name="Audio file">03955_SFXRayo</param>
+                </action>
+                <action id="4" name="Preload" type="Audio">
+                    <param id="0" name="Audio file">03959_SFXLluvia</param>
+                </action>
             </actions>
+            <sub-events>
+                <event-block disabled="1">
+                    <conditions>
+                        <condition disabled="1" id="-11" name="For Each" type="System">
+                            <param id="0" name="Object">NubeBlanca</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="2" name="Stop" type="NubeBlanca" />
+                        <action disabled="1" id="5" name="Set frame" type="NubeBlanca">
+                            <param id="0" name="Frame number">floor(random(2))</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block>
             <conditions>
@@ -55,23 +78,26 @@
                     <param id="2" name="Loop">0</param>
                     <param id="1" name="Tag (optional)">&quot;Rayo 1&quot;</param>
                 </action>
-                <action disabled="1" id="3" name="Set volume" type="Audio">
+                <action id="3" name="Set volume" type="Audio">
                     <param id="0" name="Tag">&quot;Rayo1&quot;</param>
                     <param id="1" name="dB">100</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="-14" name="Compare variable" type="System">
-                    <param id="0" name="Variable">trueno</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions>
+                <action id="-15" name="Set visible" type="Blanco">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" type="Blanco">
+                    <param id="0" name="&apos;On&apos; time">0.05</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.5</param>
+                </action>
                 <action id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">3</param>
+                    <param id="0" name="Seconds">1.6</param>
+                </action>
+                <action id="-15" name="Set visible" type="Blanco">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">1</param>
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" type="Sprite">
                     <param id="0" name="Speed">60</param>
@@ -85,7 +111,7 @@
             <conditions>
                 <condition id="-2" name="Compare Y" type="Sprite">
                     <param id="0" name="Comparison">3</param>
-                    <param id="1" name="Y co-ordinate">10</param>
+                    <param id="1" name="Y co-ordinate">100</param>
                 </condition>
                 <condition id="-14" name="Compare variable" type="System">
                     <param id="0" name="Variable">rayos</param>
@@ -94,33 +120,60 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Flash" id="0" name="Flash" type="Sprite2">
-                    <param id="0" name="&apos;On&apos; time">0.1</param>
-                    <param id="1" name="&apos;Off&apos; time">0.1</param>
-                    <param id="2" name="Duration">1.0</param>
-                </action>
                 <action id="-9" name="Set value" type="System">
                     <param id="0" name="Variable">rayos</param>
                     <param id="1" name="Value">1</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="-14" name="Compare variable" type="System">
-                    <param id="0" name="Variable">rayos</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions>
+                <action behavior="Flash" id="0" name="Flash" type="Sprite2">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">2.0</param>
+                </action>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">03956_SFXRayo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" type="Blanco">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" type="Blanco">
+                    <param id="0" name="&apos;On&apos; time">0.05</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">2.0</param>
+                </action>
                 <action id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">2</param>
+                    <param id="0" name="Seconds">2.1</param>
+                </action>
+                <action id="-15" name="Set visible" type="Blanco">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">1</param>
                 </action>
                 <action behavior="Flash" id="0" name="Flash" type="Sprite3">
                     <param id="0" name="&apos;On&apos; time">0.1</param>
                     <param id="1" name="&apos;Off&apos; time">0.1</param>
                     <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">03955_SFXRayo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" type="Blanco">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" type="Blanco">
+                    <param id="0" name="&apos;On&apos; time">0.05</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">1.1</param>
+                </action>
+                <action id="-15" name="Set visible" type="Blanco">
+                    <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-9" name="Set value" type="System">
                     <param id="0" name="Variable">rayos</param>
@@ -146,12 +199,24 @@
                 <action id="-15" name="Set visible" type="Sprite3">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
                 <action id="-9" name="Set value" type="System">
                     <param id="0" name="Variable">LluviaActiva</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">2</param>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">03959_SFXLluvia</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;lluvia&quot;</param>
+                </action>
+                <action id="6" name="Stop" type="Audio">
+                    <param id="0" name="Tag">&quot;initial&quot;</param>
+                </action>
+                <action id="3" name="Set volume" type="Audio">
+                    <param id="0" name="Tag">&quot;lluvia&quot;</param>
+                    <param id="1" name="dB">-10</param>
                 </action>
             </actions>
         </event-block>
@@ -179,15 +244,15 @@
                     <param id="0" name="Interval (seconds)">0.1</param>
                 </condition>
                 <condition id="-12" name="Repeat" type="System">
-                    <param id="0" name="Count">20</param>
+                    <param id="0" name="Count">40</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Create object" type="System">
                     <param id="0" name="Object to create">water</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">random(huevo.X-640,huevo.X+640)</param>
-                    <param id="3" name="Y">200</param>
+                    <param id="2" name="X">random(0,640)</param>
+                    <param id="3" name="Y">180</param>
                 </action>
                 <action id="-20" name="Rotate toward angle" type="water">
                     <param id="0" name="Degrees">90</param>
@@ -199,6 +264,9 @@
                 </action>
                 <action id="-16" name="Set opacity" type="water">
                     <param id="0" name="Opacity">random(50,100)</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" type="water">
+                    <param id="0" name="Speed">random(350,500)</param>
                 </action>
             </actions>
         </event-block>
@@ -267,10 +335,10 @@
                     <param id="0" name="Angle">90</param>
                 </action>
                 <action id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">15</param>
+                    <param id="0" name="Seconds">14</param>
                 </action>
                 <action id="7" name="Go to URL" type="Browser">
-                    <param id="0" name="URL">&quot;http://localhost:50000&quot;</param>
+                    <param id="0" name="URL">&quot;http://localhost:50001&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -283,6 +351,19 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" type="Sprite" />
+                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                    <param id="0" name="Impulse X">5</param>
+                    <param id="1" name="Implulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                    <param id="0" name="Impulse X">3</param>
+                    <param id="1" name="Implulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
             </actions>
         </event-block>
     </events>
