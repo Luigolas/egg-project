@@ -5,6 +5,7 @@
     <events>
         <variable name="finfase2" type="number">0</variable>
         <variable name="scalelight" type="number">10</variable>
+        <variable name="scalelight2" type="number">1</variable>
         <variable name="finfase" type="number">0</variable>
         <variable name="vidas" type="number">0</variable>
         <variable name="respawn" type="number">0</variable>
@@ -819,6 +820,10 @@
                     <param id="0" name="X">huevo.X</param>
                     <param id="1" name="Y">huevo.Y</param>
                 </action>
+                <action id="-4" name="Set visible" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block>
@@ -830,6 +835,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-4" name="Set visible" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
                         <action id="-9" name="Set value" type="System">
                             <param id="0" name="Variable">scalelight</param>
                             <param id="1" name="Value">scalelight*0.98</param>
@@ -839,7 +848,55 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">scalelight2</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">finfase2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition disabled="1" id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">vidas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set visible" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">scalelight2</param>
+                            <param id="1" name="Value">scalelight2*1.02</param>
+                        </action>
+                        <action id="9" name="Set scale" type="MouseLight">
+                            <param id="0" name="Scale">scalelight2</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
+        </event-block>
+        <event-block disabled="1">
+            <conditions>
+                <condition disabled="1" id="-2" name="On start of layout" type="System" />
+                <condition disabled="1" id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">vidas</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="-4" name="Set visible" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
