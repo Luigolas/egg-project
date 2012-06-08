@@ -752,7 +752,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" type="huevo">
                     <param id="0" name="Comparison">5</param>
-                    <param id="1" name="X co-ordinate">1400</param>
+                    <param id="1" name="X co-ordinate">1300</param>
                 </condition>
             </conditions>
             <actions>

@@ -602,6 +602,39 @@
                 </instance>
             </instances>
         </layer>
+        <layer name="Luz">
+            <initially-visible>0</initially-visible>
+            <background-color>0,0,0</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>1</force-own-texture>
+            <instances>
+                <instance type="MouseLight">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>Destination out</effect>
+                    </properties>
+                    <world>
+                        <x>524</x>
+                        <y>-14</y>
+                        <z>0</z>
+                        <width>1071.679077148</width>
+                        <height>1071.679077148</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
     </layers>
     <nonworld-instances />
 </c2layout>

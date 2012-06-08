@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 3</name>
     <events>
+        <variable name="scalelight" type="number">10</variable>
+        <variable name="finfase" type="number">0</variable>
         <variable name="vidas" type="number">0</variable>
         <variable name="respawn" type="number">0</variable>
         <variable name="SonidoGrass" type="number">0</variable>
@@ -405,10 +407,25 @@
                     <param id="0" name="Comparison">4</param>
                     <param id="1" name="X co-ordinate">10950</param>
                 </condition>
+                <condition disabled="1" id="-1" name="Compare X" type="huevo">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">500</param>
+                </condition>
             </conditions>
             <actions>
+                <action id="-4" name="Set visible" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">finfase</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
                 <action id="7" name="Go to URL" type="Browser">
-                    <param id="0" name="URL">&quot;localhost:50002&quot;</param>
+                    <param id="0" name="URL">&quot;http://localhost:50002&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -829,6 +846,37 @@
                         <action id="4" name="Set animation" type="huevo">
                             <param id="0" name="Animation">&quot;Animation2&quot;</param>
                             <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Every tick" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" type="MouseLight">
+                    <param id="0" name="X">huevo.X</param>
+                    <param id="1" name="Y">huevo.Y</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">finfase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">scalelight</param>
+                            <param id="1" name="Value">scalelight*0.98</param>
+                        </action>
+                        <action id="9" name="Set scale" type="MouseLight">
+                            <param id="0" name="Scale">scalelight</param>
                         </action>
                     </actions>
                 </event-block>
