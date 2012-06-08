@@ -7,18 +7,19 @@
     <unique-id>12lyvuadx67pw</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior id="scrollto" version="1">Scroll To</behavior>
+        <behavior id="wrap" version="1">Wrap</behavior>
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="Flash" version="1">Flash</behavior>
         <behavior id="Physics" version="1">Physics</behavior>
         <behavior id="bound" version="1">Bound to layout</behavior>
-        <behavior id="destroy" version="1">Destroy outside layout</behavior>
-        <behavior id="scrollto" version="1">Scroll To</behavior>
-        <behavior id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -273,6 +274,9 @@
         <object-type name="Browser">
             <plugin id="Browser" />
         </object-type>
+        <object-type name="Audio">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -283,7 +287,32 @@
     </event-folder>
     <global-instances>
         <global-instance type="Browser" />
+        <global-instance type="Audio">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder expanded="1" />
-    <music-folder expanded="1" />
+    <sounds-folder expanded="1">
+        <file name="03981_SFXRayo.m4a" />
+        <file name="03981_SFXRayo.ogg" />
+        <file name="03981_SFXRayo.wav" />
+        <file name="03955_SFXRayo.m4a" />
+        <file name="03955_SFXRayo.ogg" />
+        <file name="03955_SFXRayo.wav" />
+        <file name="03956_SFXRayo.m4a" />
+        <file name="03956_SFXRayo.ogg" />
+        <file name="03956_SFXRayo.wav" />
+        <file name="03957_SFXRayo.m4a" />
+        <file name="03957_SFXRayo.ogg" />
+        <file name="03957_SFXRayo.wav" />
+        <file name="03979_SFXRayo.m4a" />
+        <file name="03979_SFXRayo.ogg" />
+        <file name="03979_SFXRayo.wav" />
+    </sounds-folder>
+    <music-folder expanded="1">
+        <file name="03943_SFXtormenta_suave.m4a" />
+        <file name="03943_SFXtormenta_suave.ogg" />
+        <file name="03943_SFXtormenta_suave.wav" />
+    </music-folder>
 </c2project>
