@@ -8,9 +8,9 @@
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="destroy" version="1">Destroy outside layout</behavior>
@@ -19,7 +19,6 @@
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="Flash" version="1">Flash</behavior>
         <behavior id="Physics" version="1">Physics</behavior>
-        <behavior id="bound" version="1">Bound to layout</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -58,8 +57,8 @@
                             <point x="0.946237" y="0.497207" />
                             <point x="0.83871" y="0.748603" />
                             <point x="0.498208" y="0.927374" />
-                            <point x="0.107527" y="0.832402" />
-                            <point x="0.0215054" y="0.497207" />
+                            <point x="0.103943" y="0.837989" />
+                            <point x="0.0179211" y="0.497207" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -120,9 +119,6 @@
             <behaviors>
                 <behavior-type name="Physics">
                     <behavior id="Physics" />
-                </behavior-type>
-                <behavior-type name="BoundToLayout">
-                    <behavior id="bound" />
                 </behavior-type>
             </behaviors>
             <animation-folder expanded="1">
@@ -277,6 +273,19 @@
         <object-type name="Audio">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="Blanco">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -294,25 +303,19 @@
         </global-instance>
     </global-instances>
     <sounds-folder expanded="1">
-        <file name="03981_SFXRayo.m4a" />
-        <file name="03981_SFXRayo.ogg" />
-        <file name="03981_SFXRayo.wav" />
         <file name="03955_SFXRayo.m4a" />
         <file name="03955_SFXRayo.ogg" />
         <file name="03955_SFXRayo.wav" />
         <file name="03956_SFXRayo.m4a" />
         <file name="03956_SFXRayo.ogg" />
         <file name="03956_SFXRayo.wav" />
-        <file name="03957_SFXRayo.m4a" />
-        <file name="03957_SFXRayo.ogg" />
-        <file name="03957_SFXRayo.wav" />
         <file name="03979_SFXRayo.m4a" />
         <file name="03979_SFXRayo.ogg" />
         <file name="03979_SFXRayo.wav" />
     </sounds-folder>
     <music-folder expanded="1">
-        <file name="03943_SFXtormenta_suave.m4a" />
-        <file name="03943_SFXtormenta_suave.ogg" />
-        <file name="03943_SFXtormenta_suave.wav" />
+        <file name="03959_SFXLluvia.m4a" />
+        <file name="03959_SFXLluvia.ogg" />
+        <file name="03959_SFXLluvia.wav" />
     </music-folder>
 </c2project>
