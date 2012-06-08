@@ -299,6 +299,10 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-1" name="Compare X" type="huevo">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">8525</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="4" name="Set animation" type="huevo">
