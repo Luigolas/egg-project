@@ -694,7 +694,7 @@
                         <sp>200</sp>
                         <Xrelease>0</Xrelease>
                         <vvv>0</vvv>
-                        <hasStone>false</hasStone>
+                        <hasStone>true</hasStone>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Bullet">
