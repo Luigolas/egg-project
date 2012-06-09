@@ -103,7 +103,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-group collapsed="1" description="" title="PajaroLoco">
+        <event-group description="" title="PajaroLoco">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -135,6 +135,9 @@
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Second value">140</param>
                         </condition>
+                        <condition id="-8" name="Is boolean instance variable set" type="Pajaro">
+                            <param id="0" name="Instance variable">hasStone</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action behavior="Pin" id="1" name="Unpin" type="Lucia" />
@@ -144,6 +147,9 @@
                         <action id="-13" name="Set boolean" type="Pajaro">
                             <param id="0" name="Instance variable">hasStone</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-16" name="Wait" type="System">
+                            <param id="0" name="Seconds">0.1</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -156,9 +162,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
-                                    <param id="0" name="Impulse X">0.02</param>
-                                    <param id="1" name="Implulse Y">0</param>
+                                <action behavior="Physics" id="0" name="Apply force" type="Lucia">
+                                    <param id="0" name="Force X">40</param>
+                                    <param id="1" name="Force Y">0</param>
                                     <param id="2" name="Image point">0</param>
                                 </action>
                             </actions>
@@ -168,9 +174,9 @@
                                 <condition id="-22" name="Else" type="System" />
                             </conditions>
                             <actions>
-                                <action behavior="Physics" id="3" name="Apply impulse" type="Lucia">
-                                    <param id="0" name="Impulse X">-0.02</param>
-                                    <param id="1" name="Implulse Y">0</param>
+                                <action behavior="Physics" id="0" name="Apply force" type="Lucia">
+                                    <param id="0" name="Force X">-40</param>
+                                    <param id="1" name="Force Y">0</param>
                                     <param id="2" name="Image point">0</param>
                                 </action>
                             </actions>
