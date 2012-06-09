@@ -9,8 +9,31 @@
         <variable name="finfase" type="number">0</variable>
         <variable name="vidas" type="number">0</variable>
         <variable name="respawn" type="number">0</variable>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" type="Lucia">
+                    <param id="0" name="Pin to">Pajaro</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group collapsed="1" description="" title="Control">
             <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Every tick" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" type="Scroller">
+                            <param id="0" name="X">huevo.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" type="Scroller">
+                            <param id="0" name="Y">huevo.Y-200</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block>
                     <conditions>
                         <condition id="2" name="Key is down" type="Keyboard">
@@ -90,20 +113,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block>
-            <conditions>
-                <condition id="-1" name="Every tick" type="System" />
-            </conditions>
-            <actions>
-                <action id="-1" name="Set X" type="Scroller">
-                    <param id="0" name="X">huevo.X</param>
-                </action>
-                <action id="-2" name="Set Y" type="Scroller">
-                    <param id="0" name="Y">huevo.Y-200</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-group description="" title="PajaroLoco">
+        <event-group collapsed="1" description="" title="PajaroLoco">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -115,16 +125,6 @@
                     <actions>
                         <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
                             <param id="0" name="Speed">200</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-2" name="On start of layout" type="System" />
-                    </conditions>
-                    <actions>
-                        <action behavior="Pin" id="0" name="Pin to object" type="Lucia">
-                            <param id="0" name="Pin to">Pajaro</param>
                         </action>
                     </actions>
                 </event-block>
