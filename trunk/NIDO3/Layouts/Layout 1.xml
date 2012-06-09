@@ -15,7 +15,7 @@
         <layer name="Background">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
+            <transparent>0</transparent>
             <parallax>
                 <x>1</x>
                 <y>1</y>
@@ -635,8 +635,8 @@
                         <width>70.760002136</width>
                         <height>49.604999542</height>
                         <depth>0</depth>
-                        <hotspotX>0.500784993</hotspotX>
-                        <hotspotY>0.501093984</hotspotY>
+                        <hotspotX>0.500784934</hotspotX>
+                        <hotspotY>0.501094103</hotspotY>
                         <angle>-3.141587734</angle>
                         <opacity>1</opacity>
                     </world>
@@ -809,8 +809,8 @@
                         <width>70.760002136</width>
                         <height>49.604999542</height>
                         <depth>0</depth>
-                        <hotspotX>0.500784993</hotspotX>
-                        <hotspotY>0.501093984</hotspotY>
+                        <hotspotX>0.500784934</hotspotX>
+                        <hotspotY>0.501094103</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
