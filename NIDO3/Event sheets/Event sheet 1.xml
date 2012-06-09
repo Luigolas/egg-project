@@ -294,16 +294,16 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-4" name="Set visible" type="System">
+                <action disabled="1" id="-4" name="Set visible" type="System">
                     <param id="0" name="Layer">3</param>
                     <param id="1" name="Visibility">1</param>
                 </action>
-                <action id="-9" name="Set value" type="System">
+                <action disabled="1" id="-9" name="Set value" type="System">
                     <param id="0" name="Variable">finfase</param>
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">3</param>
+                    <param id="0" name="Seconds">1</param>
                 </action>
                 <action id="7" name="Go to URL" type="Browser">
                     <param id="0" name="URL">&quot;http://localhost:50004&quot;</param>
@@ -327,10 +327,14 @@
             <sub-events>
                 <event-block>
                     <conditions>
-                        <condition id="-14" name="Compare variable" type="System">
+                        <condition disabled="1" id="-14" name="Compare variable" type="System">
                             <param id="0" name="Variable">finfase</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-1" name="Compare X" type="huevo">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="X co-ordinate">6400</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -338,9 +342,13 @@
                             <param id="0" name="Layer">3</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
-                        <action id="-9" name="Set value" type="System">
+                        <action disabled="1" id="-9" name="Set value" type="System">
                             <param id="0" name="Variable">scalelight</param>
                             <param id="1" name="Value">scalelight*0.98</param>
+                        </action>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">scalelight</param>
+                            <param id="1" name="Value">max(10*(1-((huevo.X-6400)/1450)),0)</param>
                         </action>
                         <action id="9" name="Set scale" type="MouseLight">
                             <param id="0" name="Scale">scalelight</param>
@@ -354,7 +362,7 @@
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Value">10</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" type="System">
+                        <condition disabled="1" id="-14" name="Compare variable" type="System">
                             <param id="0" name="Variable">finfase</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
@@ -380,6 +388,20 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">scalelight</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="21" name="Set immovable" type="huevo">
+                    <param id="0" name="Setting">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

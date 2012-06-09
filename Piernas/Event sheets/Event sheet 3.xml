@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 3</name>
     <events>
-        <variable name="timeplay" type="number">10</variable>
+        <variable name="timeplay" type="number">60</variable>
         <variable name="finfase2" type="number">0</variable>
         <variable name="finfase" type="number">0</variable>
         <variable name="vidas" type="number">0</variable>
@@ -26,6 +26,11 @@
                         </condition>
                         <condition id="2" name="Key is down" type="Keyboard">
                             <param id="0" name="Key">68 (D)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">finfase2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -79,6 +84,11 @@
                         </condition>
                         <condition id="2" name="Is playing" type="huevo">
                             <param id="0" name="Animation">&quot;Default&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">finfase2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -770,6 +780,9 @@
                     <param id="0" name="Layer">3</param>
                     <param id="1" name="Visibility">1</param>
                 </action>
+                <action behavior="Physics" disabled="1" id="21" name="Set immovable" type="huevo">
+                    <param id="0" name="Setting">1</param>
+                </action>
                 <action id="-16" name="Wait" type="System">
                     <param id="0" name="Seconds">3</param>
                 </action>
@@ -853,6 +866,18 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                    <param id="0" name="Impulse X">5.5</param>
+                    <param id="1" name="Implulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
