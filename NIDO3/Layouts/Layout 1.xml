@@ -12,10 +12,23 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
+        <layer name="Background">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <instances />
+        </layer>
         <layer name="Layer 0">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
-            <transparent>0</transparent>
+            <transparent>1</transparent>
             <parallax>
                 <x>1</x>
                 <y>1</y>
@@ -582,6 +595,290 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501392782</hotspotY>
                         <angle>0.14631477</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
+        <layer name="HUD">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0</x>
+                <y>0</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <instances>
+                <instance type="Nido3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>598</x>
+                        <y>29</y>
+                        <z>0</z>
+                        <width>70.760002136</width>
+                        <height>49.604999542</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500784993</hotspotX>
+                        <hotspotY>0.501093984</hotspotY>
+                        <angle>-3.141587734</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HuevoIntro4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>591</x>
+                        <y>22</y>
+                        <z>0</z>
+                        <width>26.658555984</width>
+                        <height>33.422668457</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HuevoIntro4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>603</x>
+                        <y>25</y>
+                        <z>0</z>
+                        <width>25.355096817</width>
+                        <height>31.788480759</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HuevoIntro4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>614</x>
+                        <y>26</y>
+                        <z>0</z>
+                        <width>26.1602211</width>
+                        <height>32.797889709</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.321749032</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HuevoIntro4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>582</x>
+                        <y>23</y>
+                        <z>0</z>
+                        <width>25.417934418</width>
+                        <height>31.867261887</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.110649869</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HuevoIntro4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>593</x>
+                        <y>27</y>
+                        <z>0</z>
+                        <width>25.417934418</width>
+                        <height>31.867261887</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.055485409</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Nido3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>600</x>
+                        <y>38</y>
+                        <z>0</z>
+                        <width>70.760002136</width>
+                        <height>49.604999542</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500784993</hotspotX>
+                        <hotspotY>0.501093984</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EggOver">
+                    <properties>
+                        <text>Egg Over</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Felix Titling,-48,400,0</font>
+                        <color>192,255,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <world>
+                        <x>172</x>
+                        <y>165</y>
+                        <z>0</z>
+                        <width>322.200775146</width>
+                        <height>48.330116272</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+        </layer>
+        <layer name="Luz">
+            <initially-visible>0</initially-visible>
+            <background-color>0,0,0</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>1</force-own-texture>
+            <instances>
+                <instance type="MouseLight">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>Destination out</effect>
+                    </properties>
+                    <world>
+                        <x>-40</x>
+                        <y>45</y>
+                        <z>0</z>
+                        <width>1071.679077148</width>
+                        <height>1071.679077148</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
