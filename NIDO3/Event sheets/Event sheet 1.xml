@@ -3,40 +3,154 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
-        <event-block>
-            <conditions>
-                <condition id="2" name="Is playing" type="huevo">
-                    <param id="0" name="Animation">&quot;Default&quot;</param>
-                </condition>
-                <condition id="2" name="Key is down" type="Keyboard">
-                    <param id="0" name="Key">68 (D)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
-                    <param id="0" name="Impulse X">0.09</param>
-                    <param id="1" name="Implulse Y">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="2" name="Key is down" type="Keyboard">
-                    <param id="0" name="Key">65 (A)</param>
-                </condition>
-                <condition id="2" name="Is playing" type="huevo">
-                    <param id="0" name="Animation">&quot;Default&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
-                    <param id="0" name="Impulse X">-0.09</param>
-                    <param id="1" name="Implulse Y">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group collapsed="1" description="Eventos OnStartofLayout" title="Eventos Iniciales">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-2" name="On start of layout" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" type="Sprite10">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="Controles del huevo" title="Control">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="2" name="Is playing" type="huevo">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                        </condition>
+                        <condition id="2" name="Key is down" type="Keyboard">
+                            <param id="0" name="Key">68 (D)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                            <param id="0" name="Impulse X">0.09</param>
+                            <param id="1" name="Implulse Y">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="2" name="Key is down" type="Keyboard">
+                            <param id="0" name="Key">65 (A)</param>
+                        </condition>
+                        <condition id="2" name="Is playing" type="huevo">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                            <param id="0" name="Impulse X">-0.09</param>
+                            <param id="1" name="Implulse Y">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block collapsed="1">
+                    <conditions>
+                        <condition id="0" name="On key pressed" type="Keyboard">
+                            <param id="0" name="Key">87 (W)</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1">
+                            <conditions>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">f2camino1</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">f2camino2</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">f2camino3</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">f2camino4</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">f2camino5</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">f2camino6</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">f2camino7</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">auxiliar</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Sprite10</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Sprite3</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Sprite5</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Sprite6</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Sprite7</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">Sprite9</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">trozof2camino5</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                                    <param id="0" name="Impulse X">0</param>
+                                    <param id="1" name="Implulse Y">-2</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block>
             <conditions>
                 <condition id="0" name="On collision with another object" type="huevo">
@@ -48,87 +162,6 @@
                     <param id="0" name="Setting">0</param>
                 </action>
             </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="0" name="On key pressed" type="Keyboard">
-                    <param id="0" name="Key">87 (W)</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block any="1">
-                    <conditions>
-                        <condition id="9" name="Is overlapping at offset" type="f2camino1">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="f2camino2">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="f2camino3">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="f2camino4">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="f2camino5">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="f2camino6">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="f2camino7">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="auxiliar">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="Sprite3">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="Sprite5">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="Sprite6">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                        <condition id="9" name="Is overlapping at offset" type="Sprite9">
-                            <param id="0" name="Object">huevo</param>
-                            <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
-                            <param id="0" name="Impulse X">0</param>
-                            <param id="1" name="Implulse Y">-2</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
