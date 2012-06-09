@@ -1596,7 +1596,6 @@
                                 <bound-by>Edge</bound-by>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
                         <x>150</x>
@@ -7395,6 +7394,50 @@
                         <hotspotX>0.503401339</hotspotX>
                         <hotspotY>0.502024293</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Scroller">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <Vel>0</Vel>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="ScrollTo" />
+                    </behavior-instances>
+                    <world>
+                        <x>2124</x>
+                        <y>-201</y>
+                        <z>0</z>
+                        <width>47.174999237</width>
+                        <height>59.205001831</height>
+                        <depth>0</depth>
+                        <hotspotX>0.492500007</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite11">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>5823</x>
+                        <y>2022</y>
+                        <z>0</z>
+                        <width>197</width>
+                        <height>936</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-3.140397549</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
