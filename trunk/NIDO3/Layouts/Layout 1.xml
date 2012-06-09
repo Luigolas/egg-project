@@ -573,15 +573,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>632</x>
-                        <y>418</y>
+                        <x>641</x>
+                        <y>405</y>
                         <z>0</z>
                         <width>190.130172729</width>
                         <height>120.170295715</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501392782</hotspotY>
-                        <angle>0.226756677</angle>
+                        <angle>0.14631477</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
