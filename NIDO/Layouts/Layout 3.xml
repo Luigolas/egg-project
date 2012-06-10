@@ -686,7 +686,7 @@
                 </instance>
                 <instance type="Camino3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1105,7 +1105,7 @@
                 </instance>
                 <instance type="Camino2">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1439,7 +1439,7 @@
                 </instance>
                 <instance type="Camino3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1472,7 +1472,7 @@
                 </instance>
                 <instance type="Camino1">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1601,10 +1601,10 @@
                         <x>150</x>
                         <y>-68</y>
                         <z>0</z>
-                        <width>47.175186157</width>
-                        <height>59.204853058</height>
+                        <width>47.411060333</width>
+                        <height>59.440727234</height>
                         <depth>0</depth>
-                        <hotspotX>0.492500007</hotspotX>
+                        <hotspotX>0.49253732</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>-0.009455283</angle>
                         <opacity>1</opacity>
@@ -6900,7 +6900,7 @@
                 </instance>
                 <instance type="Camino3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -6933,7 +6933,7 @@
                 </instance>
                 <instance type="Camino3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -6999,7 +6999,7 @@
                 </instance>
                 <instance type="Camino3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -7087,7 +7087,7 @@
                     </properties>
                     <world>
                         <x>721</x>
-                        <y>955</y>
+                        <y>954</y>
                         <z>0</z>
                         <width>1445</width>
                         <height>668</height>
