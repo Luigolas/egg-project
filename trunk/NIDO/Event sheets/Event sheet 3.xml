@@ -10,7 +10,7 @@
         <variable comment="Indica si ha muerto por pinchos o no. Para controlar el scroll de la pantalla" name="MuertoPorPinchos" type="number">0</variable>
         <variable name="SonidoGrass" type="number">0</variable>
         <variable name="ticky" type="number">0</variable>
-        <event-group description="" title="Control">
+        <event-group collapsed="1" description="" title="Control">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -161,7 +161,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Hierva">
+        <event-group collapsed="1" description="" title="Hierva">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -227,26 +227,12 @@
                             <param id="2" name="Lower angle">-20</param>
                             <param id="3" name="Upper angle">20</param>
                         </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-1" name="Every tick" type="System" />
-                    </conditions>
-                    <actions>
                         <action behavior="Physics" id="22" name="Create limited revolute joint" type="TrozoPlanta2">
                             <param id="0" name="This image point">2</param>
                             <param id="1" name="Object">TrozoPlanta3</param>
                             <param id="2" name="Lower angle">-TrozoPlanta2.Angu</param>
                             <param id="3" name="Upper angle">TrozoPlanta2.Angu</param>
                         </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-2" name="On start of layout" type="System" />
-                    </conditions>
-                    <actions>
                         <action behavior="Physics" id="22" name="Create limited revolute joint" type="TrozoPlanta3">
                             <param id="0" name="This image point">1</param>
                             <param id="1" name="Object">TrozoPlanta4</param>
@@ -262,10 +248,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action disabled="1" id="-10" name="Set value" type="TrozoPlanta2">
-                            <param id="0" name="Instance variable">Angu</param>
-                            <param id="1" name="Value">TrozoPlanta2.Angu+200</param>
-                        </action>
                         <action id="0" name="Play" type="MainMusic">
                             <param id="0" name="Audio file">bambubreak1(1)</param>
                             <param id="2" name="Loop">0</param>
@@ -932,7 +914,7 @@
                 <condition id="9" name="Is overlapping at offset" type="huevo">
                     <param id="0" name="Object">Sprite6</param>
                     <param id="1" name="Offset X">0</param>
-                    <param id="2" name="Offset Y">250</param>
+                    <param id="2" name="Offset Y">200</param>
                 </condition>
             </conditions>
             <actions>

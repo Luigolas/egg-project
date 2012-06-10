@@ -7105,11 +7105,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>1598</x>
-                        <y>1125</y>
+                        <x>1595.196289063</x>
+                        <y>1098.168823242</y>
                         <z>0</z>
-                        <width>501.177001953</width>
-                        <height>559.424987793</height>
+                        <width>501.182861328</width>
+                        <height>504.167053223</height>
                         <depth>0</depth>
                         <hotspotX>0.50121063</hotspotX>
                         <hotspotY>0.501084626</hotspotY>
@@ -7124,11 +7124,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>2704.062988281</x>
-                        <y>1049</y>
+                        <x>2704.111083984</x>
+                        <y>1061.296630859</y>
                         <z>0</z>
-                        <width>1719</width>
-                        <height>512</height>
+                        <width>1720.903320313</width>
+                        <height>552.974243164</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -7143,11 +7143,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>4124</x>
-                        <y>1049</y>
+                        <x>4124.380859375</x>
+                        <y>1060.768310547</y>
                         <z>0</z>
-                        <width>1125</width>
-                        <height>512</height>
+                        <width>1120.238769531</width>
+                        <height>551.065063477</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
