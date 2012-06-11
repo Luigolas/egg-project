@@ -86,7 +86,7 @@
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">32 (Barra Espaciadora)</param>
                         </condition>
-                        <condition id="2" name="Key is down" type="Keyboard">
+                        <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">38 (Up arrow)</param>
                         </condition>
                     </conditions>
@@ -426,6 +426,35 @@
             <actions>
                 <action behavior="Physics" id="21" name="Set immovable" type="huevo">
                     <param id="0" name="Setting">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="4" name="On finished" type="huevo">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="EggOver">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" type="EggOver">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">respawn</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" type="System">
+                    <param id="0" name="Variable">vidas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set local value" type="WebStorage">
+                    <param id="0" name="Key">&quot;vidas&quot;</param>
+                    <param id="1" name="Value">vidas</param>
                 </action>
             </actions>
         </event-block>

@@ -6,20 +6,6 @@
         <variable name="scalelight" type="number">10</variable>
         <variable name="vidas" type="number">0</variable>
         <variable name="respawn" type="number">0</variable>
-        <event-block>
-            <conditions>
-                <condition id="-6" name="Every X seconds" type="System">
-                    <param id="0" name="Interval (seconds)">5</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Flash" id="0" name="Flash" type="Sprite">
-                    <param id="0" name="&apos;On&apos; time">0.3</param>
-                    <param id="1" name="&apos;Off&apos; time">0.2</param>
-                    <param id="2" name="Duration">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="" title="Control">
             <sub-events>
                 <event-block any="1" collapsed="1">
@@ -88,7 +74,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" collapsed="1">
+                <event-block any="1">
                     <conditions>
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">87 (W)</param>
@@ -96,13 +82,13 @@
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">32 (Barra Espaciadora)</param>
                         </condition>
-                        <condition id="2" name="Key is down" type="Keyboard">
+                        <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">38 (Up arrow)</param>
                         </condition>
                     </conditions>
                     <actions />
                     <sub-events>
-                        <event-block>
+                        <event-block any="1">
                             <conditions>
                                 <condition id="9" name="Is overlapping at offset" type="huevo">
                                     <param id="0" name="Object">Sprite10</param>
@@ -145,7 +131,13 @@
                                     <param id="2" name="Offset Y">2</param>
                                 </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
+                                    <param id="0" name="Impulse X">0</param>
+                                    <param id="1" name="Implulse Y">-2</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -256,6 +248,113 @@
                     </sub-events>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block disabled="1">
+            <conditions>
+                <condition disabled="1" id="-1" name="Compare X" type="huevo">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">10200</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="-4" name="Set visible" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action disabled="1" id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action disabled="1" id="7" name="Go to URL" type="Browser">
+                    <param id="0" name="URL">&quot;http://localhost:50004&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="4" name="On finished" type="huevo">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" type="EggOver">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" type="EggOver">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">respawn</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" type="System">
+                    <param id="0" name="Variable">vidas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set local value" type="WebStorage">
+                    <param id="0" name="Key">&quot;vidas&quot;</param>
+                    <param id="1" name="Value">vidas</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Every tick" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Compare X" type="huevo">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="X co-ordinate">3800</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set opacity" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Opacity">max(100*(((huevo.X-3800)/1450)),0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Compare X" type="huevo">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">5450</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="21" name="Set immovable" type="huevo">
+                    <param id="0" name="Setting">1</param>
+                </action>
+                <action disabled="1" id="-15" name="Set visible" type="Sprite">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" type="System">
+                            <param id="0" name="Interval (seconds)">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" type="Sprite">
+                            <param id="0" name="&apos;On&apos; time">0.3</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block>
+            <conditions />
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>
