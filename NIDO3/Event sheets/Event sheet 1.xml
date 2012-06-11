@@ -276,7 +276,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block collapsed="1">
+        <event-block>
             <conditions>
                 <condition id="-2" name="On start of layout" type="System" />
             </conditions>
