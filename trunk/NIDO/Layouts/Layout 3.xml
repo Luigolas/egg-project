@@ -1138,7 +1138,7 @@
                 </instance>
                 <instance type="Camino6">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1171,7 +1171,7 @@
                 </instance>
                 <instance type="Camino7">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1204,7 +1204,7 @@
                 </instance>
                 <instance type="camino5b">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1237,7 +1237,7 @@
                 </instance>
                 <instance type="Camino5a">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1270,7 +1270,7 @@
                 </instance>
                 <instance type="Camino5c">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1395,8 +1395,8 @@
                         <width>23.587446213</width>
                         <height>58.993541718</height>
                         <depth>0</depth>
-                        <hotspotX>0.526315808</hotspotX>
-                        <hotspotY>0.507692337</hotspotY>
+                        <hotspotX>0.523809552</hotspotX>
+                        <hotspotY>0.50746268</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1505,7 +1505,7 @@
                 </instance>
                 <instance type="camino9">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -6966,7 +6966,7 @@
                 </instance>
                 <instance type="Camino8">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -6986,7 +6986,7 @@
                     </behavior-instances>
                     <world>
                         <x>8611</x>
-                        <y>2110</y>
+                        <y>2116</y>
                         <z>0</z>
                         <width>1143</width>
                         <height>720</height>
@@ -7018,8 +7018,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>9833.475585938</x>
-                        <y>2058</y>
+                        <x>9865</x>
+                        <y>2064</y>
                         <z>0</z>
                         <width>2342</width>
                         <height>512</height>
@@ -7163,7 +7163,7 @@
                     </properties>
                     <world>
                         <x>5291.5</x>
-                        <y>1213</y>
+                        <y>1209</y>
                         <z>0</z>
                         <width>1254</width>
                         <height>684</height>
@@ -7207,44 +7207,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite10">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>7141</x>
-                        <y>1789</y>
-                        <z>0</z>
-                        <width>156</width>
-                        <height>790</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite11">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>6015.5</x>
-                        <y>1674</y>
-                        <z>0</z>
-                        <width>197</width>
-                        <height>936</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -7258,7 +7220,7 @@
                         <width>348</width>
                         <height>578</height>
                         <depth>0</depth>
-                        <hotspotX>0.501222491</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -7271,11 +7233,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>6843</x>
-                        <y>1793</y>
+                        <x>6904.820800781</x>
+                        <y>1790.233642578</y>
                         <z>0</z>
-                        <width>499</width>
-                        <height>800</height>
+                        <width>614</width>
+                        <height>803</height>
                         <depth>0</depth>
                         <hotspotX>0.501002014</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -7290,11 +7252,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>8611</x>
-                        <y>2110</y>
+                        <x>8636</x>
+                        <y>2158</y>
                         <z>0</z>
-                        <width>1143</width>
-                        <height>720</height>
+                        <width>1136</width>
+                        <height>638</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -7309,14 +7271,14 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>7686</x>
-                        <y>1835</y>
+                        <x>7641</x>
+                        <y>1843</y>
                         <z>0</z>
-                        <width>948</width>
-                        <height>683</height>
+                        <width>861</width>
+                        <height>709</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500732064</hotspotY>
+                        <hotspotX>0.500580728</hotspotX>
+                        <hotspotY>0.500705242</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -7328,11 +7290,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>9833.475585938</x>
-                        <y>2058</y>
+                        <x>10123</x>
+                        <y>2179</y>
                         <z>0</z>
-                        <width>2342</width>
-                        <height>512</height>
+                        <width>1840</width>
+                        <height>597</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -7429,15 +7391,34 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>5823</x>
-                        <y>2022</y>
+                        <x>5774.157226563</x>
+                        <y>1970.599487305</y>
                         <z>0</z>
-                        <width>197</width>
-                        <height>936</height>
+                        <width>307.8125</width>
+                        <height>938</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>-3.140397549</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite11">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>6015.5</x>
+                        <y>1674</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>938</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
