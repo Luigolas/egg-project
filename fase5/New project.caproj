@@ -7,11 +7,13 @@
     <unique-id>2xsdo5puyh0a7</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
+        <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="Particles" version="1">Particles</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Text" version="1">Text</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
-        <plugin id="Browser" version="1">Browser</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -327,6 +329,20 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Audio">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="EggOver">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Anchor">
+                    <behavior id="Anchor" />
+                </behavior-type>
+                <behavior-type name="Flash">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -341,6 +357,11 @@
         <global-instance type="WebStorage" />
         <global-instance type="Browser" />
         <global-instance type="Keyboard" />
+        <global-instance type="Audio">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder expanded="1" />
     <music-folder expanded="1" />
