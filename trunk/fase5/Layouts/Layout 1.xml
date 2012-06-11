@@ -44,6 +44,25 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
+                        <x>5382</x>
+                        <y>500</y>
+                        <z>0</z>
+                        <width>1100</width>
+                        <height>512</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite10">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
                         <x>4355</x>
                         <y>488</y>
                         <z>0</z>
@@ -63,8 +82,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>5448</x>
-                        <y>432</y>
+                        <x>5015</x>
+                        <y>1589</y>
                         <z>0</z>
                         <width>1116</width>
                         <height>857</height>
@@ -261,11 +280,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>3685</x>
-                        <y>405</y>
+                        <x>3683</x>
+                        <y>402.99786377</y>
                         <z>0</z>
                         <width>413</width>
-                        <height>433</height>
+                        <height>424</height>
                         <depth>0</depth>
                         <hotspotX>0.50121063</hotspotX>
                         <hotspotY>0.501084626</hotspotY>
@@ -300,7 +319,6 @@
                                 <bound-by>Edge</bound-by>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
                         <x>83</x>
@@ -312,6 +330,97 @@
                         <hotspotX>0.492500007</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0.346602738</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite11">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>2982</x>
+                        <y>1093</y>
+                        <z>0</z>
+                        <width>152</width>
+                        <height>790</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>2783</x>
+                        <y>1132</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>247</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503401339</hotspotX>
+                        <hotspotY>0.502024293</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Scroller">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <Vel>0</Vel>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="ScrollTo" />
+                    </behavior-instances>
+                    <world>
+                        <x>2470</x>
+                        <y>-229</y>
+                        <z>0</z>
+                        <width>47.174999237</width>
+                        <height>59.205001831</height>
+                        <depth>0</depth>
+                        <hotspotX>0.492500007</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -532,20 +641,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-            </instances>
-        </layer>
-        <layer name="Luz">
-            <initially-visible>1</initially-visible>
-            <background-color>0,0,0</background-color>
-            <transparent>0</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>0</opacity>
-            <force-own-texture>1</force-own-texture>
-            <instances>
                 <instance type="EggOver">
                     <properties>
                         <text>Egg Over</text>
@@ -580,6 +675,20 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+            </instances>
+        </layer>
+        <layer name="Luz">
+            <initially-visible>1</initially-visible>
+            <background-color>0,0,0</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>0</opacity>
+            <force-own-texture>1</force-own-texture>
+            <instances>
                 <instance type="Sprite">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
