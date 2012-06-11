@@ -7,12 +7,12 @@
     <unique-id>2r0nu727kxcl6</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="WebStorage" version="1">WebStorage</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
         <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -36,7 +36,7 @@
         <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">Firefox</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
@@ -515,6 +515,52 @@
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.501211" hotspotY="0.501085">
+                        <collision-poly>
+                            <point x="0.661017" y="0.0195228" />
+                            <point x="0.554479" y="0.496746" />
+                            <point x="0" y="0.498915" />
+                            <point x="0.00242131" y="0.0455531" />
+                            <point x="0.469734" y="0.0477223" />
+                            <point x="0.627119" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500838">
+                        <collision-poly>
+                            <point x="0.0478927" y="0.355109" />
+                            <point x="0.258621" y="0.0485762" />
+                            <point x="0.398467" y="0.00502513" />
+                            <point x="0.555556" y="0.00670017" />
+                            <point x="0.693487" y="0.0887772" />
+                            <point x="0.833333" y="0.41876" />
+                            <point x="0.55364" y="0.539364" />
+                            <point x="0.00383142" y="0.499162" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
