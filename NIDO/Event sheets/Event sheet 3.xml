@@ -10,7 +10,7 @@
         <variable comment="Indica si ha muerto por pinchos o no. Para controlar el scroll de la pantalla" name="MuertoPorPinchos" type="number">0</variable>
         <variable name="SonidoGrass" type="number">0</variable>
         <variable name="ticky" type="number">0</variable>
-        <event-group description="" title="Eventos Iniciales y EveryTick">
+        <event-group collapsed="1" description="" title="Eventos Iniciales y EveryTick">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -149,7 +149,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Control">
+        <event-group collapsed="1" description="" title="Control">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -366,7 +366,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Bambu">
+        <event-group collapsed="1" description="" title="Bambu">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -792,7 +792,7 @@
                     </conditions>
                     <actions>
                         <action behavior="Bullet" id="0" name="Set speed" type="spider">
-                            <param id="0" name="Speed">550</param>
+                            <param id="0" name="Speed">650</param>
                         </action>
                         <action behavior="Bullet" id="3" name="Set angle of motion" type="spider">
                             <param id="0" name="Angle">90</param>
@@ -811,7 +811,7 @@
                     </conditions>
                     <actions>
                         <action behavior="Bullet" id="0" name="Set speed" type="spider">
-                            <param id="0" name="Speed">200</param>
+                            <param id="0" name="Speed">250</param>
                         </action>
                         <action behavior="Bullet" id="3" name="Set angle of motion" type="spider">
                             <param id="0" name="Angle">-90</param>
