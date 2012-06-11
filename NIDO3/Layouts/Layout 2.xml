@@ -51,7 +51,6 @@
                                 <bound-by>Edge</bound-by>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
                         <x>35</x>
