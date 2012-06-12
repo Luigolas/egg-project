@@ -733,8 +733,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>332</x>
-                        <y>259</y>
+                        <x>149</x>
+                        <y>195</y>
                         <z>0</z>
                         <width>322.200775146</width>
                         <height>48.330116272</height>
@@ -777,8 +777,8 @@
                         <width>374</width>
                         <height>624</height>
                         <depth>0</depth>
-                        <hotspotX>0.50121063</hotspotX>
-                        <hotspotY>0.501084626</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50160259</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -796,8 +796,8 @@
                         <width>1033</width>
                         <height>647</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500484049</hotspotX>
+                        <hotspotY>0.500772774</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
