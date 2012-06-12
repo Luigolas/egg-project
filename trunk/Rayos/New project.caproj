@@ -7,18 +7,18 @@
     <unique-id>12lyvuadx67pw</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior id="destroy" version="1">Destroy outside layout</behavior>
-        <behavior id="scrollto" version="1">Scroll To</behavior>
-        <behavior id="wrap" version="1">Wrap</behavior>
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="Flash" version="1">Flash</behavior>
         <behavior id="Physics" version="1">Physics</behavior>
+        <behavior id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior id="scrollto" version="1">Scroll To</behavior>
+        <behavior id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -253,15 +253,21 @@
         <object-type name="Sprite6">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
-                            <point x="0.07" y="0.150391" />
-                            <point x="0.93" y="0.150391" />
-                            <point x="1" y="0.5" />
+                            <point x="0.00484496" y="0.0113122" />
+                            <point x="0.993217" y="0.0158371" />
                             <point x="1" y="1" />
                             <point x="0" y="1" />
-                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00484496" y="0.0113122" />
+                            <point x="0.995155" y="0.0113122" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>

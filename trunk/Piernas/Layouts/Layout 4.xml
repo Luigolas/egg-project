@@ -59,7 +59,7 @@
             <instances>
                 <instance type="Camino3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -207,11 +207,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>859</x>
-                        <y>458</y>
+                        <x>538.132751465</x>
+                        <y>491</y>
                         <z>0</z>
-                        <width>1719</width>
-                        <height>512</height>
+                        <width>1171</width>
+                        <height>442</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -283,6 +283,28 @@
                         <hotspotY>0.132911399</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Blanco">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <world>
+                        <x>531.5</x>
+                        <y>345</y>
+                        <z>0</z>
+                        <width>1129</width>
+                        <height>888</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.800000012</opacity>
                     </world>
                 </instance>
             </instances>

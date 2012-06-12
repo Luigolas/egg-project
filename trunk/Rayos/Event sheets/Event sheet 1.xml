@@ -218,6 +218,9 @@
                     <param id="0" name="Tag">&quot;lluvia&quot;</param>
                     <param id="1" name="dB">-10</param>
                 </action>
+                <action id="5" name="Set frame" type="Sprite6">
+                    <param id="0" name="Frame number">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block>
@@ -295,7 +298,7 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="1" name="Is overlapping another object" type="water">
+                <condition id="0" name="On collision with another object" type="water">
                     <param id="0" name="Object">Camino3</param>
                 </condition>
             </conditions>

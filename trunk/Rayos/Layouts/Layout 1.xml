@@ -156,7 +156,7 @@
                 </instance>
                 <instance type="Camino3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -327,11 +327,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>363.040008545</x>
-                        <y>989</y>
+                        <x>361.614532471</x>
+                        <y>922.5</y>
                         <z>0</z>
                         <width>764</width>
-                        <height>604</height>
+                        <height>308</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
