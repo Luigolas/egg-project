@@ -19,7 +19,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-group description="" title="Control">
+        <event-group collapsed="1" description="" title="Control">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -153,7 +153,7 @@
             <sub-events>
                 <event-block>
                     <conditions>
-                        <condition id="-4" name="Is outside layout" type="Pajaro" />
+                        <condition id="-3" inverted="1" name="Is on-screen" type="Pajaro" />
                         <condition id="-8" inverted="1" name="Is boolean instance variable set" type="Pajaro">
                             <param id="0" name="Instance variable">hasStone</param>
                         </condition>
@@ -272,7 +272,7 @@
                     <conditions>
                         <condition id="-1" name="Compare X" type="Pajaro">
                             <param id="0" name="Comparison">4</param>
-                            <param id="1" name="X co-ordinate">1400</param>
+                            <param id="1" name="X co-ordinate">1700</param>
                         </condition>
                         <condition id="-8" inverted="1" name="Is boolean instance variable set" type="Pajaro">
                             <param id="0" name="Instance variable">hasStone</param>
@@ -326,9 +326,6 @@
                 </condition>
             </conditions>
             <actions>
-                <action disabled="1" id="-15" name="Set visible" type="EggOver">
-                    <param id="0" name="Visibility">1</param>
-                </action>
                 <action id="4" name="Set animation" type="huevo">
                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                     <param id="1" name="From">1</param>
@@ -357,6 +354,15 @@
                     <param id="0" name="Instance variable">bota</param>
                     <param id="1" name="Value">1</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-4" name="Is outside layout" type="Lucia" />
+                <condition behavior="Pin" id="0" inverted="1" name="Is pinned" type="Lucia" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" type="Lucia" />
             </actions>
         </event-block>
         <event-block disabled="1">
@@ -506,6 +512,9 @@
                     <param id="2" name="Duration">1.0</param>
                 </action>
                 <action id="-9" name="Destroy" type="Lucia" />
+                <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
+                    <param id="0" name="Speed">250</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block any="1">
@@ -678,7 +687,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" type="huevo">
                     <param id="0" name="Comparison">3</param>
-                    <param id="1" name="X co-ordinate">1000</param>
+                    <param id="1" name="X co-ordinate">1165</param>
                 </condition>
             </conditions>
             <actions>
@@ -797,7 +806,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" type="huevo">
                     <param id="0" name="Comparison">5</param>
-                    <param id="1" name="X co-ordinate">1300</param>
+                    <param id="1" name="X co-ordinate">1900</param>
                 </condition>
             </conditions>
             <actions>
@@ -888,7 +897,7 @@
                         <action id="9" name="Set scale" type="MouseLight">
                             <param id="0" name="Scale">scalelight</param>
                         </action>
-                        <action behavior="Physics" id="21" name="Set immovable" type="huevo">
+                        <action behavior="Physics" disabled="1" id="21" name="Set immovable" type="huevo">
                             <param id="0" name="Setting">1</param>
                         </action>
                     </actions>
