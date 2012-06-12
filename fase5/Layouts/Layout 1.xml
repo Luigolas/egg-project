@@ -17,8 +17,8 @@
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
             <parallax>
-                <x>0.3</x>
-                <y>0.75</y>
+                <x>0.2</x>
+                <y>0.48</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
