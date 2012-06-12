@@ -7429,15 +7429,15 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>4737</x>
-                        <y>929</y>
+                        <x>4721</x>
+                        <y>904</y>
                         <z>0</z>
                         <width>355.457763672</width>
                         <height>406.529327393</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.500837505</hotspotY>
-                        <angle>1.570663214</angle>
+                        <angle>-1.575549483</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -7493,7 +7493,7 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
-                <instance type="EggOver">
+                <instance type="Speed">
                     <properties>
                         <text>Egg Over</text>
                         <initial-visibility>Invisible</initial-visibility>
