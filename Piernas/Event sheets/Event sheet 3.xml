@@ -43,9 +43,12 @@
                             </conditions>
                             <actions>
                                 <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
-                                    <param id="0" name="Impulse X">0.09</param>
+                                    <param id="0" name="Impulse X">0.08</param>
                                     <param id="1" name="Implulse Y">0</param>
                                     <param id="2" name="Image point">0</param>
+                                </action>
+                                <action behavior="Physics" id="6" name="Apply torque" type="huevo">
+                                    <param id="0" name="Torque">40</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -117,9 +120,12 @@
                             </conditions>
                             <actions>
                                 <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
-                                    <param id="0" name="Impulse X">-0.09</param>
+                                    <param id="0" name="Impulse X">-0.08</param>
                                     <param id="1" name="Implulse Y">0</param>
                                     <param id="2" name="Image point">0</param>
+                                </action>
+                                <action behavior="Physics" id="6" name="Apply torque" type="huevo">
+                                    <param id="0" name="Torque">-40</param>
                                 </action>
                             </actions>
                         </event-block>

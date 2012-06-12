@@ -8,13 +8,14 @@
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
         <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior id="scrollto" version="1">Scroll To</behavior>
         <behavior id="Anchor" version="1">Anchor</behavior>
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="DragnDrop" version="1">Drag &amp; Drop</behavior>
@@ -22,7 +23,6 @@
         <behavior id="Physics" version="1">Physics</behavior>
         <behavior id="Pin" version="1">Pin</behavior>
         <behavior id="bound" version="1">Bound to layout</behavior>
-        <behavior id="scrollto" version="1">Scroll To</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -566,7 +566,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.501211" hotspotY="0.501085">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501603">
                         <collision-poly>
                             <point x="0.0748663" y="0.0448718" />
                             <point x="0.965241" y="0.0208333" />
@@ -583,7 +583,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <frame duration="1" hotspotX="0.500484" hotspotY="0.500773">
                         <collision-poly>
                             <point x="0.0619555" y="0.0989181" />
                             <point x="0.499516" y="0.23493" />
