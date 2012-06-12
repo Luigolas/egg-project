@@ -9,19 +9,21 @@
     <used-plugins>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Text" version="1">Text</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
         <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Text" version="1">Text</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior id="bound" version="1">Bound to layout</behavior>
         <behavior id="Anchor" version="1">Anchor</behavior>
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior id="Flash" version="1">Flash</behavior>
         <behavior id="Physics" version="1">Physics</behavior>
         <behavior id="Pin" version="1">Pin</behavior>
-        <behavior id="bound" version="1">Bound to layout</behavior>
         <behavior id="scrollto" version="1">Scroll To</behavior>
     </used-behaviors>
     <configurations>
