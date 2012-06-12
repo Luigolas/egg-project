@@ -3,7 +3,7 @@
     <name>Layout 1</name>
     <event-sheet>Event sheet 1</event-sheet>
     <size>
-        <width>1350</width>
+        <width>2150</width>
         <height>1024</height>
     </size>
     <margins>
@@ -45,7 +45,7 @@
                 </instance>
                 <instance type="Camino1">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -64,8 +64,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>36</x>
-                        <y>207</y>
+                        <x>196</x>
+                        <y>303</y>
                         <z>0</z>
                         <width>69</width>
                         <height>47</height>
@@ -78,7 +78,7 @@
                 </instance>
                 <instance type="Camino1">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -97,8 +97,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1760</x>
-                        <y>429</y>
+                        <x>1920</x>
+                        <y>575</y>
                         <z>0</z>
                         <width>1074</width>
                         <height>459</height>
@@ -116,8 +116,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>528</x>
-                        <y>208</y>
+                        <x>688</x>
+                        <y>302</y>
                         <z>0</z>
                         <width>200</width>
                         <height>200</height>
@@ -154,8 +154,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>234</x>
-                        <y>155</y>
+                        <x>394</x>
+                        <y>244</y>
                         <z>0</z>
                         <width>130.027297974</width>
                         <height>82.182746887</height>
@@ -192,8 +192,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>592</x>
-                        <y>235</y>
+                        <x>752</x>
+                        <y>335</y>
                         <z>0</z>
                         <width>130</width>
                         <height>82</height>
@@ -230,8 +230,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>947</x>
-                        <y>138</y>
+                        <x>1107</x>
+                        <y>238</y>
                         <z>0</z>
                         <width>130.027297974</width>
                         <height>82.182746887</height>
@@ -268,8 +268,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>704</x>
-                        <y>133</y>
+                        <x>864</x>
+                        <y>293</y>
                         <z>0</z>
                         <width>130</width>
                         <height>82</height>
@@ -306,8 +306,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>1063</x>
-                        <y>187</y>
+                        <x>1223</x>
+                        <y>281</y>
                         <z>0</z>
                         <width>138.751144409</width>
                         <height>87.696578979</height>
@@ -344,8 +344,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>944</x>
-                        <y>265</y>
+                        <x>1104</x>
+                        <y>359</y>
                         <z>0</z>
                         <width>130.027297974</width>
                         <height>82.182746887</height>
@@ -382,8 +382,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>349</x>
-                        <y>267</y>
+                        <x>509</x>
+                        <y>361</y>
                         <z>0</z>
                         <width>132</width>
                         <height>82</height>
@@ -420,8 +420,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>348</x>
-                        <y>21</y>
+                        <x>507</x>
+                        <y>114</y>
                         <z>0</z>
                         <width>130</width>
                         <height>82</height>
@@ -453,11 +453,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>647.5</x>
-                        <y>188.789550781</y>
+                        <x>807.5</x>
+                        <y>281.289550781</y>
                         <z>0</z>
                         <width>22</width>
-                        <height>390</height>
+                        <height>393</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -486,11 +486,11 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>296</x>
-                        <y>187.789550781</y>
+                        <x>456</x>
+                        <y>238.789550781</y>
                         <z>0</z>
                         <width>21</width>
-                        <height>366</height>
+                        <height>460</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -519,8 +519,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>1005.263183594</x>
-                        <y>188.5</y>
+                        <x>1165.263183594</x>
+                        <y>282.5</y>
                         <z>0</z>
                         <width>26</width>
                         <height>379</height>
@@ -533,7 +533,7 @@
                 </instance>
                 <instance type="Sprite6">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -552,8 +552,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>10</x>
-                        <y>411</y>
+                        <x>170</x>
+                        <y>505</y>
                         <z>0</z>
                         <width>413</width>
                         <height>461</height>
@@ -578,9 +578,9 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
-                <instance type="Camino1">
+                <instance type="Sprite7">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -599,8 +599,41 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>641.662841797</x>
-                        <y>441</y>
+                        <x>1582</x>
+                        <y>557</y>
+                        <z>0</z>
+                        <width>522</width>
+                        <height>597</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500837505</hotspotY>
+                        <angle>-0.284074098</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino1">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>801.662841797</x>
+                        <y>537</y>
                         <z>0</z>
                         <width>1249</width>
                         <height>218</height>
@@ -641,8 +674,8 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>31</x>
-                        <y>158</y>
+                        <x>25</x>
+                        <y>265</y>
                         <z>0</z>
                         <width>47.175186157</width>
                         <height>59.204853058</height>
@@ -666,13 +699,104 @@
                         <behavior-instance type="ScrollTo" />
                     </behavior-instances>
                     <world>
-                        <x>-438.102539063</x>
-                        <y>862.5</y>
+                        <x>-278.102539063</x>
+                        <y>956.5</y>
                         <z>0</z>
                         <width>1</width>
                         <height>1</height>
                         <depth>0</depth>
                         <hotspotX>0.492500007</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EggOver">
+                    <properties>
+                        <text>Egg Over</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Felix Titling,-48,400,0</font>
+                        <color>192,255,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>Window left</left-edge>
+                                <top-edge>Window top</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <world>
+                        <x>332</x>
+                        <y>259</y>
+                        <z>0</z>
+                        <width>322.200775146</width>
+                        <height>48.330116272</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite5">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>790</x>
+                        <y>674</y>
+                        <z>0</z>
+                        <width>1084.538208008</width>
+                        <height>442</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite8">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>62</x>
+                        <y>580</y>
+                        <z>0</z>
+                        <width>374</width>
+                        <height>624</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50121063</hotspotX>
+                        <hotspotY>0.501084626</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite9">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>1847</x>
+                        <y>584</y>
+                        <z>0</z>
+                        <width>1033</width>
+                        <height>647</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -705,8 +829,8 @@
                         <behavior-instance type="Pin" />
                     </behavior-instances>
                     <world>
-                        <x>766</x>
-                        <y>79</y>
+                        <x>926</x>
+                        <y>173</y>
                         <z>0</z>
                         <width>29</width>
                         <height>28</height>
@@ -742,8 +866,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>761</x>
-                        <y>53</y>
+                        <x>921</x>
+                        <y>147</y>
                         <z>0</z>
                         <width>111</width>
                         <height>93</height>
@@ -751,111 +875,6 @@
                         <hotspotX>0.502824843</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0.000001174</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="EggOver">
-                    <properties>
-                        <text>Egg Over</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Felix Titling,-48,400,0</font>
-                        <color>192,255,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Anchor">
-                            <properties>
-                                <left-edge>Window left</left-edge>
-                                <top-edge>Window top</top-edge>
-                                <right-edge>None</right-edge>
-                                <bottom-edge>None</bottom-edge>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <world>
-                        <x>172</x>
-                        <y>165</y>
-                        <z>0</z>
-                        <width>322.200775146</width>
-                        <height>48.330116272</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>645</x>
-                        <y>544</y>
-                        <z>0</z>
-                        <width>1156</width>
-                        <height>512</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>1772</x>
-                        <y>447</y>
-                        <z>0</z>
-                        <width>1100</width>
-                        <height>512</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite7">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <world>
-                        <x>1399</x>
-                        <y>425</y>
-                        <z>0</z>
-                        <width>522</width>
-                        <height>597</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500837505</hotspotY>
-                        <angle>-0.284074098</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -890,8 +909,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>593</x>
-                        <y>24</y>
+                        <x>590</x>
+                        <y>41</y>
                         <z>0</z>
                         <width>70.760002136</width>
                         <height>49.604999542</height>
@@ -919,8 +938,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>586</x>
-                        <y>17</y>
+                        <x>583</x>
+                        <y>34</y>
                         <z>0</z>
                         <width>26.658555984</width>
                         <height>33.422668457</height>
@@ -948,8 +967,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>598</x>
-                        <y>20</y>
+                        <x>595</x>
+                        <y>37</y>
                         <z>0</z>
                         <width>25.355096817</width>
                         <height>31.788480759</height>
@@ -977,8 +996,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>609</x>
-                        <y>21</y>
+                        <x>606</x>
+                        <y>38</y>
                         <z>0</z>
                         <width>26.1602211</width>
                         <height>32.797889709</height>
@@ -1006,8 +1025,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>577</x>
-                        <y>18</y>
+                        <x>574</x>
+                        <y>35</y>
                         <z>0</z>
                         <width>25.417934418</width>
                         <height>31.867261887</height>
@@ -1035,8 +1054,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>588</x>
-                        <y>22</y>
+                        <x>585</x>
+                        <y>39</y>
                         <z>0</z>
                         <width>25.417934418</width>
                         <height>31.867261887</height>
@@ -1064,8 +1083,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>595</x>
-                        <y>33</y>
+                        <x>592</x>
+                        <y>50</y>
                         <z>0</z>
                         <width>70.760002136</width>
                         <height>49.604999542</height>
