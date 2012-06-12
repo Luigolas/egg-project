@@ -9,7 +9,7 @@
         <variable name="respawn" type="number">0</variable>
         <event-group description="" title="Control">
             <sub-events>
-                <event-block any="1" collapsed="1">
+                <event-block any="1">
                     <conditions>
                         <condition id="2" name="Key is down" type="Keyboard">
                             <param id="0" name="Key">68 (D)</param>
@@ -28,15 +28,18 @@
                             </conditions>
                             <actions>
                                 <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
-                                    <param id="0" name="Impulse X">0.09</param>
+                                    <param id="0" name="Impulse X">0.08</param>
                                     <param id="1" name="Implulse Y">0</param>
                                     <param id="2" name="Image point">0</param>
+                                </action>
+                                <action behavior="Physics" id="6" name="Apply torque" type="huevo">
+                                    <param id="0" name="Torque">40</param>
                                 </action>
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block any="1" collapsed="1">
+                <event-block any="1">
                     <conditions>
                         <condition id="2" name="Key is down" type="Keyboard">
                             <param id="0" name="Key">65 (A)</param>
@@ -55,9 +58,12 @@
                             </conditions>
                             <actions>
                                 <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
-                                    <param id="0" name="Impulse X">-0.09</param>
+                                    <param id="0" name="Impulse X">-0.08</param>
                                     <param id="1" name="Implulse Y">0</param>
                                     <param id="2" name="Image point">0</param>
+                                </action>
+                                <action behavior="Physics" id="6" name="Apply torque" type="huevo">
+                                    <param id="0" name="Torque">-40</param>
                                 </action>
                             </actions>
                         </event-block>

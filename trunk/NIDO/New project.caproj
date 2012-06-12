@@ -7,13 +7,13 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="WebStorage" version="1">WebStorage</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="WebStorage" version="1">WebStorage</plugin>
-        <plugin id="Browser" version="1">Browser</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -796,14 +796,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.500838">
                         <collision-poly>
-                            <point x="0.565134" y="1" />
-                            <point x="0.312261" y="0.922111" />
-                            <point x="0.149425" y="0.573702" />
-                            <point x="0" y="0.352596" />
-                            <point x="0.0996169" y="0.10469" />
-                            <point x="0.5" y="0.0134003" />
-                            <point x="0.902299" y="0.0854272" />
-                            <point x="0.994253" y="0.500838" />
+                            <point x="0.176245" y="0.154104" />
+                            <point x="0.5" y="0.00837521" />
+                            <point x="0.754789" y="0.214405" />
+                            <point x="0.890805" y="0.499162" />
+                            <point x="0.87931" y="0.894472" />
+                            <point x="0.5" y="0.98325" />
+                            <point x="0.101533" y="0.911223" />
+                            <point x="0.01341" y="0.499162" />
                         </collision-poly>
                     </frame>
                 </animation>
