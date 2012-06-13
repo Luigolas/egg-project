@@ -400,5 +400,86 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-group description="" title="Snow">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" type="System">
+                            <param id="0" name="Interval (seconds)">0.1</param>
+                        </condition>
+                        <condition id="-12" name="Repeat" type="System">
+                            <param id="0" name="Count">20</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" type="System">
+                            <param id="0" name="Object to create">snow</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">random(huevo.X-640,huevo.X+640)</param>
+                            <param id="3" name="Y">huevo.Y-320</param>
+                        </action>
+                        <action id="-7" name="Set size" type="snow">
+                            <param id="0" name="Width">random(3,5)</param>
+                            <param id="1" name="Height">random(3,5)</param>
+                        </action>
+                        <action id="-16" name="Set opacity" type="snow">
+                            <param id="0" name="Opacity">random(70,100)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" type="System">
+                            <param id="0" name="Interval (seconds)">random(0.5,0.3)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-20" name="Rotate toward angle" type="snow">
+                            <param id="0" name="Degrees">50</param>
+                            <param id="1" name="Angle">random(0,180)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" title="Snow Touch">
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="0" name="On collision with another object" type="snow">
+                                    <param id="0" name="Object">Sprite3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Bullet" id="2" name="Set gravity" type="snow">
+                                    <param id="0" name="Gravity">0</param>
+                                </action>
+                                <action behavior="Bullet" id="0" name="Set speed" type="snow">
+                                    <param id="0" name="Speed">0</param>
+                                </action>
+                                <action id="-16" name="Wait" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="-9" name="Destroy" type="snow" />
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="0" name="On collision with another object" type="snow">
+                                    <param id="0" name="Object">huevo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Pin" id="0" name="Pin to object" type="snow">
+                                    <param id="0" name="Pin to">huevo</param>
+                                </action>
+                                <action id="-16" name="Wait" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="-9" name="Destroy" type="snow" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
