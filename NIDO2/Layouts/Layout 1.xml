@@ -1095,40 +1095,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="EggOver">
-                    <properties>
-                        <text>Egg Over</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Felix Titling,-48,400,0</font>
-                        <color>192,255,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Anchor">
-                            <properties>
-                                <left-edge>Window left</left-edge>
-                                <top-edge>Window top</top-edge>
-                                <right-edge>None</right-edge>
-                                <bottom-edge>None</bottom-edge>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <world>
-                        <x>167</x>
-                        <y>191</y>
-                        <z>0</z>
-                        <width>322.200775146</width>
-                        <height>48.330116272</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
         </layer>
         <layer name="Luz">

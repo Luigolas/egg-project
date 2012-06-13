@@ -7,14 +7,14 @@
     <unique-id>2xsdo5puyh0a7</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Text" version="1">Text</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Particles" version="1">Particles</plugin>
-        <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Particles" version="1">Particles</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -426,6 +426,30 @@
         <object-type name="Fondo">
             <plugin id="TiledBg" />
             <texture />
+        </object-type>
+        <object-type name="trozo">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.205882" y="0.193548" />
+                            <point x="0.338235" y="0.0483871" />
+                            <point x="0.647059" y="0.0967742" />
+                            <point x="0.823529" y="0.241935" />
+                            <point x="0.867647" y="0.854839" />
+                            <point x="0.5" y="0.919355" />
+                            <point x="0.191176" y="0.83871" />
+                            <point x="0.161765" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
         <object-type name="fase51test">
             <plugin id="Sprite" />
