@@ -76,6 +76,39 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
+                <instance type="calavera">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>7936</x>
+                        <y>171</y>
+                        <z>0</z>
+                        <width>388</width>
+                        <height>312</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Sprite17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1748,29 +1781,15 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="calavera">
+                <instance type="Sprite20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <world>
                         <x>7936</x>
-                        <y>166</y>
+                        <y>171</y>
                         <z>0</z>
                         <width>388</width>
                         <height>312</height>
@@ -1813,7 +1832,7 @@
                     </behavior-instances>
                     <world>
                         <x>598</x>
-                        <y>113</y>
+                        <y>83</y>
                         <z>0</z>
                         <width>70.760002136</width>
                         <height>49.604999542</height>
@@ -1842,7 +1861,7 @@
                     </behavior-instances>
                     <world>
                         <x>591</x>
-                        <y>106</y>
+                        <y>76</y>
                         <z>0</z>
                         <width>26.658555984</width>
                         <height>33.422668457</height>
@@ -1871,7 +1890,7 @@
                     </behavior-instances>
                     <world>
                         <x>603</x>
-                        <y>109</y>
+                        <y>79</y>
                         <z>0</z>
                         <width>25.355096817</width>
                         <height>31.788480759</height>
@@ -1900,7 +1919,7 @@
                     </behavior-instances>
                     <world>
                         <x>614</x>
-                        <y>110</y>
+                        <y>80</y>
                         <z>0</z>
                         <width>26.1602211</width>
                         <height>32.797889709</height>
@@ -1929,7 +1948,7 @@
                     </behavior-instances>
                     <world>
                         <x>582</x>
-                        <y>107</y>
+                        <y>77</y>
                         <z>0</z>
                         <width>25.417934418</width>
                         <height>31.867261887</height>
@@ -1958,7 +1977,7 @@
                     </behavior-instances>
                     <world>
                         <x>593</x>
-                        <y>111</y>
+                        <y>81</y>
                         <z>0</z>
                         <width>25.417934418</width>
                         <height>31.867261887</height>
@@ -1987,7 +2006,7 @@
                     </behavior-instances>
                     <world>
                         <x>600</x>
-                        <y>122</y>
+                        <y>92</y>
                         <z>0</z>
                         <width>70.760002136</width>
                         <height>49.604999542</height>

@@ -517,7 +517,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-group collapsed="1" description="" title="Lluvia">
+        <event-group description="" title="Lluvia">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -620,8 +620,8 @@
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
                         </condition>
-                        <condition disabled="1" id="9" name="Is overlapping at offset" type="water">
-                            <param id="0" name="Object">rama</param>
+                        <condition id="9" name="Is overlapping at offset" type="water">
+                            <param id="0" name="Object">calavera</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
                         </condition>
