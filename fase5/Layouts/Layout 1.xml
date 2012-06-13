@@ -116,7 +116,7 @@
                 </instance>
                 <instance type="Sprite3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -135,10 +135,10 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>538</x>
-                        <y>528</y>
+                        <x>534.5</x>
+                        <y>530</y>
                         <z>0</z>
-                        <width>1100</width>
+                        <width>1075</width>
                         <height>512</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -149,7 +149,7 @@
                 </instance>
                 <instance type="Sprite4">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -169,7 +169,7 @@
                     </behavior-instances>
                     <world>
                         <x>1619</x>
-                        <y>560</y>
+                        <y>561</y>
                         <z>0</z>
                         <width>1097</width>
                         <height>421</height>
@@ -182,7 +182,7 @@
                 </instance>
                 <instance type="Sprite5">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -248,7 +248,7 @@
                 </instance>
                 <instance type="Sprite3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -439,6 +439,25 @@
                         <height>59.205001831</height>
                         <depth>0</depth>
                         <hotspotX>0.492500007</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="fase51test">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>1372</x>
+                        <y>699</y>
+                        <z>0</z>
+                        <width>2754</width>
+                        <height>700</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
