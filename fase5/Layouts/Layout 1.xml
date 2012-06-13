@@ -463,6 +463,38 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="snow">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>3</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>10</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="DestroyOutsideLayout" />
+                    </behavior-instances>
+                    <world>
+                        <x>212.908996582</x>
+                        <y>42.927459717</y>
+                        <z>0</z>
+                        <width>7</width>
+                        <height>7</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
         </layer>
         <layer name="HUD">
