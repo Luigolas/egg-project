@@ -1396,7 +1396,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>3</speed>
+                                <speed>100</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>10</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -1408,7 +1408,7 @@
                     </behavior-instances>
                     <world>
                         <x>212.908996582</x>
-                        <y>42.927459717</y>
+                        <y>5.927459717</y>
                         <z>0</z>
                         <width>7</width>
                         <height>7</height>
