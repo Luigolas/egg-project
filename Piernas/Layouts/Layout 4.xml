@@ -43,6 +43,105 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Sprite3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>1139</x>
+                        <y>235</y>
+                        <z>0</z>
+                        <width>261.654937744</width>
+                        <height>299.249053955</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500837505</hotspotY>
+                        <angle>-0.634992003</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Camino3">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>1309</x>
+                        <y>606</y>
+                        <z>0</z>
+                        <width>1168</width>
+                        <height>512</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50090909</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.156586707</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>-9</x>
+                        <y>291</y>
+                        <z>0</z>
+                        <width>305.165283203</width>
+                        <height>349.010864258</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
         </layer>
         <layer name="Layer 0">
@@ -78,10 +177,10 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>859</x>
+                        <x>280.94909668</x>
                         <y>458</y>
                         <z>0</z>
-                        <width>1719</width>
+                        <width>1663</width>
                         <height>512</height>
                         <depth>0</depth>
                         <hotspotX>0.50090909</hotspotX>
@@ -354,10 +453,10 @@
                     <properties>
                         <text>tiempo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Small Fonts,-19,400,0</font>
+                        <font>Bastion,-27,400,0</font>
                         <color>255,128,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
-                        <hotspot>Top-left</hotspot>
+                        <hotspot>Center</hotspot>
                         <wrapping>Word</wrapping>
                     </properties>
                     <behavior-instances>
@@ -371,14 +470,14 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>270</x>
+                        <x>320</x>
                         <y>35</y>
                         <z>0</z>
                         <width>101</width>
                         <height>30</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
