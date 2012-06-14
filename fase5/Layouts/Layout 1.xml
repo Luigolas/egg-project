@@ -43,6 +43,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="lucia">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>5047</x>
+                        <y>587</y>
+                        <z>0</z>
+                        <width>380</width>
+                        <height>380</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
         </layer>
         <layer name="Layer 0">
@@ -67,8 +86,8 @@
                         <x>5382</x>
                         <y>500</y>
                         <z>0</z>
-                        <width>1100</width>
-                        <height>512</height>
+                        <width>380</width>
+                        <height>246</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -83,8 +102,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>4355</x>
-                        <y>488</y>
+                        <x>4364</x>
+                        <y>485</y>
                         <z>0</z>
                         <width>1100</width>
                         <height>512</height>
@@ -97,7 +116,7 @@
                 </instance>
                 <instance type="Sprite2">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -215,7 +234,7 @@
                 </instance>
                 <instance type="Sprite8">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -248,7 +267,7 @@
                 </instance>
                 <instance type="Sprite3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -355,7 +374,7 @@
                 </instance>
                 <instance type="Sprite11">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -408,7 +427,7 @@
                     </behavior-instances>
                     <world>
                         <x>2783</x>
-                        <y>1132</y>
+                        <y>1093</y>
                         <z>0</z>
                         <width>251</width>
                         <height>247</height>
@@ -1412,6 +1431,25 @@
                         <z>0</z>
                         <width>7</width>
                         <height>7</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="fase5test">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>3521</x>
+                        <y>1089</y>
+                        <z>0</z>
+                        <width>1228</width>
+                        <height>790</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
