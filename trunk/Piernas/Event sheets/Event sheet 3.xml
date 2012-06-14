@@ -400,6 +400,9 @@
                                             <param id="0" name="Variable">finfase</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
+                                        <action behavior="Physics" id="21" name="Set immovable" type="Sprite3">
+                                            <param id="0" name="Setting">0</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
