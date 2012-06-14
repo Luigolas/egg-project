@@ -437,14 +437,6 @@
                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
-                <action disabled="1" id="-15" name="Set visible" type="Speed">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action behavior="Flash" disabled="1" id="0" name="Flash" type="Speed">
-                    <param id="0" name="&apos;On&apos; time">0.1</param>
-                    <param id="1" name="&apos;Off&apos; time">0.1</param>
-                    <param id="2" name="Duration">1.0</param>
-                </action>
                 <action disabled="1" id="0" name="Play" type="MainMusic">
                     <param id="0" name="Audio file">huevoroto(1)</param>
                     <param id="2" name="Loop">0</param>
@@ -558,13 +550,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" type="Speed">
+                <action id="-15" name="Set visible" type="Sprite22">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action behavior="Flash" id="0" name="Flash" type="Speed">
-                    <param id="0" name="&apos;On&apos; time">0.1</param>
-                    <param id="1" name="&apos;Off&apos; time">0.1</param>
-                    <param id="2" name="Duration">1.0</param>
+                <action id="-18" name="Rotate clockwise" type="Sprite22">
+                    <param id="0" name="Degrees">0.1</param>
                 </action>
                 <action id="0" name="Play" type="MainMusic">
                     <param id="0" name="Audio file">huevoroto(1)</param>
@@ -640,9 +630,6 @@
                 <action disabled="1" id="4" name="Set animation" type="huevo">
                     <param id="0" name="Animation">&quot;Default&quot;</param>
                     <param id="1" name="From">1</param>
-                </action>
-                <action disabled="1" id="-15" name="Set visible" type="Speed">
-                    <param id="0" name="Visibility">0</param>
                 </action>
                 <action disabled="1" id="-9" name="Destroy" type="HuevoIntro4" />
             </actions>
