@@ -24,6 +24,25 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
+                <instance type="FondoIntro">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>345</x>
+                        <y>282</y>
+                        <z>0</z>
+                        <width>690</width>
+                        <height>506</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="NubeRosaIntro">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
