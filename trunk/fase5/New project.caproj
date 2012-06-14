@@ -8,23 +8,23 @@
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
         <plugin id="Particles" version="1">Particles</plugin>
-        <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Text" version="1">Text</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior id="destroy" version="1">Destroy outside layout</behavior>
-        <behavior id="scrollto" version="1">Scroll To</behavior>
         <behavior id="Anchor" version="1">Anchor</behavior>
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="Flash" version="1">Flash</behavior>
         <behavior id="Physics" version="1">Physics</behavior>
         <behavior id="Pin" version="1">Pin</behavior>
         <behavior id="bound" version="1">Bound to layout</behavior>
+        <behavior id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior id="scrollto" version="1">Scroll To</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -38,7 +38,7 @@
         <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
@@ -498,6 +498,42 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="fase5test">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00570033" y="0.00886076" />
+                            <point x="0.5" y="0.00253165" />
+                            <point x="0.764658" y="0.365823" />
+                            <point x="0.764658" y="0.634177" />
+                            <point x="0.5" y="0.635443" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lucia">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.163158" y="0.163158" />
+                            <point x="0.5" y="0.0210526" />
+                            <point x="0.839474" y="0.160526" />
+                            <point x="0.989474" y="0.5" />
+                            <point x="0.839474" y="0.839474" />
+                            <point x="0.5" y="0.973684" />
+                            <point x="0.163158" y="0.836842" />
+                            <point x="0.0157895" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -518,6 +554,10 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder expanded="1" />
+    <sounds-folder expanded="1">
+        <file name="45654__simon-lacelle__dun-dun-dun.m4a" />
+        <file name="45654__simon-lacelle__dun-dun-dun.ogg" />
+        <file name="45654__simon-lacelle__dun-dun-dun.wav" />
+    </sounds-folder>
     <music-folder expanded="1" />
 </c2project>
