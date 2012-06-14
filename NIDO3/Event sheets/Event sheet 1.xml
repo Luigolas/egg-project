@@ -180,6 +180,11 @@
                                     <param id="1" name="Offset X">0</param>
                                     <param id="2" name="Offset Y">2</param>
                                 </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">calavera2</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action behavior="Physics" id="3" name="Apply impulse" type="huevo">
