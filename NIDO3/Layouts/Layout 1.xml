@@ -76,6 +76,82 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
+                <instance type="rama5">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>5705</x>
+                        <y>484</y>
+                        <z>0</z>
+                        <width>707</width>
+                        <height>264</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500707209</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.283598423</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="rama4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>4217</x>
+                        <y>503</y>
+                        <z>0</z>
+                        <width>707</width>
+                        <height>264</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500707209</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="rama3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>4957</x>
+                        <y>296</y>
+                        <z>0</z>
+                        <width>696</width>
+                        <height>202</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="rama2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>5018</x>
+                        <y>577</y>
+                        <z>0</z>
+                        <width>610</width>
+                        <height>264</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500986218</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="calavera">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -453,7 +529,7 @@
                 </instance>
                 <instance type="Sprite5">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -486,7 +562,7 @@
                 </instance>
                 <instance type="Sprite9">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -519,7 +595,7 @@
                 </instance>
                 <instance type="rama">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -552,7 +628,7 @@
                 </instance>
                 <instance type="Sprite3">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-frame>0</initial-frame>
                         <effect>(none)</effect>
                     </properties>
@@ -1810,6 +1886,63 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="arbol">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>4932</x>
+                        <y>542.033996582</y>
+                        <z>0</z>
+                        <width>747</width>
+                        <height>1157</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500306964</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="arbol">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>5692</x>
+                        <y>542.098999023</y>
+                        <z>0</z>
+                        <width>683</width>
+                        <height>1136</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500306964</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="arbol2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>4175</x>
+                        <y>545.081970215</y>
+                        <z>0</z>
+                        <width>707</width>
+                        <height>1159</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.499693066</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
