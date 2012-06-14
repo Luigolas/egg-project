@@ -238,8 +238,8 @@
                         <behavior-instance type="Wrap" />
                     </behavior-instances>
                     <world>
-                        <x>1477.839355469</x>
-                        <y>623.344909668</y>
+                        <x>1562</x>
+                        <y>1127</y>
                         <z>0</z>
                         <width>121.287368774</width>
                         <height>77.815193176</height>
@@ -362,8 +362,8 @@
                         <behavior-instance type="Wrap" />
                     </behavior-instances>
                     <world>
-                        <x>1606.791259766</x>
-                        <y>630.841003418</y>
+                        <x>1704</x>
+                        <y>1140</y>
                         <z>0</z>
                         <width>85</width>
                         <height>54</height>
@@ -393,8 +393,8 @@
                         <behavior-instance type="Wrap" />
                     </behavior-instances>
                     <world>
-                        <x>1702</x>
-                        <y>633</y>
+                        <x>1822</x>
+                        <y>1161</y>
                         <z>0</z>
                         <width>54</width>
                         <height>37</height>
@@ -831,6 +831,99 @@
                     <world>
                         <x>1297</x>
                         <y>997</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>151</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1382</x>
+                        <y>558</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>151</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1717</x>
+                        <y>713</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>151</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501792133</hotspotX>
+                        <hotspotY>0.502793312</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NubeRosa">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap" />
+                    </behavior-instances>
+                    <world>
+                        <x>1751</x>
+                        <y>464</y>
                         <z>0</z>
                         <width>215</width>
                         <height>151</height>
@@ -7485,40 +7578,6 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
-                <instance type="Speed">
-                    <properties>
-                        <text>Egg Over</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Felix Titling,-48,400,0</font>
-                        <color>192,255,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Anchor">
-                            <properties>
-                                <left-edge>Window left</left-edge>
-                                <top-edge>Window top</top-edge>
-                                <right-edge>None</right-edge>
-                                <bottom-edge>None</bottom-edge>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <world>
-                        <x>149</x>
-                        <y>195</y>
-                        <z>0</z>
-                        <width>322.200775146</width>
-                        <height>48.330116272</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Nido3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -7718,6 +7777,28 @@
                         <depth>0</depth>
                         <hotspotX>0.500784934</hotspotX>
                         <hotspotY>0.501094103</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite22">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <world>
+                        <x>313</x>
+                        <y>217</y>
+                        <z>0</z>
+                        <width>383</width>
+                        <height>72</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
