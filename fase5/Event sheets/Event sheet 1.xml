@@ -411,6 +411,16 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Every tick" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" type="Text">
+                            <param id="0" name="Y">Text.Y-1</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <event-group collapsed="1" description="" title="Snow">

@@ -1666,7 +1666,7 @@
                         <width>383</width>
                         <height>72</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.501305461</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -1704,6 +1704,98 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.507246375</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Un tabajo realizado por:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Garamond,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5199</x>
+                        <y>776</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Luigolas</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Garamond,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5199</x>
+                        <y>813</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Elierxon</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Garamond,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5201</x>
+                        <y>852</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Fefochico</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Garamond,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5201</x>
+                        <y>891</y>
+                        <z>0</z>
+                        <width>215</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
