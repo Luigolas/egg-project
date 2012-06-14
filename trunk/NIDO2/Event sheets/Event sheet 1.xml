@@ -69,7 +69,7 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block any="1" collapsed="1">
+                <event-block any="1">
                     <conditions>
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">87 (W)</param>
@@ -155,7 +155,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="PajaroLoco">
+        <event-group description="" title="PajaroLoco">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -577,14 +577,15 @@
             </conditions>
             <actions>
                 <action disabled="1" id="-9" name="Destroy" type="Pajaro" />
-                <action id="4" name="Set animation" type="Pajaro">
+                <action id="-9" name="Destroy" type="Camino2" />
+                <action disabled="1" id="4" name="Set animation" type="Pajaro">
                     <param id="0" name="Animation">&quot;caida1&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
-                    <param id="0" name="Speed">0</param>
+                    <param id="0" name="Speed">500</param>
                 </action>
-                <action behavior="Bullet" id="2" name="Set gravity" type="Pajaro">
+                <action behavior="Bullet" disabled="1" id="2" name="Set gravity" type="Pajaro">
                     <param id="0" name="Gravity">10000</param>
                 </action>
                 <action behavior="Pin" id="1" name="Unpin" type="Sprite3" />
@@ -639,14 +640,15 @@
             </conditions>
             <actions>
                 <action disabled="1" id="-9" name="Destroy" type="Pajaro" />
-                <action id="4" name="Set animation" type="Pajaro">
+                <action id="-9" name="Destroy" type="Camino2" />
+                <action disabled="1" id="4" name="Set animation" type="Pajaro">
                     <param id="0" name="Animation">&quot;caida2&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
-                    <param id="0" name="Speed">0</param>
+                    <param id="0" name="Speed">500</param>
                 </action>
-                <action behavior="Bullet" id="2" name="Set gravity" type="Pajaro">
+                <action behavior="Bullet" disabled="1" id="2" name="Set gravity" type="Pajaro">
                     <param id="0" name="Gravity">10000</param>
                 </action>
                 <action behavior="Pin" id="1" name="Unpin" type="Sprite3" />
