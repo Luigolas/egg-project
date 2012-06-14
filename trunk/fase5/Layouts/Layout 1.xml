@@ -1711,7 +1711,7 @@
                 <instance type="Text">
                     <properties>
                         <text>Un tabajo realizado por:</text>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <font>Garamond,-21,400,0</font>
                         <color>255,255,204</color>
                         <horizontal-alignment>Left</horizontal-alignment>
@@ -1719,8 +1719,8 @@
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5199</x>
-                        <y>776</y>
+                        <x>5201</x>
+                        <y>923</y>
                         <z>0</z>
                         <width>215</width>
                         <height>35</height>
@@ -1734,7 +1734,7 @@
                 <instance type="Text">
                     <properties>
                         <text>Luigolas</text>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <font>Garamond,-21,400,0</font>
                         <color>255,255,204</color>
                         <horizontal-alignment>Left</horizontal-alignment>
@@ -1742,8 +1742,8 @@
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5199</x>
-                        <y>813</y>
+                        <x>5201</x>
+                        <y>960</y>
                         <z>0</z>
                         <width>215</width>
                         <height>35</height>
@@ -1757,7 +1757,7 @@
                 <instance type="Text">
                     <properties>
                         <text>Elierxon</text>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <font>Garamond,-21,400,0</font>
                         <color>255,255,204</color>
                         <horizontal-alignment>Left</horizontal-alignment>
@@ -1765,8 +1765,8 @@
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5201</x>
-                        <y>852</y>
+                        <x>5203</x>
+                        <y>999</y>
                         <z>0</z>
                         <width>215</width>
                         <height>35</height>
@@ -1780,7 +1780,7 @@
                 <instance type="Text">
                     <properties>
                         <text>Fefochico</text>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <font>Garamond,-21,400,0</font>
                         <color>255,255,204</color>
                         <horizontal-alignment>Left</horizontal-alignment>
@@ -1788,8 +1788,8 @@
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5201</x>
-                        <y>891</y>
+                        <x>5203</x>
+                        <y>1038</y>
                         <z>0</z>
                         <width>215</width>
                         <height>35</height>
