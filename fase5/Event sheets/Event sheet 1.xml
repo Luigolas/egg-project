@@ -354,10 +354,10 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" type="EggOver">
+                <action id="-15" name="Set visible" type="Sprite7">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action behavior="Flash" id="0" name="Flash" type="EggOver">
+                <action behavior="Flash" id="0" name="Flash" type="Sprite7">
                     <param id="0" name="&apos;On&apos; time">0.1</param>
                     <param id="1" name="&apos;Off&apos; time">0.1</param>
                     <param id="2" name="Duration">1.0</param>
