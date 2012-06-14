@@ -234,6 +234,11 @@
                         <condition id="-8" inverted="1" name="Is boolean instance variable set" type="Pajaro">
                             <param id="0" name="Instance variable">hasStone</param>
                         </condition>
+                        <condition id="-7" inverted="1" name="Compare instance variable" type="Pajaro">
+                            <param id="0" name="Instance variable">vvv</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" type="Pajaro">
@@ -282,6 +287,11 @@
                         </condition>
                         <condition id="-8" inverted="1" name="Is boolean instance variable set" type="Pajaro">
                             <param id="0" name="Instance variable">hasStone</param>
+                        </condition>
+                        <condition id="-7" inverted="1" name="Compare instance variable" type="Pajaro">
+                            <param id="0" name="Instance variable">vvv</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">3</param>
                         </condition>
                     </conditions>
                     <actions>
