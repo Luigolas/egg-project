@@ -26,6 +26,10 @@
                             <param id="0" name="Object">Sprite9</param>
                             <param id="1" name="State">0</param>
                         </action>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" type="trozo">
+                            <param id="0" name="Object">MuroCuevaAlto</param>
+                            <param id="1" name="State">0</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block>
@@ -70,7 +74,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Control">
+        <event-group description="" title="Control">
             <sub-events>
                 <event-block any="1">
                     <conditions>
@@ -144,7 +148,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" collapsed="1">
+                <event-block any="1">
                     <conditions>
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">87 (W)</param>
@@ -186,17 +190,17 @@
                                     <param id="2" name="Offset Y">2</param>
                                 </condition>
                                 <condition id="9" name="Is overlapping at offset" type="huevo">
-                                    <param id="0" name="Object">Sprite7</param>
-                                    <param id="1" name="Offset X">0</param>
-                                    <param id="2" name="Offset Y">2</param>
-                                </condition>
-                                <condition id="9" name="Is overlapping at offset" type="huevo">
                                     <param id="0" name="Object">Sprite8</param>
                                     <param id="1" name="Offset X">0</param>
                                     <param id="2" name="Offset Y">2</param>
                                 </condition>
                                 <condition id="9" name="Is overlapping at offset" type="huevo">
                                     <param id="0" name="Object">Sprite9</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
+                                </condition>
+                                <condition id="9" name="Is overlapping at offset" type="huevo">
+                                    <param id="0" name="Object">trozo</param>
                                     <param id="1" name="Offset X">0</param>
                                     <param id="2" name="Offset Y">2</param>
                                 </condition>
@@ -271,7 +275,7 @@
             <actions>
                 <action id="-18" name="Set opacity" type="System">
                     <param id="0" name="Layer">3</param>
-                    <param id="1" name="Opacity">max(100*(((huevo.X-3700)/1450)),0)</param>
+                    <param id="1" name="Opacity">max(100*(((huevo.X-3700)/1550)),0)</param>
                 </action>
             </actions>
         </event-block>
