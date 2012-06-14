@@ -89,7 +89,7 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block any="1" collapsed="1">
+                <event-block any="1">
                     <conditions>
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">87 (W)</param>
@@ -697,7 +697,7 @@
         <event-block>
             <conditions>
                 <condition id="0" name="On collision with another object" type="huevo">
-                    <param id="0" name="Object">Sprite13</param>
+                    <param id="0" name="Object">Serpiente</param>
                 </condition>
             </conditions>
             <actions>
@@ -712,14 +712,14 @@
                 <condition id="1" name="Is overlapping another object" type="huevo">
                     <param id="0" name="Object">Sprite14</param>
                 </condition>
-                <condition id="-1" name="Compare X" type="Sprite13">
+                <condition id="-1" name="Compare X" type="Serpiente">
                     <param id="0" name="Comparison">2</param>
                     <param id="1" name="X co-ordinate">250</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-1" name="Set X" type="Sprite13">
-                    <param id="0" name="X">Sprite13.X+1</param>
+                <action id="-1" name="Set X" type="Serpiente">
+                    <param id="0" name="X">Serpiente.X+1</param>
                 </action>
             </actions>
         </event-block>
@@ -728,14 +728,14 @@
                 <condition id="1" inverted="1" name="Is overlapping another object" type="huevo">
                     <param id="0" name="Object">Sprite14</param>
                 </condition>
-                <condition id="-1" name="Compare X" type="Sprite13">
+                <condition id="-1" name="Compare X" type="Serpiente">
                     <param id="0" name="Comparison">4</param>
                     <param id="1" name="X co-ordinate">150</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-1" name="Set X" type="Sprite13">
-                    <param id="0" name="X">Sprite13.X-1</param>
+                <action id="-1" name="Set X" type="Serpiente">
+                    <param id="0" name="X">Serpiente.X-1</param>
                 </action>
             </actions>
         </event-block>
