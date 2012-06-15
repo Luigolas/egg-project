@@ -714,9 +714,6 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="1" name="Is overlapping another object" type="huevo">
-                    <param id="0" name="Object">Sprite14</param>
-                </condition>
                 <condition id="-1" name="Compare X" type="Serpiente">
                     <param id="0" name="Comparison">2</param>
                     <param id="1" name="X co-ordinate">250</param>
@@ -730,9 +727,6 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" type="huevo">
-                    <param id="0" name="Object">Sprite14</param>
-                </condition>
                 <condition id="-1" name="Compare X" type="Serpiente">
                     <param id="0" name="Comparison">4</param>
                     <param id="1" name="X co-ordinate">150</param>
@@ -831,6 +825,59 @@
                 </action>
                 <action disabled="1" id="3" name="Start" type="frog_jumps">
                     <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="1" name="Is overlapping another object" type="Hierva">
+                    <param id="0" name="Object">huevo</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" type="huevo">
+                    <param id="0" name="Instance variable">Vel</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" type="Hierva">
+                    <param id="0" name="Instance variable">v</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-6" name="Every X seconds" type="System">
+                    <param id="0" name="Interval (seconds)">0.25</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" type="Hierva">
+                    <param id="0" name="Instance variable">v</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" type="Hierva">
+                    <param id="0" name="Instance variable">v</param>
+                    <param id="1" name="Value">0.25</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Every tick" type="System" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" type="huevo">
+                    <param id="0" name="Instance variable">Vel</param>
+                    <param id="1" name="Value">max(huevo.Physics.VelocityX, huevo.Physics.VelocityY)</param>
+                </action>
+                <action behavior="Sin" id="1" name="Set period" type="Hierva">
+                    <param id="0" name="Period">Hierva.v</param>
+                </action>
+                <action behavior="Sin2" id="1" name="Set period" type="Hierva">
+                    <param id="0" name="Period">Hierva.v</param>
                 </action>
             </actions>
         </event-block>
