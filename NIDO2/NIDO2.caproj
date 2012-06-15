@@ -7,12 +7,13 @@
     <unique-id>2r0nu727kxcl6</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -657,6 +658,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Audio">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -671,7 +675,23 @@
         <global-instance type="Keyboard" />
         <global-instance type="WebStorage" />
         <global-instance type="Browser" />
+        <global-instance type="Audio">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder expanded="1" />
-    <music-folder expanded="1" />
+    <sounds-folder expanded="1">
+        <file name="madera rota corto.m4a" />
+        <file name="madera rota corto.ogg" />
+        <file name="madera rota corto.wav" />
+        <file name="huevoroto(1).m4a" />
+        <file name="huevoroto(1).ogg" />
+        <file name="huevoroto(1).wav" />
+    </sounds-folder>
+    <music-folder expanded="1">
+        <file name="Megaman Zero 4 OST - Falling Down (Final Boss Battle).m4a" />
+        <file name="Megaman Zero 4 OST - Falling Down (Final Boss Battle).ogg" />
+        <file name="Megaman Zero 4 OST - Falling Down (Final Boss Battle).wav" />
+    </music-folder>
 </c2project>

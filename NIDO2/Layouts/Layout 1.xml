@@ -227,48 +227,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="huevo">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <instance-variables>
-                        <Vel>0</Vel>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.8</friction>
-                                <elasticity>0</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="ScrollTo" />
-                    </behavior-instances>
-                    <world>
-                        <x>25</x>
-                        <y>265</y>
-                        <z>0</z>
-                        <width>47.175186157</width>
-                        <height>59.204853058</height>
-                        <depth>0</depth>
-                        <hotspotX>0.492500007</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-0.055437658</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Scroller">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -402,43 +360,6 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Pajaro">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <instance-variables>
-                        <sp>200</sp>
-                        <Xrelease>0</Xrelease>
-                        <vvv>0</vvv>
-                        <hasStone>true</hasStone>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>-100</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <world>
-                        <x>921</x>
-                        <y>147</y>
-                        <z>0</z>
-                        <width>111</width>
-                        <height>93</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502824843</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.000001174</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -927,6 +848,85 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="huevo">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <Vel>0</Vel>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.8</friction>
+                                <elasticity>0</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="ScrollTo" />
+                    </behavior-instances>
+                    <world>
+                        <x>25</x>
+                        <y>265</y>
+                        <z>0</z>
+                        <width>47.175186157</width>
+                        <height>59.204853058</height>
+                        <depth>0</depth>
+                        <hotspotX>0.492500007</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.055437658</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Pajaro">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <instance-variables>
+                        <sp>200</sp>
+                        <Xrelease>0</Xrelease>
+                        <vvv>0</vvv>
+                        <hasStone>true</hasStone>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-100</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <world>
+                        <x>921</x>
+                        <y>147</y>
+                        <z>0</z>
+                        <width>111</width>
+                        <height>93</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502824843</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.000001174</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
