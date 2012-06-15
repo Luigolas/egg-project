@@ -1691,7 +1691,7 @@
                 </instance>
                 <instance type="Text">
                     <properties>
-                        <text>Un tabajo realizado por:</text>
+                        <text>UN TRABAJO REALIZADO POR:</text>
                         <initial-visibility>Invisible</initial-visibility>
                         <font>Garamond,-21,400,0</font>
                         <color>255,255,204</color>
@@ -1700,10 +1700,10 @@
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5201</x>
+                        <x>5200</x>
                         <y>923</y>
                         <z>0</z>
-                        <width>215</width>
+                        <width>343</width>
                         <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1714,19 +1714,19 @@
                 </instance>
                 <instance type="Text">
                     <properties>
-                        <text>Luigolas</text>
+                        <text>Luis María González Medina</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Garamond,-21,400,0</font>
+                        <font>Gabriola,-21,400,0</font>
                         <color>255,255,204</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5201</x>
+                        <x>5200</x>
                         <y>960</y>
                         <z>0</z>
-                        <width>215</width>
+                        <width>407</width>
                         <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1737,19 +1737,19 @@
                 </instance>
                 <instance type="Text">
                     <properties>
-                        <text>Elierxon</text>
+                        <text>Ángel Eliezer Manchón Santana</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Garamond,-21,400,0</font>
+                        <font>Gabriola,-21,400,0</font>
                         <color>255,255,204</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5203</x>
+                        <x>5200</x>
                         <y>999</y>
                         <z>0</z>
-                        <width>215</width>
+                        <width>413</width>
                         <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1760,19 +1760,19 @@
                 </instance>
                 <instance type="Text">
                     <properties>
-                        <text>Fefochico</text>
+                        <text>Gabriel Yeray Suárez Pérez</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Garamond,-21,400,0</font>
+                        <font>Gabriola,-21,400,0</font>
                         <color>255,255,204</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5203</x>
+                        <x>5200</x>
                         <y>1038</y>
                         <z>0</z>
-                        <width>215</width>
+                        <width>415</width>
                         <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1788,8 +1788,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>5274</x>
-                        <y>1120</y>
+                        <x>5311</x>
+                        <y>1109</y>
                         <z>0</z>
                         <width>69</width>
                         <height>72</height>
@@ -1802,7 +1802,7 @@
                 </instance>
                 <instance type="Text">
                     <properties>
-                        <text>Pikonfly</text>
+                        <text>TECNOLOGÍA UTILIZADA:</text>
                         <initial-visibility>Invisible</initial-visibility>
                         <font>Garamond,-21,400,0</font>
                         <color>255,255,204</color>
@@ -1811,14 +1811,273 @@
                         <wrapping>Word</wrapping>
                     </properties>
                     <world>
-                        <x>5246</x>
-                        <y>1160</y>
+                        <x>5200</x>
+                        <y>1224</y>
                         <z>0</z>
-                        <width>215</width>
+                        <width>401</width>
                         <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Construct 2</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Gabriola,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1263</y>
+                        <z>0</z>
+                        <width>339</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Photoshop</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Gabriola,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1305</y>
+                        <z>0</z>
+                        <width>405</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>MUSICA:</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Garamond,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1408</y>
+                        <z>0</z>
+                        <width>392</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Megaman Zero 2 - Strong Will</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Gabriola,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1443</y>
+                        <z>0</z>
+                        <width>399</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>BloodRayne Betrayal Soundtrack Final Boss</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Gabriola,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1484</y>
+                        <z>0</z>
+                        <width>456</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Dubstep Violin- Lindsey Stirling- Crystallize</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Gabriola,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1525</y>
+                        <z>0</z>
+                        <width>459</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="pikoon">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>5324.60546875</x>
+                        <y>1158.551025391</y>
+                        <z>0</z>
+                        <width>282.474182129</width>
+                        <height>53.10219574</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501305461</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Adobe Audition</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Gabriola,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1344</y>
+                        <z>0</z>
+                        <width>405</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>SONIDOS DE:</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Garamond,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1584</y>
+                        <z>0</z>
+                        <width>318</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text">
+                    <properties>
+                        <text>Freesounds.org</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Gabriola,-21,400,0</font>
+                        <color>255,255,204</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                    </properties>
+                    <world>
+                        <x>5200</x>
+                        <y>1616</y>
+                        <z>0</z>
+                        <width>318</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MuroInvisible">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <world>
+                        <x>3570</x>
+                        <y>160</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>200</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
