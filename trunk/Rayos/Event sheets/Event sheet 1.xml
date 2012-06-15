@@ -341,7 +341,7 @@
                     <param id="0" name="Seconds">14</param>
                 </action>
                 <action id="7" name="Go to URL" type="Browser">
-                    <param id="0" name="URL">&quot;http://localhost:50001&quot;</param>
+                    <param id="0" name="URL">&quot;http://dl.dropbox.com/u/85448071/BRAVE%20EGG/FASE4/index.html&quot;</param>
                 </action>
             </actions>
         </event-block>
