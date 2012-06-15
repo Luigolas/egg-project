@@ -11,7 +11,7 @@
         <variable name="ranasonando" type="number">0</variable>
         <variable comment="Indica si ha muerto por pinchos o no. Para controlar el scroll de la pantalla" name="MuertoPorPinchos" type="number">0</variable>
         <variable name="redireccionado" type="number">0</variable>
-        <event-group collapsed="1" description="Eventos OnStartofLayout" title="Eventos Iniciales">
+        <event-group description="Eventos OnStartofLayout" title="Eventos Iniciales">
             <sub-events>
                 <event-block collapsed="1">
                     <conditions>
@@ -121,14 +121,9 @@
                             <param id="1" name="Value">0</param>
                         </action>
                         <action id="0" name="Play" type="Audio">
-                            <param id="0" name="Audio file">fondoranas</param>
+                            <param id="0" name="Audio file">fondonido3</param>
                             <param id="2" name="Loop">1</param>
                             <param id="1" name="Tag (optional)">&quot;fondo&quot;</param>
-                        </action>
-                        <action id="0" name="Play" type="Audio">
-                            <param id="0" name="Audio file">03948_SFXLLuviaSuave</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="1" name="Tag (optional)">&quot;lluvia&quot;</param>
                         </action>
                     </actions>
                     <sub-events>
