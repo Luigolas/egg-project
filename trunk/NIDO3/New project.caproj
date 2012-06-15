@@ -36,7 +36,7 @@
         <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
@@ -1692,6 +1692,10 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder expanded="1" />
+    <sounds-folder expanded="1">
+        <file name="rana(2).m4a" />
+        <file name="rana(2).ogg" />
+        <file name="rana(2).wav" />
+    </sounds-folder>
     <music-folder expanded="1" />
 </c2project>
