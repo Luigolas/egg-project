@@ -9,9 +9,9 @@
     <used-plugins>
         <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
@@ -705,18 +705,6 @@
         <global-instance type="WebStorage" />
     </global-instances>
     <sounds-folder expanded="1">
-        <file name="MattOglseby - 1.m4a" />
-        <file name="MattOglseby - 1.ogg" />
-        <file name="MattOglseby - 2.m4a" />
-        <file name="MattOglseby - 2.ogg" />
-        <file name="MattOglseby - 3.m4a" />
-        <file name="MattOglseby - 3.ogg" />
-        <file name="Lazer Ricochet.m4a" />
-        <file name="Lazer Ricochet.ogg" />
-        <file name="Lazer Ricochet.wav" />
-        <file name="bush_rus-kayden_r-8973(1).m4a" />
-        <file name="bush_rus-kayden_r-8973(1).ogg" />
-        <file name="bush_rus-kayden_r-8973(1).wav" />
         <file name="huevoroto(1).m4a" />
         <file name="huevoroto(1).ogg" />
         <file name="huevoroto(1).wav" />

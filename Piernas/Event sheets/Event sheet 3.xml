@@ -53,9 +53,6 @@
                     <param id="2" name="Loop">1</param>
                     <param id="1" name="Tag (optional)">&quot;finalboss&quot;</param>
                 </action>
-                <action id="4" name="Preload" type="MainMusic">
-                    <param id="0" name="Audio file">03955_SFXRayo</param>
-                </action>
                 <action id="3" name="Set volume" type="MainMusic">
                     <param id="0" name="Tag">&quot;finalboss&quot;</param>
                     <param id="1" name="dB">0</param>
