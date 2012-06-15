@@ -12,7 +12,7 @@
         <variable name="ScrollerY" type="number">100</variable>
         <variable name="redireccionado" type="number">0</variable>
         <variable name="ticky" type="number">0</variable>
-        <event-group collapsed="1" description="" title="Eventos Iniciales y EveryTick">
+        <event-group description="" title="Eventos Iniciales y EveryTick">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -157,8 +157,21 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Control">
+        <event-group description="" title="Control">
             <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="3" name="On key released" type="Keyboard">
+                            <param id="0" name="Key">79 (O)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" type="huevo">
+                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block any="1" collapsed="1">
                     <conditions>
                         <condition id="2" name="Key is down" type="Keyboard">
@@ -515,6 +528,9 @@
                             <param id="0" name="Comparison">4</param>
                             <param id="1" name="X co-ordinate">9500</param>
                         </condition>
+                        <condition id="2" name="Is playing" type="huevo">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-4" name="Set visible" type="System">
@@ -543,6 +559,9 @@
                             <param id="0" name="Variable">redireccionado</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="2" name="Is playing" type="huevo">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
