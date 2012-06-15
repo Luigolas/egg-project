@@ -16,6 +16,7 @@
         <variable name="ticky" type="number">0</variable>
         <variable name="state" type="number">-1</variable>
         <variable name="statepierna" type="number">-1</variable>
+        <variable name="VolFinalBoss" type="number">0</variable>
         <variable name="scalelight" type="number">10</variable>
         <variable comment="Segundos que quedan para el siguiente rayo" name="SiguienteRayo" type="number">4</variable>
         <event-block>
@@ -46,6 +47,18 @@
                     <param id="0" name="Audio file">03959_SFXLluvia</param>
                     <param id="2" name="Loop">1</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Play" type="MainMusic">
+                    <param id="0" name="Audio file">BloodRayne Betrayal Soundtrack - Final Boss -</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="1" name="Tag (optional)">&quot;finalboss&quot;</param>
+                </action>
+                <action id="4" name="Preload" type="MainMusic">
+                    <param id="0" name="Audio file">03955_SFXRayo</param>
+                </action>
+                <action id="3" name="Set volume" type="MainMusic">
+                    <param id="0" name="Tag">&quot;finalboss&quot;</param>
+                    <param id="1" name="dB">0</param>
                 </action>
             </actions>
         </event-block>
@@ -947,7 +960,11 @@
                 <action id="0" name="Play" type="MainMusic">
                     <param id="0" name="Audio file">03955_SFXRayo</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;rayo&quot;</param>
+                </action>
+                <action id="3" name="Set volume" type="MainMusic">
+                    <param id="0" name="Tag">&quot;rayo&quot;</param>
+                    <param id="1" name="dB">50</param>
                 </action>
                 <action behavior="Flash" id="0" name="Flash" type="Blanco">
                     <param id="0" name="&apos;On&apos; time">0.05</param>
@@ -1006,6 +1023,28 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">finfase</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" type="System">
+                    <param id="0" name="Interval (seconds)">0.2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set volume" type="MainMusic">
+                    <param id="0" name="Tag">&quot;finalboss&quot;</param>
+                    <param id="1" name="dB">VolFinalBoss-1</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">VolFinalBoss</param>
+                    <param id="1" name="Value">VolFinalBoss-1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
