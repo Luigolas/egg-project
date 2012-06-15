@@ -315,6 +315,11 @@
                     <param id="1" name="Comparison">5</param>
                     <param id="2" name="Value">5</param>
                 </condition>
+                <condition id="-14" inverted="1" name="Compare variable" type="System">
+                    <param id="0" name="Variable">vidas</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" type="System">
@@ -491,10 +496,13 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Set Y" type="Text">
-                            <param id="0" name="Y">Text.Y-1</param>
+                            <param id="0" name="Y">Text.Y-0.5</param>
                         </action>
                         <action id="-15" name="Set visible" type="Text">
                             <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-2" name="Set Y" type="beeko">
+                            <param id="0" name="Y">beeko.Y-0.5</param>
                         </action>
                     </actions>
                 </event-block>
