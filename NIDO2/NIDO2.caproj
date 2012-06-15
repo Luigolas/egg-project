@@ -7,12 +7,12 @@
     <unique-id>2r0nu727kxcl6</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="Text" version="1">Text</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors>
@@ -688,6 +688,12 @@
         <file name="huevoroto(1).m4a" />
         <file name="huevoroto(1).ogg" />
         <file name="huevoroto(1).wav" />
+        <file name="cuervo.m4a" />
+        <file name="cuervo.ogg" />
+        <file name="cuervo.wav" />
+        <file name="bambubreak1(1).m4a" />
+        <file name="bambubreak1(1).ogg" />
+        <file name="bambubreak1(1).wav" />
     </sounds-folder>
     <music-folder expanded="1">
         <file name="Megaman Zero 4 OST - Falling Down (Final Boss Battle).m4a" />
