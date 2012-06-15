@@ -7,13 +7,13 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Audio" version="1">Audio</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Text" version="1">Text</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
-        <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -40,7 +40,7 @@
         <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
@@ -1462,6 +1462,12 @@
         <file name="bambubreak1(1).m4a" />
         <file name="bambubreak1(1).ogg" />
         <file name="bambubreak1(1).wav" />
+        <file name="CaidaHuevo.m4a" />
+        <file name="CaidaHuevo.ogg" />
+        <file name="CaidaHuevo.wav" />
+        <file name="roca golpe arbol.m4a" />
+        <file name="roca golpe arbol.ogg" />
+        <file name="roca golpe arbol.wav" />
     </sounds-folder>
     <music-folder expanded="1">
         <file name="1. Nascence2.m4a" />
@@ -1469,5 +1475,8 @@
         <file name="Deep_How-oMeZzZ-2067.m4a" />
         <file name="Deep_How-oMeZzZ-2067.ogg" />
         <file name="Deep_How-oMeZzZ-2067.wav" />
+        <file name="03939_SFXvientillo de fondo.m4a" />
+        <file name="03939_SFXvientillo de fondo.ogg" />
+        <file name="03939_SFXvientillo de fondo.wav" />
     </music-folder>
 </c2project>
