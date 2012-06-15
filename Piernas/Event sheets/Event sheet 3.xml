@@ -637,6 +637,9 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-16" name="Wait" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
                         <action behavior="ScrollTo" id="0" name="Shake" type="huevo">
                             <param id="0" name="Magnitude">20</param>
                             <param id="1" name="Duration">0.5</param>
@@ -651,6 +654,9 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-16" name="Wait" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
                         <action behavior="ScrollTo" id="0" name="Shake" type="huevo">
                             <param id="0" name="Magnitude">20</param>
                             <param id="1" name="Duration">0.5</param>
