@@ -865,7 +865,7 @@
             </conditions>
             <actions>
                 <action id="7" name="Go to URL" type="Browser">
-                    <param id="0" name="URL">&quot;http://localhost:50000&quot;</param>
+                    <param id="0" name="URL">&quot;http://dl.dropbox.com/u/85448071/BRAVE%20EGG/INTRO1/index.html&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -894,7 +894,7 @@
                     <param id="0" name="Seconds">3</param>
                 </action>
                 <action id="7" name="Go to URL" type="Browser">
-                    <param id="0" name="URL">&quot;http://localhost:50004&quot;</param>
+                    <param id="0" name="URL">&quot;http://dl.dropbox.com/u/85448071/BRAVE%20EGG/FASE3/index.html&quot;</param>
                 </action>
             </actions>
         </event-block>
