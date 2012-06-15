@@ -26,8 +26,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-26" name="Restart layout" type="System" />
                 <action id="-21" name="Reset global variables" type="System" />
+                <action id="-26" name="Restart layout" type="System" />
             </actions>
         </event-block>
         <event-block>
