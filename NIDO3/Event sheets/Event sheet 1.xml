@@ -10,7 +10,7 @@
         <variable name="vidas" type="number">0</variable>
         <variable name="ranasonando" type="number">0</variable>
         <variable comment="Indica si ha muerto por pinchos o no. Para controlar el scroll de la pantalla" name="MuertoPorPinchos" type="number">0</variable>
-        <event-group description="Eventos OnStartofLayout" title="Eventos Iniciales">
+        <event-group collapsed="1" description="Eventos OnStartofLayout" title="Eventos Iniciales">
             <sub-events>
                 <event-block collapsed="1">
                     <conditions>
@@ -24,6 +24,14 @@
                         <action id="-4" name="Set visible" type="System">
                             <param id="0" name="Layer">3</param>
                             <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">vidas</param>
+                            <param id="1" name="Value">WebStorage.LocalValue(&quot;vidas&quot;)</param>
+                        </action>
+                        <action id="-10" name="Set value" type="huevo">
+                            <param id="0" name="Instance variable">Vel</param>
+                            <param id="1" name="Value">max(huevo.Physics.VelocityX, huevo.Physics.VelocityY)</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -93,28 +101,6 @@
                 </event-block>
                 <event-block>
                     <conditions>
-                        <condition id="-1" name="Every tick" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" type="System">
-                            <param id="0" name="Variable">vidas</param>
-                            <param id="1" name="Value">WebStorage.LocalValue(&quot;vidas&quot;)</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
-                        <condition id="-1" name="Every tick" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Set value" type="huevo">
-                            <param id="0" name="Instance variable">Vel</param>
-                            <param id="1" name="Value">max(huevo.Physics.VelocityX, huevo.Physics.VelocityY)</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block>
-                    <conditions>
                         <condition id="-2" name="On start of layout" type="System" />
                     </conditions>
                     <actions>
@@ -132,6 +118,16 @@
                         <action id="-9" name="Set value" type="System">
                             <param id="0" name="Variable">MuertoPorPinchos</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Play" type="Audio">
+                            <param id="0" name="Audio file">fondoranas</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="1" name="Tag (optional)">&quot;fondo&quot;</param>
+                        </action>
+                        <action id="0" name="Play" type="Audio">
+                            <param id="0" name="Audio file">03948_SFXLLuviaSuave</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="1" name="Tag (optional)">&quot;lluvia&quot;</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -224,7 +220,7 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block any="1">
+                <event-block any="1" collapsed="1">
                     <conditions>
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">87 (W)</param>
@@ -516,7 +512,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-group collapsed="1" description="" title="Lluvia">
+        <event-group description="" title="Lluvia">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -532,7 +528,7 @@
                             <param id="0" name="Object to create">water</param>
                             <param id="1" name="Layer">1</param>
                             <param id="2" name="X">random(huevo.X-640,huevo.X+640)</param>
-                            <param id="3" name="Y">10</param>
+                            <param id="3" name="Y">max(Scroller.Y-270,0)</param>
                         </action>
                         <action id="-20" name="Rotate toward angle" type="water">
                             <param id="0" name="Degrees">90</param>
@@ -706,32 +702,60 @@
                 </action>
             </actions>
         </event-block>
-        <event-block>
-            <conditions>
-                <condition id="-1" name="Compare X" type="Serpiente">
-                    <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">250</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-1" name="Set X" type="Serpiente">
-                    <param id="0" name="X">Serpiente.X+1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="-1" name="Compare X" type="Serpiente">
-                    <param id="0" name="Comparison">4</param>
-                    <param id="1" name="X co-ordinate">150</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-1" name="Set X" type="Serpiente">
-                    <param id="0" name="X">Serpiente.X-1</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" title="Snake">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="On collision with another object" type="huevo">
+                            <param id="0" name="Object">Sprite11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" type="Audio">
+                            <param id="0" name="Audio file">snakechungo</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="1" name="Tag (optional)">&quot;snake&quot;</param>
+                        </action>
+                        <action id="3" name="Set volume" type="Audio">
+                            <param id="0" name="Tag">&quot;snake&quot;</param>
+                            <param id="1" name="dB">-30</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" type="huevo">
+                            <param id="0" name="Object">Sprite11</param>
+                        </condition>
+                        <condition id="-1" name="Compare X" type="Serpiente">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="X co-ordinate">250</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" type="Serpiente">
+                            <param id="0" name="X">Serpiente.X+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-1" name="Compare X" type="Serpiente">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="X co-ordinate">150</param>
+                        </condition>
+                        <condition id="1" inverted="1" name="Is overlapping another object" type="huevo">
+                            <param id="0" name="Object">Sprite11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" type="Serpiente">
+                            <param id="0" name="X">Serpiente.X-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block collapsed="1">
             <conditions>
                 <condition id="-10" name="For" type="System">
@@ -898,7 +922,7 @@
                     <param id="1" name="Tag (optional)">&quot;rana&quot;</param>
                 </action>
                 <action id="-16" name="Wait" type="System">
-                    <param id="0" name="Seconds">0.3</param>
+                    <param id="0" name="Seconds">0.2</param>
                 </action>
                 <action id="-9" name="Set value" type="System">
                     <param id="0" name="Variable">ranasonando</param>

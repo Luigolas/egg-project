@@ -7,12 +7,12 @@
     <unique-id>a27hcy5i6xqi</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior id="Anchor" version="1">Anchor</behavior>
@@ -36,7 +36,7 @@
         <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">Chrome</prop>
+        <prop name="Preview browser">(default)</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
@@ -1696,6 +1696,16 @@
         <file name="rana(2).m4a" />
         <file name="rana(2).ogg" />
         <file name="rana(2).wav" />
+        <file name="snakechungo.m4a" />
+        <file name="snakechungo.ogg" />
+        <file name="snakechungo.wav" />
     </sounds-folder>
-    <music-folder expanded="1" />
+    <music-folder expanded="1">
+        <file name="fondoranas.m4a" />
+        <file name="fondoranas.ogg" />
+        <file name="fondoranas.wav" />
+        <file name="03948_SFXLLuviaSuave.m4a" />
+        <file name="03948_SFXLLuviaSuave.ogg" />
+        <file name="03948_SFXLLuviaSuave.wav" />
+    </music-folder>
 </c2project>
