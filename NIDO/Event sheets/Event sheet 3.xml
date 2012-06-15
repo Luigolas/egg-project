@@ -11,7 +11,7 @@
         <variable name="SonidoGrass" type="number">0</variable>
         <variable name="ScrollerY" type="number">100</variable>
         <variable name="ticky" type="number">0</variable>
-        <event-group collapsed="1" description="" title="Eventos Iniciales y EveryTick">
+        <event-group description="" title="Eventos Iniciales y EveryTick">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -156,9 +156,9 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Control">
+        <event-group collapsed="1" description="" title="Control">
             <sub-events>
-                <event-block any="1">
+                <event-block any="1" collapsed="1">
                     <conditions>
                         <condition id="2" name="Key is down" type="Keyboard">
                             <param id="0" name="Key">68 (D)</param>
@@ -399,7 +399,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Bambu">
+        <event-group description="" title="Bambu">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -463,30 +463,6 @@
                 <action id="4" name="Set animation" type="huevo">
                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                     <param id="1" name="From">1</param>
-                </action>
-                <action disabled="1" id="0" name="Play" type="MainMusic">
-                    <param id="0" name="Audio file">huevoroto(1)</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="0" name="On collision with another object" type="huevo">
-                    <param id="0" name="Object">Camino1</param>
-                </condition>
-                <condition id="-7" name="Compare instance variable" type="huevo">
-                    <param id="0" name="Instance variable">Vel</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">200</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Play" type="MainMusic">
-                    <param id="0" name="Audio file">Lazer Ricochet</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -1068,6 +1044,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-group description="" title="Sonidos" />
     </events>
 </c2eventsheet>
