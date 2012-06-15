@@ -9,10 +9,10 @@
     <used-plugins>
         <plugin id="Browser" version="1">Browser</plugin>
         <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="Text" version="1">Text</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Text" version="1">Text</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors>
@@ -720,21 +720,16 @@
         <file name="huevoroto(1).m4a" />
         <file name="huevoroto(1).ogg" />
         <file name="huevoroto(1).wav" />
-        <file name="rain_loop.m4a" />
-        <file name="rain_loop.ogg" />
-        <file name="rain_loop.wav" />
         <file name="03955_SFXRayo.m4a" />
         <file name="03955_SFXRayo.ogg" />
         <file name="03955_SFXRayo.wav" />
     </sounds-folder>
     <music-folder expanded="1">
-        <file name="1. Nascence2.m4a" />
-        <file name="1. Nascence2.ogg" />
-        <file name="Deep_How-oMeZzZ-2067.m4a" />
-        <file name="Deep_How-oMeZzZ-2067.ogg" />
-        <file name="Deep_How-oMeZzZ-2067.wav" />
         <file name="03959_SFXLluvia.m4a" />
         <file name="03959_SFXLluvia.ogg" />
         <file name="03959_SFXLluvia.wav" />
+        <file name="BloodRayne Betrayal Soundtrack - Final Boss -.m4a" />
+        <file name="BloodRayne Betrayal Soundtrack - Final Boss -.ogg" />
+        <file name="BloodRayne Betrayal Soundtrack - Final Boss -.wav" />
     </music-folder>
 </c2project>
