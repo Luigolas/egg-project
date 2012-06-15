@@ -7,11 +7,11 @@
     <unique-id>a27hcy5i6xqi</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors>
@@ -1668,6 +1668,41 @@
                             <point x="0.030303" y="0.00374532" />
                             <point x="0.515152" y="0.243446" />
                             <point x="0.242424" y="0.093633" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="recorte">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.500212" hotspotY="0.500367">
+                        <collision-poly>
+                            <point x="0.284926" y="0.492296" />
+                            <point x="0.499788" y="0.452678" />
+                            <point x="0.807219" y="0.333089" />
+                            <point x="1" y="0.499633" />
+                            <point x="0.836943" y="0.718269" />
+                            <point x="0.0976645" y="0.831255" />
+                            <point x="0.13121" y="0.499633" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="recorte2">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.500212" hotspotY="0.500367">
+                        <collision-poly>
+                            <point x="0.65138" y="0.602348" />
+                            <point x="0.0203822" y="0.499633" />
+                            <point x="0.890021" y="0.809978" />
+                            <point x="0.499788" y="0.899486" />
+                            <point x="0.160085" y="0.723404" />
+                            <point x="0" y="0.499633" />
                         </collision-poly>
                     </frame>
                 </animation>

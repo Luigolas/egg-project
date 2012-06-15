@@ -5995,25 +5995,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="nido32test">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>8605</x>
-                        <y>386</y>
-                        <z>0</z>
-                        <width>4709</width>
-                        <height>1363</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500106156</hotspotX>
-                        <hotspotY>0.500366867</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -6128,6 +6109,44 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="recorte">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>7428</x>
+                        <y>387</y>
+                        <z>0</z>
+                        <width>2355</width>
+                        <height>1363</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500212312</hotspotX>
+                        <hotspotY>0.500366867</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="recorte2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>9783</x>
+                        <y>388</y>
+                        <z>0</z>
+                        <width>2355</width>
+                        <height>1363</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500212312</hotspotX>
+                        <hotspotY>0.500366867</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
