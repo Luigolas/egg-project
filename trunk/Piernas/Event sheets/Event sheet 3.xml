@@ -614,8 +614,8 @@
                         </condition>
                         <condition id="-14" name="Compare variable" type="System">
                             <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">3</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -632,8 +632,8 @@
                         </condition>
                         <condition id="-14" name="Compare variable" type="System">
                             <param id="0" name="Variable">statepierna</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
