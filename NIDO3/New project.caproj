@@ -1534,7 +1534,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="x">
+        <object-type name="sprite14">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
@@ -1553,7 +1553,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="y">
+        <object-type name="Sprite16">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
