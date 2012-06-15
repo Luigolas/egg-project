@@ -109,25 +109,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>5015</x>
-                        <y>1589</y>
-                        <z>0</z>
-                        <width>1116</width>
-                        <height>857</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite3">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -355,8 +336,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>83</x>
-                        <y>294</y>
+                        <x>86</x>
+                        <y>318</y>
                         <z>0</z>
                         <width>47.175186157</width>
                         <height>59.204853058</height>
@@ -422,7 +403,7 @@
                     </behavior-instances>
                     <world>
                         <x>2783</x>
-                        <y>1093</y>
+                        <y>1102</y>
                         <z>0</z>
                         <width>251</width>
                         <height>247</height>
@@ -1410,7 +1391,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>100</speed>
+                                <speed>200</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>10</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>

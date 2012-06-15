@@ -7,8 +7,10 @@
         <variable comment="Indica si ha muerto por pinchos o no. Para controlar el scroll de la pantalla" name="MuertoPorPinchos" type="number">0</variable>
         <variable name="scalelight" type="number">10</variable>
         <variable name="vidas" type="number">0</variable>
+        <variable name="RocasCaidas" type="number">0</variable>
+        <variable name="HuevoAbierto" type="number">0</variable>
         <variable name="respawn" type="number">0</variable>
-        <event-group description="" title="Eventos iniciales y EveryTick">
+        <event-group collapsed="1" description="" title="Eventos iniciales y EveryTick">
             <sub-events>
                 <event-block collapsed="1">
                     <conditions>
@@ -30,6 +32,14 @@
                         <action behavior="Physics" id="23" name="Enable/disable collisions" type="trozo">
                             <param id="0" name="Object">MuroCuevaAlto</param>
                             <param id="1" name="State">0</param>
+                        </action>
+                        <action id="0" name="Play" type="Audio">
+                            <param id="0" name="Audio file">03940_SFXTormenta de nieve</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="1" name="Tag (optional)">&quot;fondo&quot;</param>
+                        </action>
+                        <action id="4" name="Preload" type="Audio">
+                            <param id="0" name="Audio file">Caidarocas</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -75,7 +85,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Control">
+        <event-group collapsed="1" description="" title="Control">
             <sub-events>
                 <event-block any="1">
                     <conditions>
@@ -149,7 +159,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1">
+                <event-block any="1" collapsed="1">
                     <conditions>
                         <condition id="0" name="On key pressed" type="Keyboard">
                             <param id="0" name="Key">87 (W)</param>
@@ -218,14 +228,14 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" title="Muerte x Pinchos">
+        <event-group description="" title="Muerte x Pinchos">
             <sub-events>
                 <event-block>
                     <conditions>
                         <condition id="9" name="Is overlapping at offset" type="huevo">
                             <param id="0" name="Object">Sprite6</param>
                             <param id="1" name="Offset X">0</param>
-                            <param id="2" name="Offset Y">200</param>
+                            <param id="2" name="Offset Y">300</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -247,7 +257,7 @@
                     <actions>
                         <action id="-3" name="Set position" type="Scroller">
                             <param id="0" name="X">huevo.X</param>
-                            <param id="1" name="Y">huevo.Y-100</param>
+                            <param id="1" name="Y">huevo.Y</param>
                         </action>
                     </actions>
                 </event-block>
@@ -363,6 +373,11 @@
                     <param id="1" name="&apos;Off&apos; time">0.1</param>
                     <param id="2" name="Duration">1.0</param>
                 </action>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">huevoroto(1)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-9" name="Set value" type="System">
                     <param id="0" name="Variable">respawn</param>
                     <param id="1" name="Value">1</param>
@@ -388,15 +403,44 @@
                 <action behavior="Physics" id="21" name="Set immovable" type="huevo">
                     <param id="0" name="Setting">1</param>
                 </action>
-                <action disabled="1" id="-15" name="Set visible" type="Sprite">
-                    <param id="0" name="Visibility">1</param>
-                </action>
             </actions>
             <sub-events>
                 <event-block>
                     <conditions>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">HuevoAbierto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" type="Audio">
+                            <param id="0" name="Audio file">huevoabriendose</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">HuevoAbierto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" type="System">
+                            <param id="0" name="Seconds">6.0</param>
+                        </action>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">HuevoAbierto</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
                         <condition id="-6" name="Every X seconds" type="System">
                             <param id="0" name="Interval (seconds)">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">HuevoAbierto</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">2</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -425,6 +469,13 @@
                                     <param id="2" name="Loop">0</param>
                                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
+                                <action id="-16" name="Wait" type="System">
+                                    <param id="0" name="Seconds">2.0</param>
+                                </action>
+                                <action id="-9" name="Set value" type="System">
+                                    <param id="0" name="Variable">HuevoAbierto</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -432,6 +483,11 @@
                 <event-block>
                     <conditions>
                         <condition id="-1" name="Every tick" type="System" />
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">HuevoAbierto</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-2" name="Set Y" type="Text">
@@ -439,6 +495,29 @@
                         </action>
                         <action id="-15" name="Set visible" type="Text">
                             <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block>
+                    <conditions>
+                        <condition id="-14" name="Compare variable" type="System">
+                            <param id="0" name="Variable">HuevoAbierto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" type="Audio">
+                            <param id="0" name="Tag">&quot;fondo&quot;</param>
+                        </action>
+                        <action id="0" name="Play" type="Audio">
+                            <param id="0" name="Audio file">Dubstep Violin- Lindsey Stirling- Crystallize</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="1" name="Tag (optional)">&quot;credits&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">HuevoAbierto</param>
+                            <param id="1" name="Value">4</param>
                         </action>
                     </actions>
                 </event-block>
@@ -459,15 +538,18 @@
                         <action id="-3" name="Create object" type="System">
                             <param id="0" name="Object to create">snow</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X">random(Scroller.X-640,Scroller.X+1800)</param>
-                            <param id="3" name="Y">max(Scroller.Y-260,0)</param>
+                            <param id="2" name="X">random(Scroller.X-640,Scroller.X+1100)</param>
+                            <param id="3" name="Y">max(Scroller.Y-270,0)</param>
                         </action>
                         <action id="-7" name="Set size" type="snow">
-                            <param id="0" name="Width">random(3,5)</param>
-                            <param id="1" name="Height">random(3,5)</param>
+                            <param id="0" name="Width">random(3,7)</param>
+                            <param id="1" name="Height">random(3,7)</param>
                         </action>
                         <action id="-16" name="Set opacity" type="snow">
                             <param id="0" name="Opacity">random(70,100)</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" type="snow">
+                            <param id="0" name="Speed">random(150,250)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -484,7 +566,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-group collapsed="1" description="" title="Snow Touch">
+                <event-group description="" title="Snow Touch">
                     <sub-events>
                         <event-block any="1">
                             <conditions>
@@ -505,7 +587,7 @@
                                 </condition>
                                 <condition id="-1" name="Compare X" type="snow">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">-10</param>
+                                    <param id="1" name="X co-ordinate">-25</param>
                                 </condition>
                                 <condition id="-2" name="Compare Y" type="snow">
                                     <param id="0" name="Comparison">4</param>
@@ -555,6 +637,11 @@
                     <param id="0" name="Comparison">5</param>
                     <param id="1" name="X co-ordinate">3900</param>
                 </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">RocasCaidas</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action behavior="Physics" id="21" name="Set immovable" type="trozo">
@@ -562,6 +649,33 @@
                 </action>
                 <action id="-15" name="Set visible" type="trozo">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">Caidarocas</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">RocasCaidas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Compare X" type="huevo">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">3800</param>
+                </condition>
+                <condition id="-1" name="Compare X" type="huevo">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">4800</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set volume" type="Audio">
+                    <param id="0" name="Tag">&quot;fondo&quot;</param>
+                    <param id="1" name="dB">((huevo.X-3800)/1000) * -20</param>
                 </action>
             </actions>
         </event-block>

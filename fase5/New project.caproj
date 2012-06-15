@@ -7,24 +7,24 @@
     <unique-id>2xsdo5puyh0a7</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Browser" version="1">Browser</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Text" version="1">Text</plugin>
         <plugin id="Particles" version="1">Particles</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
-        <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
+        <plugin id="Browser" version="1">Browser</plugin>
+        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
-        <plugin id="Audio" version="1">Audio</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior id="scrollto" version="1">Scroll To</behavior>
         <behavior id="Anchor" version="1">Anchor</behavior>
         <behavior id="Bullet" version="1">Bullet</behavior>
         <behavior id="Flash" version="1">Flash</behavior>
         <behavior id="Physics" version="1">Physics</behavior>
         <behavior id="Pin" version="1">Pin</behavior>
         <behavior id="bound" version="1">Bound to layout</behavior>
-        <behavior id="destroy" version="1">Destroy outside layout</behavior>
-        <behavior id="scrollto" version="1">Scroll To</behavior>
     </used-behaviors>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -38,7 +38,7 @@
         <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
@@ -573,6 +573,22 @@
         <file name="45654__simon-lacelle__dun-dun-dun.m4a" />
         <file name="45654__simon-lacelle__dun-dun-dun.ogg" />
         <file name="45654__simon-lacelle__dun-dun-dun.wav" />
+        <file name="Caidarocas.m4a" />
+        <file name="Caidarocas.ogg" />
+        <file name="Caidarocas.wav" />
+        <file name="huevoroto(1).m4a" />
+        <file name="huevoroto(1).ogg" />
+        <file name="huevoroto(1).wav" />
+        <file name="huevoabriendose.m4a" />
+        <file name="huevoabriendose.ogg" />
+        <file name="huevoabriendose.wav" />
     </sounds-folder>
-    <music-folder expanded="1" />
+    <music-folder expanded="1">
+        <file name="03940_SFXTormenta de nieve.m4a" />
+        <file name="03940_SFXTormenta de nieve.ogg" />
+        <file name="03940_SFXTormenta de nieve.wav" />
+        <file name="Dubstep Violin- Lindsey Stirling- Crystallize.m4a" />
+        <file name="Dubstep Violin- Lindsey Stirling- Crystallize.ogg" />
+        <file name="Dubstep Violin- Lindsey Stirling- Crystallize.wav" />
+    </music-folder>
 </c2project>
