@@ -8,6 +8,7 @@
         <variable name="scalelight2" type="number">1</variable>
         <variable name="finfase" type="number">0</variable>
         <variable name="vidas" type="number">0</variable>
+        <variable name="VolFinalBoss" type="number">-10</variable>
         <variable name="PajaroDead" type="number">0</variable>
         <variable name="respawn" type="number">0</variable>
         <event-block>
@@ -27,7 +28,16 @@
                 <action id="0" name="Play" type="Audio">
                     <param id="0" name="Audio file">Megaman Zero 4 OST - Falling Down (Final Boss Battle)</param>
                     <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;finalboss&quot;</param>
+                </action>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">cuervo</param>
+                    <param id="2" name="Loop">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="3" name="Set volume" type="Audio">
+                    <param id="0" name="Tag">&quot;finalboss&quot;</param>
+                    <param id="1" name="dB">-10</param>
                 </action>
             </actions>
         </event-block>
@@ -548,6 +558,11 @@
                 <action behavior="Bullet" id="0" name="Set speed" type="Pajaro">
                     <param id="0" name="Speed">250</param>
                 </action>
+                <action id="0" name="Play" type="Audio">
+                    <param id="0" name="Audio file">bambubreak1(1)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block any="1">
@@ -898,7 +913,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block>
+        <event-block collapsed="1">
             <conditions>
                 <condition id="-2" name="On start of layout" type="System" />
             </conditions>
@@ -934,7 +949,7 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block>
+        <event-block collapsed="1">
             <conditions>
                 <condition id="-1" name="Every tick" type="System" />
             </conditions>
@@ -1021,6 +1036,28 @@
                 <action disabled="1" id="-4" name="Set visible" type="System">
                     <param id="0" name="Layer">3</param>
                     <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-6" name="Every X seconds" type="System">
+                    <param id="0" name="Interval (seconds)">0.2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">finfase</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set volume" type="Audio">
+                    <param id="0" name="Tag">&quot;finalboss&quot;</param>
+                    <param id="1" name="dB">VolFinalBoss-1</param>
+                </action>
+                <action id="-9" name="Set value" type="System">
+                    <param id="0" name="Variable">VolFinalBoss</param>
+                    <param id="1" name="Value">VolFinalBoss-1</param>
                 </action>
             </actions>
         </event-block>
