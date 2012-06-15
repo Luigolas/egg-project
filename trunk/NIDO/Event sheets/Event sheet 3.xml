@@ -530,7 +530,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-group collapsed="1" description="" title="Final">
+        <event-group description="" title="Final">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -568,7 +568,7 @@
                             <param id="0" name="Seconds">1</param>
                         </action>
                         <action id="7" name="Go to URL" type="Browser">
-                            <param id="0" name="URL">&quot;http://localhost:50002&quot;</param>
+                            <param id="0" name="URL">&quot;http://dl.dropbox.com/u/85448071/BRAVE%20EGG/FASE2/index.html&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -677,7 +677,7 @@
             </conditions>
             <actions>
                 <action id="7" name="Go to URL" type="Browser">
-                    <param id="0" name="URL">&quot;http://localhost:50000&quot;</param>
+                    <param id="0" name="URL">&quot;http://dl.dropbox.com/u/85448071/BRAVE%20EGG/INTRO1/index.html&quot;</param>
                 </action>
             </actions>
         </event-block>
