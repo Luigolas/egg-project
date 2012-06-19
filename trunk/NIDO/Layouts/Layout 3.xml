@@ -11875,8 +11875,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>438</x>
-                        <y>407</y>
+                        <x>149</x>
+                        <y>145</y>
                         <z>0</z>
                         <width>44.877609253</width>
                         <height>50.782558441</height>
@@ -11894,8 +11894,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>404</x>
-                        <y>368</y>
+                        <x>115</x>
+                        <y>106</y>
                         <z>0</z>
                         <width>51.510353088</width>
                         <height>40.84079361</height>
@@ -11913,8 +11913,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>377</x>
-                        <y>413</y>
+                        <x>88</x>
+                        <y>151</y>
                         <z>0</z>
                         <width>44.268569946</width>
                         <height>50.093379974</height>
@@ -11942,7 +11942,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>737</x>
+                        <x>437</x>
                         <y>43</y>
                         <z>0</z>
                         <width>70.760002136</width>
@@ -11971,7 +11971,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>730</x>
+                        <x>430</x>
                         <y>36</y>
                         <z>0</z>
                         <width>26.658555984</width>
@@ -12000,7 +12000,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>742</x>
+                        <x>442</x>
                         <y>39</y>
                         <z>0</z>
                         <width>25.355096817</width>
@@ -12029,7 +12029,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>753</x>
+                        <x>453</x>
                         <y>40</y>
                         <z>0</z>
                         <width>26.1602211</width>
@@ -12058,7 +12058,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>721</x>
+                        <x>421</x>
                         <y>37</y>
                         <z>0</z>
                         <width>25.417934418</width>
@@ -12087,7 +12087,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>732</x>
+                        <x>432</x>
                         <y>41</y>
                         <z>0</z>
                         <width>25.417934418</width>
@@ -12116,7 +12116,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>739</x>
+                        <x>439</x>
                         <y>52</y>
                         <z>0</z>
                         <width>70.760002136</width>
@@ -12138,8 +12138,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>440</x>
-                        <y>304</y>
+                        <x>246</x>
+                        <y>262</y>
                         <z>0</z>
                         <width>383</width>
                         <height>72</height>
@@ -12157,8 +12157,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>381</x>
-                        <y>410</y>
+                        <x>92</x>
+                        <y>148</y>
                         <z>0</z>
                         <width>45.801448822</width>
                         <height>51.827949524</height>
@@ -12176,8 +12176,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>407</x>
-                        <y>372</y>
+                        <x>118</x>
+                        <y>110</y>
                         <z>0</z>
                         <width>50.938163757</width>
                         <height>44.031009674</height>
@@ -12195,8 +12195,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>434</x>
-                        <y>409</y>
+                        <x>145</x>
+                        <y>147</y>
                         <z>0</z>
                         <width>48.034008026</width>
                         <height>54.354270935</height>

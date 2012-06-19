@@ -33,14 +33,14 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>800</width>
-        <height>600</height>
+        <width>500</width>
+        <height>500</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <first-layout>Layout 2</first-layout>
     <configuration-settings>
         <prop name="Clear background">No</prop>
-        <prop name="Enable WebGL">On</prop>
+        <prop name="Enable WebGL">Off</prop>
         <prop name="Fullscreen in browser">On (scale mode)</prop>
         <prop name="Preview browser">(default)</prop>
         <prop name="Preview mode">HTTP</prop>
