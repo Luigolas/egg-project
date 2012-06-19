@@ -7,8 +7,8 @@
         <height>2900</height>
     </size>
     <margins>
-        <horizontal>640</horizontal>
-        <vertical>960</vertical>
+        <horizontal>600</horizontal>
+        <vertical>800</vertical>
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
@@ -11875,8 +11875,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>905</x>
-                        <y>567</y>
+                        <x>761</x>
+                        <y>531</y>
                         <z>0</z>
                         <width>44.877609253</width>
                         <height>50.782558441</height>
@@ -11894,8 +11894,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>871</x>
-                        <y>528</y>
+                        <x>727</x>
+                        <y>492</y>
                         <z>0</z>
                         <width>51.510353088</width>
                         <height>40.84079361</height>
@@ -11913,8 +11913,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>844</x>
-                        <y>573</y>
+                        <x>700</x>
+                        <y>537</y>
                         <z>0</z>
                         <width>44.268569946</width>
                         <height>50.093379974</height>
@@ -11942,7 +11942,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>904</x>
+                        <x>737</x>
                         <y>43</y>
                         <z>0</z>
                         <width>70.760002136</width>
@@ -11971,7 +11971,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>897</x>
+                        <x>730</x>
                         <y>36</y>
                         <z>0</z>
                         <width>26.658555984</width>
@@ -12000,7 +12000,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>909</x>
+                        <x>742</x>
                         <y>39</y>
                         <z>0</z>
                         <width>25.355096817</width>
@@ -12029,7 +12029,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>920</x>
+                        <x>753</x>
                         <y>40</y>
                         <z>0</z>
                         <width>26.1602211</width>
@@ -12058,7 +12058,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>888</x>
+                        <x>721</x>
                         <y>37</y>
                         <z>0</z>
                         <width>25.417934418</width>
@@ -12087,7 +12087,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>899</x>
+                        <x>732</x>
                         <y>41</y>
                         <z>0</z>
                         <width>25.417934418</width>
@@ -12116,7 +12116,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>906</x>
+                        <x>739</x>
                         <y>52</y>
                         <z>0</z>
                         <width>70.760002136</width>
@@ -12138,8 +12138,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>488</x>
-                        <y>313</y>
+                        <x>397</x>
+                        <y>304</y>
                         <z>0</z>
                         <width>383</width>
                         <height>72</height>
@@ -12157,8 +12157,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>848.308349609</x>
-                        <y>569.68951416</y>
+                        <x>704</x>
+                        <y>534</y>
                         <z>0</z>
                         <width>45.801448822</width>
                         <height>51.827949524</height>
@@ -12176,8 +12176,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>874</x>
-                        <y>532</y>
+                        <x>730</x>
+                        <y>496</y>
                         <z>0</z>
                         <width>50.938163757</width>
                         <height>44.031009674</height>
@@ -12195,8 +12195,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>901</x>
-                        <y>569</y>
+                        <x>757</x>
+                        <y>533</y>
                         <z>0</z>
                         <width>48.034008026</width>
                         <height>54.354270935</height>

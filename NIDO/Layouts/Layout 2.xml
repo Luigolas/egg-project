@@ -7,8 +7,8 @@
         <height>703</height>
     </size>
     <margins>
-        <horizontal>640</horizontal>
-        <vertical>960</vertical>
+        <horizontal>600</horizontal>
+        <vertical>800</vertical>
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
