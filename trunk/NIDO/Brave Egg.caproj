@@ -7,7 +7,6 @@
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
-        <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
@@ -578,9 +577,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="MainMusic">
-            <plugin id="Audio" />
         </object-type>
         <object-type name="TrozoPlanta1">
             <plugin id="Sprite" />
@@ -1551,11 +1547,6 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" />
-        <global-instance type="MainMusic">
-            <properties>
-                <timescale-audio>Off</timescale-audio>
-            </properties>
-        </global-instance>
         <global-instance type="Browser" />
         <global-instance type="WebStorage" />
         <global-instance type="Touch">
@@ -1564,23 +1555,6 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder expanded="1">
-        <file name="huevoroto(1).m4a" />
-        <file name="huevoroto(1).ogg" />
-        <file name="huevoroto(1).wav" />
-        <file name="bambubreak1(1).m4a" />
-        <file name="bambubreak1(1).ogg" />
-        <file name="bambubreak1(1).wav" />
-        <file name="CaidaHuevo.m4a" />
-        <file name="CaidaHuevo.ogg" />
-        <file name="CaidaHuevo.wav" />
-        <file name="roca golpe arbol.m4a" />
-        <file name="roca golpe arbol.ogg" />
-        <file name="roca golpe arbol.wav" />
-    </sounds-folder>
-    <music-folder expanded="1">
-        <file name="03939_SFXvientillo de fondo.m4a" />
-        <file name="03939_SFXvientillo de fondo.ogg" />
-        <file name="03939_SFXvientillo de fondo.wav" />
-    </music-folder>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
 </c2project>

@@ -39,33 +39,6 @@
                     <param id="0" name="Key">&quot;vidas&quot;</param>
                     <param id="1" name="Value">0</param>
                 </action>
-                <action id="4" name="Preload" type="MainMusic">
-                    <param id="0" name="Audio file">bambubreak1(1)</param>
-                </action>
-                <action id="4" name="Preload" type="MainMusic">
-                    <param id="0" name="Audio file">CaidaHuevo</param>
-                </action>
-                <action id="4" name="Preload" type="MainMusic">
-                    <param id="0" name="Audio file">roca golpe arbol</param>
-                </action>
-                <action id="0" name="Play" type="MainMusic">
-                    <param id="0" name="Audio file">CaidaHuevo</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="1" name="Tag (optional)">&quot;caehuevo&quot;</param>
-                </action>
-                <action id="3" name="Set volume" type="MainMusic">
-                    <param id="0" name="Tag">&quot;caehuevo&quot;</param>
-                    <param id="1" name="dB">-10</param>
-                </action>
-                <action id="0" name="Play" type="MainMusic">
-                    <param id="0" name="Audio file">03939_SFXvientillo de fondo</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="1" name="Tag (optional)">&quot;fondo&quot;</param>
-                </action>
-                <action id="3" name="Set volume" type="MainMusic">
-                    <param id="0" name="Tag">&quot;fondo&quot;</param>
-                    <param id="1" name="dB">60</param>
-                </action>
             </actions>
         </event-block>
     </events>
