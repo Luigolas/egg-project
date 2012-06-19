@@ -17,8 +17,8 @@
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
             <parallax>
-                <x>0.3</x>
-                <y>0.75</y>
+                <x>1</x>
+                <y>1</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
@@ -53,8 +53,8 @@
                         <x>-3</x>
                         <y>-3</y>
                         <z>0</z>
-                        <width>6810</width>
-                        <height>2334</height>
+                        <width>11210</width>
+                        <height>2994</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -11894,8 +11894,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>596.847412109</x>
-                        <y>433.578552246</y>
+                        <x>955</x>
+                        <y>392</y>
                         <z>0</z>
                         <width>79.482772827</width>
                         <height>89.94103241</height>
@@ -11913,8 +11913,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>543.576049805</x>
-                        <y>375.236114502</y>
+                        <x>901</x>
+                        <y>334</y>
                         <z>0</z>
                         <width>90.525489807</width>
                         <height>79.999267578</height>
@@ -11932,8 +11932,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>499.007965088</x>
-                        <y>445.351593018</y>
+                        <x>857</x>
+                        <y>404</y>
                         <z>0</z>
                         <width>78.873733521</width>
                         <height>89.251853943</height>
@@ -11961,7 +11961,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>597</x>
+                        <x>936</x>
                         <y>29</y>
                         <z>0</z>
                         <width>70.760002136</width>
@@ -11990,7 +11990,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>590</x>
+                        <x>929</x>
                         <y>22</y>
                         <z>0</z>
                         <width>26.658555984</width>
@@ -12019,7 +12019,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>602</x>
+                        <x>941</x>
                         <y>25</y>
                         <z>0</z>
                         <width>25.355096817</width>
@@ -12048,7 +12048,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>613</x>
+                        <x>952</x>
                         <y>26</y>
                         <z>0</z>
                         <width>26.1602211</width>
@@ -12077,7 +12077,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>581</x>
+                        <x>920</x>
                         <y>23</y>
                         <z>0</z>
                         <width>25.417934418</width>
@@ -12106,7 +12106,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>592</x>
+                        <x>931</x>
                         <y>27</y>
                         <z>0</z>
                         <width>25.417934418</width>
@@ -12135,7 +12135,7 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>599</x>
+                        <x>938</x>
                         <y>38</y>
                         <z>0</z>
                         <width>70.760002136</width>
@@ -12176,8 +12176,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>504.622650146</x>
-                        <y>441.906066895</y>
+                        <x>862</x>
+                        <y>400</y>
                         <z>0</z>
                         <width>80.406608582</width>
                         <height>90.986427307</height>
@@ -12195,8 +12195,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>546.784179688</x>
-                        <y>379.751281738</y>
+                        <x>905</x>
+                        <y>338</y>
                         <z>0</z>
                         <width>87.14641571</width>
                         <height>83.189483643</height>
@@ -12214,8 +12214,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>591.077941895</x>
-                        <y>439.227416992</y>
+                        <x>949</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>82.639167786</width>
                         <height>93.512748718</height>
