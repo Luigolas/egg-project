@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Brave Egg</name>
-    <description></description>
+    <description>way</description>
     <version>1.0</version>
     <author></author>
     <unique-id>2r4of74jsweuo</unique-id>
     <saved-with-version>9000</saved-with-version>
     <used-plugins>
         <plugin id="Audio" version="1">Audio</plugin>
-        <plugin id="Keyboard" version="1">Keyboard</plugin>
-        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin id="Sprite" version="1">Sprite</plugin>
         <plugin id="Text" version="1">Text</plugin>
+        <plugin id="Keyboard" version="1">Keyboard</plugin>
         <plugin id="Touch" version="1">Touch</plugin>
         <plugin id="WebStorage" version="1">WebStorage</plugin>
         <plugin id="Browser" version="1">Browser</plugin>
@@ -41,7 +41,7 @@
     <configuration-settings>
         <prop name="Clear background">No</prop>
         <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Off</prop>
+        <prop name="Fullscreen in browser">On (scale mode)</prop>
         <prop name="Preview browser">(default)</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
