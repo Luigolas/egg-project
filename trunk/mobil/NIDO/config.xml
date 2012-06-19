@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="BraveEgg.pikonfly" version="1.0">
 
 	<name>Brave Egg</name>
-	<description>way del paraway</description>
+	<description>loco</description>
 	<author email="gabriel.yeray@yahoo.es">PiKoN FLY</author>	<gap:platforms>
 		<gap:platform name="ios" />
 		<gap:platform name="android" />
@@ -17,7 +17,7 @@
 
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="true" />
-	<preference name="target-device" value="universal" />
+	<preference name="target-device" value="handset" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
