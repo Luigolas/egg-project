@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1340130373
+#1340132222
 index.html
 c2runtime.js
 jquery-1.7.1.min.js
@@ -36,11 +36,9 @@ images\trozoplanta4-default-000.png
 images\bambufondo-default-000.png
 images\camino8-default-000.png
 images\camino9-default-000.png
-images\sprite4-default-000.png
 images\sprite5-default-000.png
 images\bambufondo2-default-000.png
 images\sprite6-default-000.png
-images\sprite7-default-000.png
 images\huevointro3-default-000.png
 images\nido2-default-000.png
 images\huevointro4-default-000.png
@@ -68,8 +66,6 @@ images\mouselight-default-000.png
 images\sprite20-default-000.png
 images\scroller-default-000.png
 images\scroller-animation2-000.png
-images\spiderweb-default-000.png
-images\sprite21-default-000.png
 images\sprite22-default-000.png
 images\sprite23-default-000.png
 images\sprite24-default-000.png
@@ -77,15 +73,5 @@ images\sprite25-default-000.png
 images\sprite26-default-000.png
 images\sprite27-default-000.png
 images\sprite30-default-000.png
-media\huevoroto(1).m4a
-media\huevoroto(1).ogg
-media\bambubreak1(1).m4a
-media\bambubreak1(1).ogg
-media\caidahuevo.m4a
-media\caidahuevo.ogg
-media\roca%20golpe%20arbol.m4a
-media\roca%20golpe%20arbol.ogg
-media\03939_sfxvientillo%20de%20fondo.m4a
-media\03939_sfxvientillo%20de%20fondo.ogg
 NETWORK:
 *
