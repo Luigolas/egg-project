@@ -11873,6 +11873,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Sprite28">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>803.712463379</x>
+                        <y>447.607330322</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>200</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
         </layer>
         <layer name="HUD">
@@ -11887,6 +11906,63 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
+                <instance type="Sprite30">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>596.847412109</x>
+                        <y>433.578552246</y>
+                        <z>0</z>
+                        <width>79.482772827</width>
+                        <height>89.94103241</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite27">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>543.576049805</x>
+                        <y>375.236114502</y>
+                        <z>0</z>
+                        <width>90.525489807</width>
+                        <height>79.999267578</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite26">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>499.007965088</x>
+                        <y>445.351593018</y>
+                        <z>0</z>
+                        <width>78.873733521</width>
+                        <height>89.251853943</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Nido3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -12108,6 +12184,63 @@
                         <depth>0</depth>
                         <hotspotX>0.501305461</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite23">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>504.622650146</x>
+                        <y>441.906066895</y>
+                        <z>0</z>
+                        <width>80.406608582</width>
+                        <height>90.986427307</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.503875971</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite24">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>546.784179688</x>
+                        <y>379.751281738</y>
+                        <z>0</z>
+                        <width>87.14641571</width>
+                        <height>83.189483643</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503875971</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite25">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <effect>(none)</effect>
+                    </properties>
+                    <world>
+                        <x>591.077941895</x>
+                        <y>439.227416992</y>
+                        <z>0</z>
+                        <width>82.639167786</width>
+                        <height>93.512748718</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.503875971</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
