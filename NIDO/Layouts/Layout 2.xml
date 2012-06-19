@@ -3,12 +3,12 @@
     <name>Layout 2</name>
     <event-sheet>Event sheet 2</event-sheet>
     <size>
-        <width>694</width>
-        <height>503</height>
+        <width>1094</width>
+        <height>703</height>
     </size>
     <margins>
-        <horizontal>500</horizontal>
-        <vertical>500</vertical>
+        <horizontal>640</horizontal>
+        <vertical>960</vertical>
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
@@ -31,11 +31,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>347.5</x>
-                        <y>244</y>
+                        <x>481</x>
+                        <y>324.350097656</y>
                         <z>0</z>
-                        <width>694</width>
-                        <height>503</height>
+                        <width>1096</width>
+                        <height>667</height>
                         <depth>0</depth>
                         <hotspotX>0.500784934</hotspotX>
                         <hotspotY>0.501094103</hotspotY>
