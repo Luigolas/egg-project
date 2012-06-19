@@ -7,7 +7,7 @@
             <conditions>
                 <condition id="-2" name="Compare Y" type="HuevoIntro2">
                     <param id="0" name="Comparison">4</param>
-                    <param id="1" name="Y co-ordinate">515</param>
+                    <param id="1" name="Y co-ordinate">640</param>
                 </condition>
             </conditions>
             <actions>

@@ -34,8 +34,8 @@
                         <x>-3</x>
                         <y>-3</y>
                         <z>0</z>
-                        <width>2920</width>
-                        <height>1994</height>
+                        <width>11018</width>
+                        <height>2884</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -6016,7 +6016,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6029,7 +6029,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6066,7 +6066,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6079,7 +6079,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6116,7 +6116,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6129,7 +6129,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6166,7 +6166,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6179,7 +6179,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6216,7 +6216,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6229,7 +6229,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6266,7 +6266,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6279,7 +6279,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6316,7 +6316,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6329,7 +6329,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6366,7 +6366,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6379,7 +6379,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6416,7 +6416,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6429,7 +6429,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6466,7 +6466,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6479,7 +6479,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6516,7 +6516,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6529,7 +6529,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6566,7 +6566,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6579,7 +6579,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6616,7 +6616,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6629,7 +6629,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6666,7 +6666,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6679,7 +6679,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6716,7 +6716,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6729,7 +6729,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6766,7 +6766,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6779,7 +6779,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6816,7 +6816,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6829,7 +6829,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6866,7 +6866,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6879,7 +6879,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6916,7 +6916,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6929,7 +6929,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6966,7 +6966,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -6979,7 +6979,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7016,7 +7016,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7029,7 +7029,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7066,7 +7066,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7079,7 +7079,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7116,7 +7116,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7129,7 +7129,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7166,7 +7166,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7179,7 +7179,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7216,7 +7216,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7229,7 +7229,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7266,7 +7266,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7279,7 +7279,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7316,7 +7316,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7329,7 +7329,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7366,7 +7366,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7379,7 +7379,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7416,7 +7416,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7429,7 +7429,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7466,7 +7466,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7479,7 +7479,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7516,7 +7516,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7529,7 +7529,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7566,7 +7566,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7579,7 +7579,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7616,7 +7616,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7629,7 +7629,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7666,7 +7666,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7679,7 +7679,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7716,7 +7716,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7729,7 +7729,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7766,7 +7766,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7779,7 +7779,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7816,7 +7816,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7829,7 +7829,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7866,7 +7866,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7879,7 +7879,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7916,7 +7916,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7929,7 +7929,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7966,7 +7966,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -7979,7 +7979,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8016,7 +8016,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8029,7 +8029,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8066,7 +8066,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8079,7 +8079,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8116,7 +8116,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8129,7 +8129,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8166,7 +8166,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8179,7 +8179,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8216,7 +8216,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8229,7 +8229,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8266,7 +8266,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8279,7 +8279,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8316,7 +8316,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8329,7 +8329,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8366,7 +8366,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8379,7 +8379,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8416,7 +8416,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8429,7 +8429,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8466,7 +8466,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8479,7 +8479,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8516,7 +8516,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8529,7 +8529,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8566,7 +8566,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8579,7 +8579,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8616,7 +8616,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8629,7 +8629,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8666,7 +8666,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8679,7 +8679,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8716,7 +8716,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8729,7 +8729,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8766,7 +8766,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8779,7 +8779,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8816,7 +8816,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8829,7 +8829,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8866,7 +8866,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8879,7 +8879,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8916,7 +8916,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8929,7 +8929,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8966,7 +8966,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -8979,7 +8979,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9016,7 +9016,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9029,7 +9029,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9066,7 +9066,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9079,7 +9079,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9116,7 +9116,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9129,7 +9129,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9166,7 +9166,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9179,7 +9179,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9216,7 +9216,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9229,7 +9229,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9266,7 +9266,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9279,7 +9279,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9316,7 +9316,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9329,7 +9329,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9366,7 +9366,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9379,7 +9379,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9416,7 +9416,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9429,7 +9429,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9466,7 +9466,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9479,7 +9479,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9516,7 +9516,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9529,7 +9529,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9566,7 +9566,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9579,7 +9579,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9616,7 +9616,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9629,7 +9629,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9666,7 +9666,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9679,7 +9679,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9716,7 +9716,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9729,7 +9729,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9766,7 +9766,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9779,7 +9779,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9816,7 +9816,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9829,7 +9829,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9866,7 +9866,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9879,7 +9879,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9916,7 +9916,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9929,7 +9929,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9966,7 +9966,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -9979,7 +9979,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10016,7 +10016,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10029,7 +10029,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10066,7 +10066,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10079,7 +10079,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10116,7 +10116,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10129,7 +10129,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10166,7 +10166,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10179,7 +10179,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10216,7 +10216,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10229,7 +10229,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10266,7 +10266,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10279,7 +10279,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10316,7 +10316,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10329,7 +10329,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10366,7 +10366,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10379,7 +10379,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10416,7 +10416,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10429,7 +10429,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10466,7 +10466,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10479,7 +10479,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10516,7 +10516,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10529,7 +10529,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10566,7 +10566,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10579,7 +10579,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10616,7 +10616,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10629,7 +10629,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10666,7 +10666,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10679,7 +10679,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10716,7 +10716,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10729,7 +10729,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10766,7 +10766,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10779,7 +10779,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10816,7 +10816,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10829,7 +10829,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10866,7 +10866,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10879,7 +10879,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10916,7 +10916,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10929,7 +10929,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10966,7 +10966,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -10979,7 +10979,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11016,7 +11016,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11029,7 +11029,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11066,7 +11066,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11079,7 +11079,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11116,7 +11116,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11129,7 +11129,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11166,7 +11166,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11179,7 +11179,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11216,7 +11216,7 @@
                     <behavior-instances>
                         <behavior-instance type="Sin">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Angle</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11229,7 +11229,7 @@
                         </behavior-instance>
                         <behavior-instance type="Sin2">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
                                 <period>8</period>
@@ -11875,8 +11875,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>542</x>
-                        <y>339</y>
+                        <x>905</x>
+                        <y>567</y>
                         <z>0</z>
                         <width>44.877609253</width>
                         <height>50.782558441</height>
@@ -11894,10 +11894,10 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>506.69732666</x>
-                        <y>300.427490234</y>
+                        <x>871</x>
+                        <y>528</y>
                         <z>0</z>
-                        <width>55.920326233</width>
+                        <width>51.510353088</width>
                         <height>40.84079361</height>
                         <depth>0</depth>
                         <hotspotX>0.503875971</hotspotX>
@@ -11913,8 +11913,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>477</x>
-                        <y>345</y>
+                        <x>844</x>
+                        <y>573</y>
                         <z>0</z>
                         <width>44.268569946</width>
                         <height>50.093379974</height>
@@ -11942,8 +11942,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>579</x>
-                        <y>29</y>
+                        <x>904</x>
+                        <y>43</y>
                         <z>0</z>
                         <width>70.760002136</width>
                         <height>49.604999542</height>
@@ -11971,8 +11971,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>572</x>
-                        <y>22</y>
+                        <x>897</x>
+                        <y>36</y>
                         <z>0</z>
                         <width>26.658555984</width>
                         <height>33.422668457</height>
@@ -12000,8 +12000,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>584</x>
-                        <y>25</y>
+                        <x>909</x>
+                        <y>39</y>
                         <z>0</z>
                         <width>25.355096817</width>
                         <height>31.788480759</height>
@@ -12029,8 +12029,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>595</x>
-                        <y>26</y>
+                        <x>920</x>
+                        <y>40</y>
                         <z>0</z>
                         <width>26.1602211</width>
                         <height>32.797889709</height>
@@ -12058,8 +12058,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>563</x>
-                        <y>23</y>
+                        <x>888</x>
+                        <y>37</y>
                         <z>0</z>
                         <width>25.417934418</width>
                         <height>31.867261887</height>
@@ -12087,8 +12087,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>574</x>
-                        <y>27</y>
+                        <x>899</x>
+                        <y>41</y>
                         <z>0</z>
                         <width>25.417934418</width>
                         <height>31.867261887</height>
@@ -12116,8 +12116,8 @@
                         </behavior-instance>
                     </behavior-instances>
                     <world>
-                        <x>581</x>
-                        <y>38</y>
+                        <x>906</x>
+                        <y>52</y>
                         <z>0</z>
                         <width>70.760002136</width>
                         <height>49.604999542</height>
@@ -12138,8 +12138,8 @@
                         <behavior-instance type="Flash" />
                     </behavior-instances>
                     <world>
-                        <x>332</x>
-                        <y>217</y>
+                        <x>488</x>
+                        <y>313</y>
                         <z>0</z>
                         <width>383</width>
                         <height>72</height>
@@ -12157,8 +12157,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>482</x>
-                        <y>341</y>
+                        <x>848.308349609</x>
+                        <y>569.68951416</y>
                         <z>0</z>
                         <width>45.801448822</width>
                         <height>51.827949524</height>
@@ -12176,10 +12176,10 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>510.69732666</x>
-                        <y>304.427490234</y>
+                        <x>874</x>
+                        <y>532</y>
                         <z>0</z>
-                        <width>52.541252136</width>
+                        <width>50.938163757</width>
                         <height>44.031009674</height>
                         <depth>0</depth>
                         <hotspotX>0.503875971</hotspotX>
@@ -12195,8 +12195,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>538</x>
-                        <y>340</y>
+                        <x>901</x>
+                        <y>569</y>
                         <z>0</z>
                         <width>48.034008026</width>
                         <height>54.354270935</height>
