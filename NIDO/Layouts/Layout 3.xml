@@ -11873,25 +11873,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite28">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <effect>(none)</effect>
-                    </properties>
-                    <world>
-                        <x>803.712463379</x>
-                        <y>447.607330322</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>200</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
         </layer>
         <layer name="HUD">
@@ -11920,7 +11901,7 @@
                         <height>89.94103241</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503875971</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -11938,7 +11919,7 @@
                         <width>90.525489807</width>
                         <height>79.999267578</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.503875971</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -11958,7 +11939,7 @@
                         <height>89.251853943</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503875971</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
