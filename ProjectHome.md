@@ -1,0 +1,3 @@
+Construct 2 game made for a subject in the University of Las Palmas: Diseño Gráfico por Computador.
+
+It's based on the adventures of an Egg...
